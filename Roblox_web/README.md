@@ -3,6 +3,7 @@
 * Apis
     | Url | Description | Documentation |
     | -: | :- | -: |
+    | [Images](https://images.rbxcdn.com/) | Image storage | nul |
     | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | null |
     | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | null |
     | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | null |
@@ -54,3 +55,30 @@
     | [userModerationApi](https://usermoderation.roblox.com) | User moderation for Roblox. | null |
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group moderation for Roblox. | null |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
+
+* External Web urls
+    | Url | Description |
+    | -: | :- |
+    | [amazonStoreLink](https://www.amazon.com/Roblox-Corporation/dp/B00NUF4YOA) | Roblox Client download. |
+    | [appStoreLink](https://itunes.apple.com/us/app/roblox-mobile/id431946152) | Roblox-Mobile Client download. |
+    | [googlePlayStoreLink](https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=e) | Roblox-Mobile Client download. |
+    | [iosAppStoreLink](https://itunes.apple.com/us/app/roblox-mobile/id431946152) | Roblox-Mobile Client download. |
+    | [windowsStoreLink](https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm) | Windows-Roblox Client download. |
+    | [xboxStoreLink](https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k) | Roblo-Console Client download. |
+    | [amazonWebStoreLink](https://www.amazon.com/roblox?&amp;_encoding=UTF8&amp;tag=r05d13-20&amp;linkCode=ur2&amp;linkId=4ba2e1ad82f781c8e8cc98329b1066d0&amp;camp=1789&amp;creative=9325) | Roblox-Corperation store |
+
+* App Protocols
+    | Protocol | Description |
+    | -: | :- |
+    | robloxmobile:// | Launches the Roblox App for mobile |
+
+* No name yet 🤔
+    | Url |
+    | -: |
+    | [https://www.facebook.com/ROBLOX/](https://www.facebook.com/ROBLOX/) |
+    | [https://twitter.com/roblox](https://twitter.com/roblox) |
+    | [https://www.linkedin.com/company/147977](https://www.linkedin.com/company/147977) |
+    | [https://www.instagram.com/roblox/](https://www.instagram.com/roblox/) |
+    | [https://www.youtube.com/user/roblox](https://www.youtube.com/user/roblox) |
+    | [https://plus.google.com/+roblox](https://plus.google.com/+roblox) |
+    | [https://www.twitch.tv/roblox](https://www.twitch.tv/roblox) |
