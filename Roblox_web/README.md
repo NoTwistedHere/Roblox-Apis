@@ -56,6 +56,12 @@
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group moderation for Roblox. | null |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
 
+* Unused Apis
+    | Url | Description | Documentation |
+    | -: | :- | -: |
+    | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | null |
+    | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | null |
+
 * External Web urls
     | Url | Description |
     | -: | :- |
