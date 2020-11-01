@@ -5,52 +5,52 @@
     | -: | :- | -: |
     | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | null |
     | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | null |
-    | [accountSettingsApi](https://accountsettings.roblox.com) |  | null |
-    | [adConfigurationApi](https://adconfiguration.roblox.com) |  | null |
-    | [adsApi](https://ads.roblox.com) |  | null |
-    | [apiGatewayUrl](https://apis.roblox.com) |  | null |
-    | [apiProxyUrl](https://api.roblox.com) |  | null |
-    | [assetDeliveryApi](https://assetdelivery.roblox.com) |  | null |
-    | [authApi](https://auth.roblox.com) |  | null |
-    | [authAppSite](https://authsite.roblox.com) |  | null |
-    | [avatarApi](https://avatar.roblox.com) |  | null |
-    | [badgesApi](https://badges.roblox.com) |  | null |
-    | [billingApi](https://billing.roblox.com) |  | null |
-    | [captchaApi](https://captcha.roblox.com) |  | null |
-    | [catalogApi](https://catalog.roblox.com) |  | null |
-    | [chatApi](https://chat.roblox.com) |  | null |
-    | [contactsApi](https://contacts.roblox.com) |  | null |
-    | [contentStoreApi](https://contentstore.roblox.com) |  | null |
-    | [developApi](https://develop.roblox.com) |  | null |
-    | [economyApi](https://economy.roblox.com) |  | null |
-    | [economycreatorstatsApi](https://economycreatorstats.roblox.com) |  | null |
-    | [engagementPayoutsApi](https://engagementpayouts.roblox.com) |  | null |
-    | [followingsApi](https://followings.roblox.com) |  | null |
-    | [friendsApi](https://friends.roblox.com) |  | null |
-    | [friendsAppSite](https://friendsite.roblox.com) |  | null |
-    | [gamesApi](https://games.roblox.com) |  | null |
-    | [gameInternationalizationApi](https://gameinternationalization.roblox.com) |  | null |
-    | [groupsApi](https://groups.roblox.com) |  | null |
-    | [inventoryApi](https://inventory.roblox.com) |  | null |
-    | [itemConfigurationApi](https://itemconfiguration.roblox.com) |  | null |
-    | [localeApi](https://locale.roblox.com) |  | null |
-    | [localizationTablesApi](https://localizationtables.roblox.com) |  | null |
-    | [metricsApi](https://metrics.roblox.com) |  | null |
-    | [midasApi](https://midas.roblox.com) |  | null |
-    | [notificationApi](https://notifications.roblox.com) |  | null |
-    | [premiumFeaturesApi](https://premiumfeatures.roblox.com) |  | null |
-    | [presenceApi](https://presence.roblox.com) |  | null |
-    | [publishApi](https://publish.roblox.com) |  | null |
-    | [screenTimeApi](https://apis.rcs.roblox.com/screen-time-api) |  | null |
-    | [thumbnailsApi](https://thumbnails.roblox.com) |  | null |
-    | [tradesApi](https://trades.roblox.com) |  | null |
-    | [translationRolesApi](https://translationroles.roblox.com) |  | null |
-    | [universalAppConfigurationApi](https://apis.roblox.com/universal-app-configuration) |  | null |
-    | [usersApi](https://users.roblox.com) |  | null |
-    | [voiceApi](https://voice.roblox.com) |  | null |
-    | [privateMessagesApi](https://privatemessages.roblox.com) |  | null |
-    | [shareApi](https://share.roblox.com) |  | null |
-    | [chatModerationApi](https://chatmoderation.roblox.com) |  | null |
-    | [userModerationApi](https://usermoderation.roblox.com) |  | null |
-    | [groupsModerationApi](https://groupsmoderation.roblox.com) |  | null |
-    | [twoStepVerificationApi](https://twostepverification.roblox.com) |  | null |
+    | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | null |
+    | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | null |
+    | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | null |
+    | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | null |
+    | [apiProxyUrl](https://api.roblox.com) | null | null |
+    | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | null |
+    | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | null |
+    | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | null |
+    | [avatarApi](https://avatar.roblox.com) | Endpoints relating to the customization of player avatars. | null |
+    | [badgesApi](https://badges.roblox.com) | Endpoints for badges and badge awards management. | null |
+    | [billingApi](https://billing.roblox.com) | Real money transactions and interaction. | null |
+    | [captchaApi](https://captcha.roblox.com) | Captcha Api Site | null |
+    | [catalogApi](https://catalog.roblox.com) | Catalog items browsing and searching. Content and user based catalog items recommendations. | null |
+    | [chatApi](https://chat.roblox.com) | All chat and party related endpoints. | null |
+    | [contactsApi](https://contacts.roblox.com) | Contacts and userTag management. | null |
+    | [contentStoreApi](https://contentstore.roblox.com) | ApiSite to front the TemporaryStore for files before uploading to S3 | null |
+    | [developApi](https://develop.roblox.com) | Game development configuration endpoints. | null |
+    | [economyApi](https://economy.roblox.com) | Endpoints related to transactions and currency. | null |
+    | [economycreatorstatsApi](https://economycreatorstats.roblox.com) | Roblox.EconomyCreatorStats.Api endpoints. | null |
+    | [engagementPayoutsApi](https://engagementpayouts.roblox.com) | For engagement-based payout information | null |
+    | [followingsApi](https://followings.roblox.com) | Establishes follow relationship between subscriber entities (users, groups, etc) and source entities (games, groups, assets, etc.) | null |
+    | [friendsApi](https://friends.roblox.com) | Friends, followers, and contacts management. | null |
+    | [friendsAppSite](https://friendsite.roblox.com) | null | null |
+    | [gamesApi](https://games.roblox.com) | All endpoints for game discovery, and details. | null |
+    | [gameInternationalizationApi](https://gameinternationalization.roblox.com) | Manages internationalization of games such as translating in game content. | null |
+    | [groupsApi](https://groups.roblox.com) | Groups management. | null |
+    | [inventoryApi](https://inventory.roblox.com) | All endpoints for viewing (but not granting) ownership of items. | null |
+    | [itemConfigurationApi](https://itemconfiguration.roblox.com) | Configure Items (bundles and avatar assets). | null |
+    | [localeApi](https://locale.roblox.com) | User locale management. | null |
+    | [localizationTablesApi](https://localizationtables.roblox.com) | Handles managing of localization tables. | null |
+    | [metricsApi](https://metrics.roblox.com) | Record metrics across Roblox. | null |
+    | [midasApi](https://midas.roblox.com) | Handle requests around making purchases using Midas | null |
+    | [notificationApi](https://notifications.roblox.com) | All notification stream endpoints. | null |
+    | [premiumFeaturesApi](https://premiumfeatures.roblox.com) | This API is for premium features and anything pertaining to account add ons. | null |
+    | [presenceApi](https://presence.roblox.com) | All endpoints for managing presence. | null |
+    | [publishApi](https://publish.roblox.com) | All endpoints handling file uploads. | null |
+    | [screenTimeApi](https://apis.rcs.roblox.com/screen-time-api) | Deprecated directory. | null |
+    | [thumbnailsApi](https://thumbnails.roblox.com) | Endpoints for requesting thumbnails. | null |
+    | [tradesApi](https://trades.roblox.com) | Endpoints for trading collectible items. | null |
+    | [translationRolesApi](https://translationroles.roblox.com) | Manages translation roles of developers in game localization. | null |
+    | [universalAppConfigurationApi](https://apis.roblox.com/universal-app-configuration) | Deprecated directory. | null |
+    | [usersApi](https://users.roblox.com) | For direct Roblox user information. | null |
+    | [voiceApi](https://voice.roblox.com) | APIs for Voice calls. | null |
+    | [privateMessagesApi](https://privatemessages.roblox.com) | All messages page endpoints. | null |
+    | [shareApi](https://share.roblox.com) | null (Default template) | null |
+    | [chatModerationApi](https://chatmoderation.roblox.com) | Chat moderation for Roblox. | null |
+    | [userModerationApi](https://usermoderation.roblox.com) | User moderation for Roblox. | null |
+    | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group moderation for Roblox. | null |
+    | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
