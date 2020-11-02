@@ -74,9 +74,10 @@
     | [amazonWebStoreLink](https://www.amazon.com/roblox?&amp;_encoding=UTF8&amp;tag=r05d13-20&amp;linkCode=ur2&amp;linkId=4ba2e1ad82f781c8e8cc98329b1066d0&amp;camp=1789&amp;creative=9325) | Roblox-Corperation store |
 
 * App Protocols
-    | Protocol | Description |
+    | Protocol | Description | Documentation |
     | -: | :- |
-    | robloxmobile:// | Launches the Roblox App for mobile |
+    | robloxmobile:// | Launches the Roblox App for mobile | null |
+    | roblox-player:// | Launches the Roblox Client | null |
 
 * No name yet 🤔
     | Url |
