@@ -88,7 +88,7 @@
 
 * App Protocols
     | Protocol | Description | Documentation |
-    | -: | :- |
+    | -: | :- | -: |
     | robloxmobile:// | Launches the Roblox App for mobile | null |
     | roblox-player:// | Launches the Roblox Client | null |
 
