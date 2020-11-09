@@ -69,6 +69,7 @@
     | [lms.roblox.com](https://lms.roblox.com) | null ~ Learning Management System | null |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | null | null |
     | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
+    | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
 
 * Websites
     | Url | Description | Api/Documentation |
