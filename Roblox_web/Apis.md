@@ -57,6 +57,7 @@
     | [userModerationApi](https://usermoderation.roblox.com) | User moderation for Roblox. | null |
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group moderation for Roblox. | null |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
+    | [SetupApi](http://setup.roblox.com) | null | null |
 
 * Unloaded Apis
     | Url | Description | Documentation |
@@ -77,6 +78,11 @@
     | Url | Description | Api/Documentation |
     | -: | :- | -: |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | null (example: https://js.rbxcdn.com/105382fb4805646c67046c1b6f04aceee474a189df0a550bf00d861814d45964.js) |
+
+* Stuff
+    | Url | Description | Api/Documentation |
+    | -: | :- | -: |
+    | http://setup.roblox.com/version | null | null | 
 
 * External Web urls
     | Url | Description |
