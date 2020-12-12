@@ -71,6 +71,7 @@
     | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | null |
     | [lms.roblox.com](https://lms.roblox.com) | null ~ Learning Management System | null |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | null | null |
+    | [robloxlabs.com](https://robloxlabs.com) | null | null |
     | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
     | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | null (example: https://js.rbxcdn.com/105382fb4805646c67046c1b6f04aceee474a189df0a550bf00d861814d45964.js) |
