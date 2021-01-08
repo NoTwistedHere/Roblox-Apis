@@ -1,6 +1,6 @@
 # Codes
 
-| Error Codes - In order 0-9-? | Breif Description | Knwon Fixes | Possible Causes |
+| All Error Codes for thingy | Breif Description | Knwon Fixes | Possible Causes |
 | -: | :- | -: | -: |
 | Internal Error CD#205 | Failed to get roblox version | N/A | Error/ Corrupted File/ Tampering |
 | Internal Error CD#206 | Missing Variables | N/A | Error/ Code has been tampered with |
