@@ -79,6 +79,7 @@
     | [ro.blox.com](https://ro.blox.com) | null | null |
     | [roblox.qq.com](https://roblox.qq.com) | null | null |
     | [setup.roblox.com](http://setup.roblox.com) | null | null | 
+    | [roblox bug reports](https://hackerone.com/roblox?type=team) | null | null
 
 * External Web urls
     | Url | Description |
