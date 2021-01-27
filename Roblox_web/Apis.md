@@ -53,9 +53,9 @@
     | [voiceApi](https://voice.roblox.com) | APIs for Voice calls. | null |
     | [privateMessagesApi](https://privatemessages.roblox.com) | All messages page endpoints. | null |
     | [shareApi](https://share.roblox.com) | null (Default template) | null |
-    | [chatModerationApi](https://chatmoderation.roblox.com) | Chat moderation for Roblox. | null |
-    | [userModerationApi](https://usermoderation.roblox.com) | User moderation for Roblox. | null |
-    | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group moderation for Roblox. | null |
+    | [chatModerationApi](https://chatmoderation.roblox.com) | Chat Moderation | null |
+    | [userModerationApi](https://usermoderation.roblox.com) | User Moderation | null |
+    | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | null |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
     | [SetupApi](http://setup.roblox.com) | null | null |
 
