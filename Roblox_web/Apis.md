@@ -78,6 +78,7 @@
     | [corp.roblox.com](https://corp.roblox.com) | null | null |
     | [ro.blox.com](https://ro.blox.com) | null | null |
     | [roblox.qq.com](https://roblox.qq.com) | null | null |
+    | [roblox.cn](https://roblox.cn/) | null | null |
     | [setup.roblox.com](http://setup.roblox.com) | null | null | 
     | [roblox bug bounty](https://hackerone.com/roblox?type=team) | null | null |
 
