@@ -75,6 +75,7 @@
     | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
     | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | null (example: https://js.rbxcdn.com/105382fb4805646c67046c1b6f04aceee474a189df0a550bf00d861814d45964.js) |
+    | [rbx.com](https://rbx.com) | null | null |
     | [corp.roblox.com](https://corp.roblox.com) | null | null |
     | [ro.blox.com](https://ro.blox.com) | null | null |
     | [roblox.qq.com](https://roblox.qq.com) | null | null |
