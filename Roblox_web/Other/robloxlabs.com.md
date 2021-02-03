@@ -1,5 +1,7 @@
 ![](https://github.com/NoTwistedHere/Storage/blob/main/Images/Roblox_Logo.png)
 
+## All sitetest's have more sub-domains with a name. e.g. https://anthony.sitetest3.robloxlabs.com
+
 <hr/>
 
 * Unnamed
@@ -14,6 +16,7 @@
     | deploy.[SITETEST].robloxlabs.com | null | null |
     | setup-ak.[GAMETEST].robloxlabs.com | null | null |
     | clientsettingscdn.[GAMETEST].robloxlabs.com | null | null |
+    | ecsv2.[GAMETEST].robloxlabs.com | null | null |
     |  |  |  |
     | [sitetest1.robloxlabs.com](https://sitetest1.robloxlabs.com) | null | null |
     | [sitetest2.robloxlabs.com](https://sitetest2.robloxlabs.com) | null | null |
