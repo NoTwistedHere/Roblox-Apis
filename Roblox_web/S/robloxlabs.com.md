@@ -9,6 +9,7 @@
     | ephemeralcounters.api.[SITETEST].robloxlabs.com | null | null |
     | clientsettings.api.[SITETEST].robloxlabs.com | null | null |
     | versioncompatibility.api.[SITETEST].robloxlabs.com | null | null |
+    | setup.[SITETEST].robloxlabs.com | null | null |
     |  |  |  |
     | [sitetest1.robloxlabs.com](https://sitetest1.robloxlabs.com) | null | null |
     | [sitetest2.robloxlabs.com](https://sitetest2.robloxlabs.com) | null | null |
