@@ -12,5 +12,5 @@
     | [clientsettings.api.sitetest2.robloxlabs.com](https://clientsettings.api.sitetest2.robloxlabs.com) | null | null |
     | [gametest2.robloxlabs.com](https://gametest2.robloxlabs.com) | null | null |
     | [setup.gametest2.robloxlabs.com](https://setup.gametest2.robloxlabs.com) | null | null |
-    | [opstest1.robloxlabs.com](https://opstest1.robloxlabs.com) null | null |
+    | [opstest1.robloxlabs.com](https://opstest1.robloxlabs.com) | null | null |
     | [setup.opstest1.robloxlabs.com](https://setup.opstest1.robloxlabs.com) | null | null |
