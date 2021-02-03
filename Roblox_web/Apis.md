@@ -1,8 +1,8 @@
 ![](https://github.com/NoTwistedHere/Storage/blob/main/Images/Roblox_Logo.png)
 
-<hr/>
-
 ## This isn't a guide on how to use roblox's api(s)
+
+<hr/>
 
 * Apis
     | Url | Description | Documentation |
