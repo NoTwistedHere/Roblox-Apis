@@ -15,3 +15,4 @@
     | [setup.gametest2.robloxlabs.com](https://setup.gametest2.robloxlabs.com) | null | null |
     | [opstest1.robloxlabs.com](https://opstest1.robloxlabs.com) | null | null |
     | [setup.opstest1.robloxlabs.com](https://setup.opstest1.robloxlabs.com) | null | null |
+    | [sitetest3.robloxlabs.com](https://sitetest3.robloxlabs.com) | null | null |
