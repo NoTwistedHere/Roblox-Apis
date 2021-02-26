@@ -60,10 +60,6 @@
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | null |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
     | [SetupApi](http://setup.roblox.com) | null | null |
-
-* Unloaded Apis
-    | Url | Description | Documentation |
-    | -: | :- | -: |
     | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | null |
     | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | null |
 
