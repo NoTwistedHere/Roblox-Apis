@@ -7,7 +7,7 @@
 * Apis
     | Url | Description | Documentation |
     | -: | :- | -: |
-    | [Images](https://images.rbxcdn.com/) | Image storage | nul |
+    | [Images](https://images.rbxcdn.com/) | Image storage | null |
     | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | null |
     | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | null |
     | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | null |
