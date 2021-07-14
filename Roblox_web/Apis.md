@@ -82,8 +82,11 @@
     | [setup.roblox.com](http://setup.roblox.com) | null | null | 
     | [roblox bug bounty](https://hackerone.com/roblox?type=team) | null | null |
     | VoiceChatService Doc | Voice Chat Service Documantation (by me) | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/VoiceChatService.md |
+    | http://data.roblox.com | null | null |
+    | http://assetgame.roblox.com | null | null |
+    | https://www.itemconfiguration.roblox.com/ | null | null |
 
-* External Web urls
+* Web urls
     | Url | Description |
     | -: | :- |
     | [amazonStoreLink](https://www.amazon.com/Roblox-Corporation/dp/B00NUF4YOA) | Roblox Client download. |
