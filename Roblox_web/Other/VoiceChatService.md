@@ -11,6 +11,7 @@
     | Leave() | Leaves the current voice channel (errors if null?) |
     | JoinByGroupId() | Joins a group's voice channel |
     | GetGroupId() | ? |
+    | JoinByGroupIdToken([<string> Type e.g. "default"], [<boolean> ShouldJoinMuted (Defined by the fflag DebugDefaultChannelStartMuted)]) | Joins a voice channel? |
 
 * Events
     | Name | Description |
