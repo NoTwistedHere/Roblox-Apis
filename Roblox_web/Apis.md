@@ -84,7 +84,7 @@
     | VoiceChatService Doc | Voice Chat Service Documantation (by me) | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/VoiceChatService.md |
     | http://data.roblox.com | null | null |
     | http://assetgame.roblox.com | null | null |
-    | https://www.itemconfiguration.roblox.com/ | null | null |
+    | https://itemconfiguration.roblox.com/ | null | null |
 
 * Web urls
     | Url | Description |
