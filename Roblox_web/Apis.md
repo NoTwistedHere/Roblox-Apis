@@ -13,7 +13,7 @@
     | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | null |
     | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | null |
     | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | null |
-    | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | null |
+    | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | Example: https://apis.roblox.com/user-agreements/v1/agreements-resolution/App |
     | [apiProxyUrl](https://api.roblox.com) | null | null |
     | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | null |
     | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | null |
@@ -83,8 +83,9 @@
     | [roblox bug bounty](https://hackerone.com/roblox?type=team) | null | null |
     | VoiceChatService Doc | Voice Chat Service Documantation (by me) | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/VoiceChatService.md |
     | http://data.roblox.com | null | null |
-    | http://assetgame.roblox.com | null | null |
-    | https://itemconfiguration.roblox.com/ | null | null |
+    | http://assetgame.roblox.com | null | Example: https://assetgame.roblox.com/asset-thumbnail/image?assetId=373389090&width=100&height=100 |
+    | https://itemconfiguration.roblox.com | null | null |
+    | https://rbxinfra.com | null | Example: https://upload.crashes.rbxinfra.com |
 
 * Web urls
     | Url | Description |
