@@ -7,14 +7,15 @@ Roblox's VoiceChatService
 * Functions
     | Name | Description |
     | -: | :- |
-    | GetMicDevices() | Returns a list of all microphone drives |
-    | SetMicDevice([Drive]) | Uses the parsed mic drive for VoiceChat |
-    | GetParticipants([GroupId?]) | Returns a list of all users that are connected (talk/hear) |
-    | Leave() | Leaves the current voice channel (errors if null?) |
-    | JoinByGroupId() | Joins a group's voice channel |
-    | GetGroupId() | ? |
+    | GetMicDevices([(void)]) | Returns a list of all microphone drives |
+    | SetMicDevice([Drive?], [?]) | Uses the parsed mic drive for VoiceChat (Requires 2 arguments) |
+    | GetParticipants() | Returns a list of all users that are connected (talk/hear) |
+    | Leave([(void)]) | Leaves the current voice channel (errors if null?) |
+    | JoinByGroupId([(string)]) | Joins a group's voice channel |
+    | GetGroupId([(void)]) | ? |
     | JoinByGroupIdToken([(string) Type e.g. "default"], [(boolean) ShouldJoinMuted (Defined by the fflag DebugDefaultChannelStartMuted)]) | Joins a voice channel? |
     | VoiceChatSetMuteAllState([(boolean)]) | ? |
+    | GetVoiceChatApiVersion([(void)]) | Current Version: 8 |
 
 * Events
     | Name | Description |
