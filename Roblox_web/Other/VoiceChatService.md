@@ -2,7 +2,7 @@
 
 <hr/>
 
-VoiceChatService Documentation for Roblox
+Roblox's VoiceChatService
 
 * Functions
     | Name | Description |
@@ -27,4 +27,4 @@ VoiceChatService Documentation for Roblox
     | -: | :- |
     | VoiceChatState | Returns an enum value for the current state (Enum.VoiceChatState) |
 
-  Not everything here is correct, there may be somethings missing
+Not everything here is correct, there may be somethings missing
