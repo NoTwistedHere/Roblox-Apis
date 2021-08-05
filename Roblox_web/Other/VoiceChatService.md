@@ -2,7 +2,7 @@
 
 <hr/>
 
-Roblox's VoiceChatService
+VoiceChatService Documentation for Roblox
 
 * Functions
     | Name | Description |
