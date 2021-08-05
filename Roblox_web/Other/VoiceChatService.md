@@ -10,7 +10,7 @@ Roblox's VoiceChatService
     | GetMicDevices([(void)]) | Returns a list of all microphone drives |
     | SetMicDevice([Drive?], [?]) | Uses the parsed mic drive for VoiceChat (Requires 2 arguments) |
     | GetParticipants() | Returns a list of all users that are connected (talk/hear) |
-    | Leave([(void)]) | Leaves the current voice channel (errors if null?) |
+    | Leave([(void)]) | Leaves the current voice channel (if in any) |
     | JoinByGroupId([(string)]) | Joins a group's voice channel |
     | GetGroupId([(void)]) | ? |
     | JoinByGroupIdToken([(string) Type e.g. "default"], [(boolean) ShouldJoinMuted (Defined by the fflag DebugDefaultChannelStartMuted)]) | Joins a voice channel? |
