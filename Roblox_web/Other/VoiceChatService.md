@@ -11,8 +11,8 @@
     | Leave() | Leaves the current voice channel (errors if null?) |
     | JoinByGroupId() | Joins a group's voice channel |
     | GetGroupId() | ? |
-    | JoinByGroupIdToken([<<string>> Type e.g. "default"], [<<boolean>> ShouldJoinMuted (Defined by the fflag DebugDefaultChannelStartMuted)]) | Joins a voice channel? |
-    | VoiceChatSetMuteAllState([<<boolean>>]) | ? |
+    | JoinByGroupIdToken([/string\ Type e.g. "default"], [/boolean\ ShouldJoinMuted (Defined by the fflag DebugDefaultChannelStartMuted)]) | Joins a voice channel? |
+    | VoiceChatSetMuteAllState([/boolean\]) | ? |
 
 * Events
     | Name | Description |
