@@ -13,5 +13,3 @@
     | [tfe-stage.rbx.com](https://tfe-stage.rbx.com) | null | null |
     | [di.rbx.com](https://di.rbx.com) | null | null |
     | [superset.di.rbx.com](https://superset.di.rbx.com) | null | null |
-    | [rbx.com](https://rbx.com) | null | null |
-    | [rbx.com](https://rbx.com) | null | null |
