@@ -7,6 +7,8 @@
 * Unnamed
     | Url | Description | Documentation |
     | -: | :- | -: |
+    | luobu-create.[SITETEST].robloxlabs.com | null | null |
+    | web.[SITETEST].robloxlabs.com | null | null |
     | api.[SITETEST].robloxlabs.com | null | null |
     | ephemeralcounters.api.[SITETEST].robloxlabs.com | null | null |
     | clientsettings.api.[SITETEST].robloxlabs.com | null | null |
@@ -14,6 +16,7 @@
     | setup.[SITETEST].robloxlabs.com | null | null |
     | localizationtables.[SITETEST].robloxlabs.com | null | null |
     | deploy.[SITETEST].robloxlabs.com | null | null |
+    | uiblox.[SITETEST].robloxlabs.com | null | null |
     | setup-ak.[GAMETEST].robloxlabs.com | null | null |
     | clientsettingscdn.[GAMETEST].robloxlabs.com | null | null |
     | ecsv2.[GAMETEST].robloxlabs.com | null | null |
@@ -34,7 +37,6 @@
     | [lb2.robloxlabs.com](https://lb2.robloxlabs.com) | null | null |
     | [aws.robloxlabs.com](https://aws.robloxlabs.com) | null | null |
     | [cdn.aws.robloxlabs.com](https://cdn.aws.robloxlabs.com) | null | null |
+    | [redash-backbone.aws.robloxlabs.com](https://redash-backbone.aws.robloxlabs.com) | null | null |
     | [devforum-development.robloxlabs.com](https://devforum-development.robloxlabs.com) | null | null |
-    | [ecosystem.robloxlabs.com](https://ecosystem.robloxlabs.com/) | null | null |
-    | [ecosystemapi.robloxlabs.com](https://ecosystemapi.robloxlabs.com/) | null | null |
-    | [socialauth.robloxlabs.com](https://socialauth.robloxlabs.com) | null | null |
+    | [devforum-staging.robloxlabs.com](https://devforum-staging.robloxlabs.com) | null | null |
