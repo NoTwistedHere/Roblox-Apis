@@ -67,7 +67,7 @@
     | Url | Description | Api/Documentation |
     | -: | :- | -: |
     | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | null |
-    | [lms.roblox.com](https://lms.roblox.com) | null ~ Learning Management System | null |
+    | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | null |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | null | null |
     | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox/blob/main/Roblox_web/Other/robloxlabs.com.md |
     | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
