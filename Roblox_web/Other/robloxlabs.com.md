@@ -34,4 +34,7 @@
     | [lb2.robloxlabs.com](https://lb2.robloxlabs.com) | null | null |
     | [aws.robloxlabs.com](https://aws.robloxlabs.com) | null | null |
     | [cdn.aws.robloxlabs.com](https://cdn.aws.robloxlabs.com) | null | null |
-    | [devforum-development.robloxlabs.com](https://devforum-development.robloxlabs.com) | null | null | 
+    | [devforum-development.robloxlabs.com](https://devforum-development.robloxlabs.com) | null | null |
+    | [ecosystem.robloxlabs.com](https://ecosystem.robloxlabs.com/) | null | null |
+    | [ecosystemapi.robloxlabs.com](https://ecosystemapi.robloxlabs.com/) | null | null |
+    | [socialauth.robloxlabs.com](https://socialauth.robloxlabs.com) | null | null |
