@@ -1,0 +1,6 @@
+* Subdomains
+    | -: | :- | -: |
+    | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
+    | [versioncompatability.api.roblox.com](https://versioncompatibility.api.roblox.com) | Version Compatability | Example: https://versioncompatibility.api.roblox.com/GetCurrentClientVersionUpload/?apiKey=76e5a40c-3ae1-4028-9f10-7c62520bd94f&binaryType=WindowsPlayer |
+
+Manual Labour 💃

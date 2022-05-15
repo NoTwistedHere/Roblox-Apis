@@ -7,84 +7,82 @@
 * Apis
     | Url | Description | Documentation |
     | -: | :- | -: |
-    | [Images](https://images.rbxcdn.com/) | Image storage | null |
-    | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | null |
-    | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | null |
-    | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | null |
-    | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | null |
-    | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | null |
+    | [Images](https://images.rbxcdn.com/) | Image storage | Undocumented |
+    | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | Undocumented |
+    | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | Undocumented |
+    | [accountSettingsApi](https://accountsettings.roblox.com) | All endpoints for account/user settings. | Undocumented |
+    | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | Undocumented |
+    | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | Undocumented |
     | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | Example: https://apis.roblox.com/user-agreements/v1/agreements-resolution/App |
-    | [apiProxyUrl](https://api.roblox.com) | null | null |
-    | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | null |
-    | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | null |
-    | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | null |
-    | [avatarApi](https://avatar.roblox.com) | Endpoints relating to the customization of player avatars. | null |
-    | [badgesApi](https://badges.roblox.com) | Endpoints for badges and badge awards management. | null |
-    | [billingApi](https://billing.roblox.com) | Real money transactions and interaction. | null |
-    | [captchaApi](https://captcha.roblox.com) | Captcha Api Site | null |
-    | [catalogApi](https://catalog.roblox.com) | Catalog items browsing and searching. Content and user based catalog items recommendations. | null |
-    | [chatApi](https://chat.roblox.com) | All chat and party related endpoints. | null |
-    | [contactsApi](https://contacts.roblox.com) | Contacts and userTag management. | null |
-    | [contentStoreApi](https://contentstore.roblox.com) | ApiSite to front the TemporaryStore for files before uploading to S3 | null |
-    | [developApi](https://develop.roblox.com) | Game development configuration endpoints. | null |
-    | [economyApi](https://economy.roblox.com) | Endpoints related to transactions and currency. | null |
-    | [economycreatorstatsApi](https://economycreatorstats.roblox.com) | Roblox.EconomyCreatorStats.Api endpoints. | null |
-    | [engagementPayoutsApi](https://engagementpayouts.roblox.com) | For engagement-based payout information | null |
-    | [followingsApi](https://followings.roblox.com) | Establishes follow relationship between subscriber entities (users, groups, etc) and source entities (games, groups, assets, etc.) | null |
-    | [friendsApi](https://friends.roblox.com) | Friends, followers, and contacts management. | null |
-    | [friendsAppSite](https://friendsite.roblox.com) | null | null |
-    | [gamesApi](https://games.roblox.com) | All endpoints for game discovery, and details. | null |
-    | [gameInternationalizationApi](https://gameinternationalization.roblox.com) | Manages internationalization of games such as translating in game content. | null |
-    | [groupsApi](https://groups.roblox.com) | Groups management. | null |
-    | [inventoryApi](https://inventory.roblox.com) | All endpoints for viewing (but not granting) ownership of items. | null |
-    | [itemConfigurationApi](https://itemconfiguration.roblox.com) | Configure Items (bundles and avatar assets). | null |
-    | [localeApi](https://locale.roblox.com) | User locale management. | null |
-    | [localizationTablesApi](https://localizationtables.roblox.com) | Handles managing of localization tables. | null |
-    | [metricsApi](https://metrics.roblox.com) | Record metrics across Roblox. | null |
-    | [midasApi](https://midas.roblox.com) | Handle requests around making purchases using Midas | null |
-    | [notificationApi](https://notifications.roblox.com) | All notification stream endpoints. | null |
-    | [premiumFeaturesApi](https://premiumfeatures.roblox.com) | This API is for premium features and anything pertaining to account add ons. | null |
-    | [presenceApi](https://presence.roblox.com) | All endpoints for managing presence. | null |
-    | [publishApi](https://publish.roblox.com) | All endpoints handling file uploads. | null |
-    | [screenTimeApi](https://apis.rcs.roblox.com/screen-time-api) | Deprecated directory. | null |
-    | [thumbnailsApi](https://thumbnails.roblox.com) | Endpoints for requesting thumbnails. | null |
-    | [tradesApi](https://trades.roblox.com) | Endpoints for trading collectible items. | null |
-    | [translationRolesApi](https://translationroles.roblox.com) | Manages translation roles of developers in game localization. | null |
-    | [universalAppConfigurationApi](https://apis.roblox.com/universal-app-configuration) | Deprecated directory. | null |
-    | [usersApi](https://users.roblox.com) | For direct Roblox user information. | null |
-    | [voiceApi](https://voice.roblox.com) | APIs for Voice calls. | null |
-    | [privateMessagesApi](https://privatemessages.roblox.com) | All messages page endpoints. | null |
-    | [shareApi](https://share.roblox.com) | null (Default template) | null |
-    | [chatModerationApi](https://chatmoderation.roblox.com) | Chat Moderation | null |
-    | [userModerationApi](https://usermoderation.roblox.com) | User Moderation | null |
-    | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | null |
-    | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | null |
-    | [SetupApi](http://setup.roblox.com) | null | null |
-    | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | null |
-    | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | null |
+    | [apiProxyUrl](https://api.roblox.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/api.roblox.com.md |
+    | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | Undocumented |
+    | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | Undocumented |
+    | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | Undocumented |
+    | [avatarApi](https://avatar.roblox.com) | Endpoints relating to the customization of player avatars. | Undocumented |
+    | [badgesApi](https://badges.roblox.com) | Endpoints for badges and badge awards management. | Undocumented |
+    | [billingApi](https://billing.roblox.com) | Real money transactions and interaction. | Undocumented |
+    | [captchaApi](https://captcha.roblox.com) | Captcha Api Site | Undocumented |
+    | [catalogApi](https://catalog.roblox.com) | Catalog items browsing and searching. Content and user based catalog items recommendations. | Undocumented |
+    | [chatApi](https://chat.roblox.com) | All chat and party related endpoints. | Undocumented |
+    | [contactsApi](https://contacts.roblox.com) | Contacts and userTag management. | Undocumented |
+    | [contentStoreApi](https://contentstore.roblox.com) | ApiSite to front the TemporaryStore for files before uploading to S3 | Undocumented |
+    | [developApi](https://develop.roblox.com) | Game development configuration endpoints. | Undocumented |
+    | [economyApi](https://economy.roblox.com) | Endpoints related to transactions and currency. | Undocumented |
+    | [economycreatorstatsApi](https://economycreatorstats.roblox.com) | Roblox.EconomyCreatorStats.Api endpoints. | Undocumented |
+    | [engagementPayoutsApi](https://engagementpayouts.roblox.com) | For engagement-based payout information | Undocumented |
+    | [followingsApi](https://followings.roblox.com) | Establishes follow relationship between subscriber entities (users, groups, etc) and source entities (games, groups, assets, etc.) | Undocumented |
+    | [friendsApi](https://friends.roblox.com) | Friends, followers, and contacts management. | Undocumented |
+    | [friendsAppSite](https://friendsite.roblox.com) | null | Undocumented |
+    | [gamesApi](https://games.roblox.com) | All endpoints for game discovery, and details. | Undocumented |
+    | [gameInternationalizationApi](https://gameinternationalization.roblox.com) | Manages internationalization of games such as translating in game content. | Undocumented |
+    | [groupsApi](https://groups.roblox.com) | Groups management. | Undocumented |
+    | [inventoryApi](https://inventory.roblox.com) | All endpoints for viewing (but not granting) ownership of items. | Undocumented |
+    | [itemConfigurationApi](https://itemconfiguration.roblox.com) | Configure Items (bundles and avatar assets). | Undocumented |
+    | [localeApi](https://locale.roblox.com) | User locale management. | Undocumented |
+    | [localizationTablesApi](https://localizationtables.roblox.com) | Handles managing of localization tables. | Undocumented |
+    | [metricsApi](https://metrics.roblox.com) | Record metrics across Roblox. | Undocumented |
+    | [midasApi](https://midas.roblox.com) | Handle requests around making purchases using Midas | Undocumented |
+    | [notificationApi](https://notifications.roblox.com) | All notification stream endpoints. | Undocumented |
+    | [premiumFeaturesApi](https://premiumfeatures.roblox.com) | This API is for premium features and anything pertaining to account add ons. | Undocumented |
+    | [presenceApi](https://presence.roblox.com) | All endpoints for managing presence. | Undocumented |
+    | [publishApi](https://publish.roblox.com) | All endpoints handling file uploads. | Undocumented |
+    | [screenTimeApi](https://apis.rcs.roblox.com/screen-time-api) | Deprecated directory. | Undocumented |
+    | [thumbnailsApi](https://thumbnails.roblox.com) | Endpoints for requesting thumbnails. | Undocumented |
+    | [tradesApi](https://trades.roblox.com) | Endpoints for trading collectible items. | Undocumented |
+    | [translationRolesApi](https://translationroles.roblox.com) | Manages translation roles of developers in game localization. | Undocumented |
+    | [universalAppConfigurationApi](https://apis.roblox.com/universal-app-configuration) | Deprecated directory. | Undocumented |
+    | [usersApi](https://users.roblox.com) | For direct Roblox user information. | Undocumented |
+    | [voiceApi](https://voice.roblox.com) | APIs for Voice calls. | Undocumented |
+    | [privateMessagesApi](https://privatemessages.roblox.com) | All messages page endpoints. | Undocumented |
+    | [shareApi](https://share.roblox.com) | null (Default template) | Undocumented |
+    | [chatModerationApi](https://chatmoderation.roblox.com) | Chat Moderation | Undocumented |
+    | [userModerationApi](https://usermoderation.roblox.com) | User Moderation | Undocumented |
+    | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | Undocumented |
+    | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | Undocumented |
+    | [SetupApi](http://setup.roblox.com) | Builds | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/setup.roblox.com.md |
+    | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | Undocumented |
+    | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | Undocumented |
+    | [assetgame.roblox.com](http://assetgame.roblox.com) | Undocumented | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/assetgame.roblox.com.md |
+    | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | Undocumented |
+    | [data.roblox.com](http://data.roblox.com) | null ~ Databases? | Undocumented |
+    | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | Undocumented |
+    | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | Undocumented |
+    | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com) | Used by various Roblox clients to retrieve configuration information. | Example: https://clientsettingscdn.roblox.com/v2/settings/application/PCClientBootstrapper |
 
-* Other roblox stuff
+* Alternative Websites (Owned by Roblox)
     | Url | Description | Api/Documentation |
     | -: | :- | -: |
-    | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | null |
-    | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | null |
-    | [static.rbxcdn.com](https://static.rbxcdn.com) | null | null |
+    | [static.rbxcdn.com](https://static.rbxcdn.com) | null | Undocumented |
     | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
-    | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
-    | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
-    | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | null |
+    | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | Undocumented |
     | [rbx.com](https://rbx.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/rbx.com.md |
-    | [corp.roblox.com](https://corp.roblox.com) | null | null |
-    | [ro.blox.com](https://ro.blox.com) | null | null |
-    | [roblox.qq.com](https://roblox.qq.com) | null | null |
-    | [rbx.okta.com](https://rbx.okta.com/) | null | null |
-    | [roblox.cn](https://roblox.cn/) | null | null |
-    | [setup.roblox.com](http://setup.roblox.com) | null | null | 
-    | [roblox bug bounty](https://hackerone.com/roblox?type=team) | null | null |
-    | http://data.roblox.com | null | null |
-    | http://assetgame.roblox.com | null | Example: https://assetgame.roblox.com/asset-thumbnail/image?assetId=373389090&width=100&height=100 |
-    | https://itemconfiguration.roblox.com | null | null |
-    | https://rbxinfra.com | null | Example: https://upload.crashes.rbxinfra.com |
+    | [corp.roblox.com](https://corp.roblox.com) | null | Undocumented |
+    | [ro.blox.com](https://ro.blox.com) | null | Undocumented |
+    | [roblox.qq.com](https://roblox.qq.com) | LouBu | Undocumented |
+    | [rbx.okta.com](https://rbx.okta.com/) | Business 😎 | Undocumented |
+    | [roblox.cn](https://roblox.cn/) | null | Undocumented |
+    | [roblox HackerOne](https://hackerone.com/roblox?type=team) | Roblox's HackerOne Team | Undocumented |
+    | [rbxinfra.com](https://rbxinfra.com) | null ~ Infrastructure? | Undocumented |
 
 * Web urls
     | Url | Description |
@@ -100,10 +98,10 @@
 * App Protocols
     | Protocol | Description | Documentation |
     | -: | :- | -: |
-    | robloxmobile:// | Launches the Roblox App for mobile | null |
-    | roblox-player:// | Launches the Roblox Client | null |
+    | robloxmobile:// | Launches the Roblox App for mobile | Undocumented |
+    | roblox-player:// | Launches the Roblox Client | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/roblox-player.md |
 
-* No name yet 🤔
+* Social Media
     | Url |
     | -: |
     | [https://www.facebook.com/ROBLOX/](https://www.facebook.com/ROBLOX/) |
