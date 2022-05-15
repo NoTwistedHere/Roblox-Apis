@@ -92,7 +92,7 @@
     | [googlePlayStoreLink](https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=e) | Roblox-Mobile Client download. |
     | [iosAppStoreLink](https://itunes.apple.com/us/app/roblox-mobile/id431946152) | Roblox-Mobile Client download. |
     | [windowsStoreLink](https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm) | Windows-Roblox Client download. |
-    | [xboxStoreLink](https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k) | Roblo-Console Client download. |
+    | [xboxStoreLink](https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k) | Roblox-Console Client download. |
     | [amazonWebStoreLink](https://www.amazon.com/roblox?&amp;_encoding=UTF8&amp;tag=r05d13-20&amp;linkCode=ur2&amp;linkId=4ba2e1ad82f781c8e8cc98329b1066d0&amp;camp=1789&amp;creative=9325) | Roblox-Corperation store |
 
 * App Protocols
