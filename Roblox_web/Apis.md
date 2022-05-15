@@ -14,7 +14,7 @@
     | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | Undocumented |
     | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | Undocumented |
     | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | Example: https://apis.roblox.com/user-agreements/v1/agreements-resolution/App |
-    | [apiProxyUrl](https://api.roblox.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/api.roblox.com.md |
+    | [apiProxyUrl](https://api.roblox.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/api.roblox.com.md |
     | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | Undocumented |
     | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | Undocumented |
     | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | Undocumented |
@@ -32,7 +32,7 @@
     | [engagementPayoutsApi](https://engagementpayouts.roblox.com) | For engagement-based payout information | Undocumented |
     | [followingsApi](https://followings.roblox.com) | Establishes follow relationship between subscriber entities (users, groups, etc) and source entities (games, groups, assets, etc.) | Undocumented |
     | [friendsApi](https://friends.roblox.com) | Friends, followers, and contacts management. | Undocumented |
-    | [friendsAppSite](https://friendsite.roblox.com) | null | Undocumented |
+    | [friendsAppSite](https://friendsite.roblox.com) | No Description | Undocumented |
     | [gamesApi](https://games.roblox.com) | All endpoints for game discovery, and details. | Undocumented |
     | [gameInternationalizationApi](https://gameinternationalization.roblox.com) | Manages internationalization of games such as translating in game content. | Undocumented |
     | [groupsApi](https://groups.roblox.com) | Groups management. | Undocumented |
@@ -54,7 +54,7 @@
     | [usersApi](https://users.roblox.com) | For direct Roblox user information. | Undocumented |
     | [voiceApi](https://voice.roblox.com) | APIs for Voice calls. | Undocumented |
     | [privateMessagesApi](https://privatemessages.roblox.com) | All messages page endpoints. | Undocumented |
-    | [shareApi](https://share.roblox.com) | null (Default template) | Undocumented |
+    | [shareApi](https://share.roblox.com) | No Description | Undocumented |
     | [chatModerationApi](https://chatmoderation.roblox.com) | Chat Moderation | Undocumented |
     | [userModerationApi](https://usermoderation.roblox.com) | User Moderation | Undocumented |
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | Undocumented |
@@ -62,27 +62,27 @@
     | [SetupApi](http://setup.roblox.com) | Builds | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/setup.roblox.com.md |
     | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | Undocumented |
     | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | Undocumented |
-    | [assetgame.roblox.com](http://assetgame.roblox.com) | Undocumented | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/assetgame.roblox.com.md |
-    | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | Undocumented |
-    | [data.roblox.com](http://data.roblox.com) | null ~ Databases? | Undocumented |
-    | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | Undocumented |
+    | [assetgame.roblox.com](http://assetgame.roblox.com) | No Description | Undocumented |
+    | [ecsv2.roblox.com](https://ecsv2.roblox.com) | No Description | Undocumented |
+    | [data.roblox.com](http://data.roblox.com) | No Description ~ Databases? | Undocumented |
+    | [realtime.roblox.com](https://realtime.roblox.com) | No Description ~ Websockets? | Undocumented |
     | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | Undocumented |
     | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com) | Used by various Roblox clients to retrieve configuration information. | Example: https://clientsettingscdn.roblox.com/v2/settings/application/PCClientBootstrapper |
 
 * Alternative Websites (Owned by Roblox)
     | Url | Description | Api/Documentation |
     | -: | :- | :- |
-    | [static.rbxcdn.com](https://static.rbxcdn.com) | null | Undocumented |
-    | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
+    | [static.rbxcdn.com](https://static.rbxcdn.com) | No Description | Undocumented |
+    | [robloxlabs.com](https://robloxlabs.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | Undocumented |
-    | [rbx.com](https://rbx.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/rbx.com.md |
-    | [corp.roblox.com](https://corp.roblox.com) | null | Undocumented |
-    | [ro.blox.com](https://ro.blox.com) | null | Undocumented |
+    | [rbx.com](https://rbx.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/rbx.com.md |
+    | [corp.roblox.com](https://corp.roblox.com) | No Description | Undocumented |
+    | [ro.blox.com](https://ro.blox.com) | No Description | Undocumented |
     | [roblox.qq.com](https://roblox.qq.com) | LouBu | Undocumented |
     | [rbx.okta.com](https://rbx.okta.com/) | Business 😎 | Undocumented |
-    | [roblox.cn](https://roblox.cn/) | null | Undocumented |
+    | [roblox.cn](https://roblox.cn/) | No Description | Undocumented |
     | [roblox HackerOne](https://hackerone.com/roblox?type=team) | Roblox's HackerOne Team | Undocumented |
-    | [rbxinfra.com](https://rbxinfra.com) | null ~ Infrastructure? | Undocumented |
+    | [rbxinfra.com](https://rbxinfra.com) | No Description ~ Infrastructure? | Undocumented |
 
 * Web urls
     | Url | Description |
