@@ -6,7 +6,7 @@
 
 * Apis
     | Url | Description | Documentation |
-    | -: | :- | -: |
+    | -: | :- | :- |
     | [Images](https://images.rbxcdn.com/) | Image storage | Undocumented |
     | [abtestingApiSite](https://abtesting.roblox.com) | Endpoints for the A/B Testing framework | Undocumented |
     | [accountInformationApi](https://accountinformation.roblox.com) | All endpoints for accessing/modifying account information | Undocumented |
@@ -71,7 +71,7 @@
 
 * Alternative Websites (Owned by Roblox)
     | Url | Description | Api/Documentation |
-    | -: | :- | -: |
+    | -: | :- | :- |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | null | Undocumented |
     | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | Undocumented |
@@ -97,7 +97,7 @@
 
 * App Protocols
     | Protocol | Description | Documentation |
-    | -: | :- | -: |
+    | -: | :- | :- |
     | robloxmobile:// | Launches the Roblox App for mobile | Undocumented |
     | roblox-player:// | Launches the Roblox Client | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/roblox-player.md |
 
