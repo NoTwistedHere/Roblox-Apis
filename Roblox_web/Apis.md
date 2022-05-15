@@ -69,7 +69,7 @@
     | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | Undocumented |
     | [clientsettingscdn.roblox.com](https://clientsettingscdn.roblox.com) | Used by various Roblox clients to retrieve configuration information. | Example: https://clientsettingscdn.roblox.com/v2/settings/application/PCClientBootstrapper |
 
-* Alternative Websites (Owned by Roblox)
+* Alternative Websites (Owned/Created by Roblox)
     | Url | Description | Api/Documentation |
     | -: | :- | :- |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | No Description | Undocumented |
