@@ -1,7 +1,7 @@
 # Docs
 
 | Url | Raw URL |
-| -: |
+| -: | :- |
 | [DeployHistory](http://setup.roblox.com/DeployHistory.txt) | http://setup.roblox.com/DeployHistory.txt |
 | [Download Roblox Client](https://setup.roblox.com/VERSION-RobloxApp.zip) | https://setup.roblox.com/VERSION-RobloxApp.zip |
 | [Download Roblox Studio](https://setup.roblox.com/VERSION-RobloxStudio.zip) | https://setup.roblox.com/VERSION-RobloxStudio.zip |
