@@ -69,11 +69,11 @@
     | [realtime.roblox.com](https://realtime.roblox.com) | null ~ Websockets? | null |
     | [lms.roblox.com](https://lms.roblox.com) | latency measurement service | null |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | null | null |
-    | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox/blob/main/Roblox_web/Other/robloxlabs.com.md |
+    | [robloxlabs.com](https://robloxlabs.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
     | [ecsv2.roblox.com](https://ecsv2.roblox.com) | null | null |
     | [ephemeralcounters.api.roblox.com](ephemeralcounters.api.roblox.com) | null | null |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | null |
-    | [rbx.com](https://rbx.com) | null | https://github.com/NoTwistedHere/Roblox/blob/main/Roblox_web/Other/rbx.com.md |
+    | [rbx.com](https://rbx.com) | null | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/rbx.com.md |
     | [corp.roblox.com](https://corp.roblox.com) | null | null |
     | [ro.blox.com](https://ro.blox.com) | null | null |
     | [roblox.qq.com](https://roblox.qq.com) | null | null |
@@ -81,7 +81,6 @@
     | [roblox.cn](https://roblox.cn/) | null | null |
     | [setup.roblox.com](http://setup.roblox.com) | null | null | 
     | [roblox bug bounty](https://hackerone.com/roblox?type=team) | null | null |
-    | VoiceChatService Doc | Voice Chat Service Documantation (by me) | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/VoiceChatService.md |
     | http://data.roblox.com | null | null |
     | http://assetgame.roblox.com | null | Example: https://assetgame.roblox.com/asset-thumbnail/image?assetId=373389090&width=100&height=100 |
     | https://itemconfiguration.roblox.com | null | null |
