@@ -1,7 +1,5 @@
 ![](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Images/Roblox_Logo.png)
 
-## This isn't a guide on how to use roblox's api(s)
-
 <hr/>
 
 * Apis
