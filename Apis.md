@@ -1,4 +1,4 @@
-![](https://github.com/NoTwistedHere/Storage/blob/main/Images/Roblox_Logo.png)
+![](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Images/Roblox_Logo.png)
 
 ## This isn't a guide on how to use roblox's api(s)
 
@@ -14,7 +14,7 @@
     | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | Undocumented |
     | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | Undocumented |
     | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | Example: https://apis.roblox.com/user-agreements/v1/agreements-resolution/App |
-    | [apiProxyUrl](https://api.roblox.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/api.roblox.com.md |
+    | [apiProxyUrl](https://api.roblox.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/api.roblox.com.md |
     | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | Undocumented |
     | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | Undocumented |
     | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | Undocumented |
@@ -59,7 +59,7 @@
     | [userModerationApi](https://usermoderation.roblox.com) | User Moderation | Undocumented |
     | [groupsModerationApi](https://groupsmoderation.roblox.com) | Group Moderation | Undocumented |
     | [twoStepVerificationApi](https://twostepverification.roblox.com) | Platform interface for the two step verification system. | Undocumented |
-    | [SetupApi](http://setup.roblox.com) | Builds | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/setup.roblox.com.md |
+    | [SetupApi](http://setup.roblox.com) | Builds | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/setup.roblox.com.md |
     | [gamepersistenceApi](https://gamepersistence.roblox.com) | Endpoints for the in-game datastore system for storing data for games. | Undocumented |
     | [textfilterApi](https://textfilter.roblox.com) | High volume text filtering. | Undocumented |
     | [assetgame.roblox.com](http://assetgame.roblox.com) | No Description | Undocumented |
@@ -73,9 +73,9 @@
     | Url | Description | Api/Documentation |
     | -: | :- | :- |
     | [static.rbxcdn.com](https://static.rbxcdn.com) | No Description | Undocumented |
-    | [robloxlabs.com](https://robloxlabs.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/robloxlabs.com.md |
+    | [robloxlabs.com](https://robloxlabs.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/robloxlabs.com.md |
     | [rbxcdn.com](https://rbxcdn.com/) | Content Delivery Network for Roblox | Undocumented |
-    | [rbx.com](https://rbx.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/rbx.com.md |
+    | [rbx.com](https://rbx.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/rbx.com.md |
     | [corp.roblox.com](https://corp.roblox.com) | No Description | Undocumented |
     | [ro.blox.com](https://ro.blox.com) | No Description | Undocumented |
     | [roblox.qq.com](https://roblox.qq.com) | LouBu | Undocumented |
@@ -99,7 +99,7 @@
     | Protocol | Description | Documentation |
     | -: | :- | :- |
     | robloxmobile:// | Launches the Roblox App for mobile | Undocumented |
-    | roblox-player:// | Launches the Roblox Client | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Roblox_web/Other/roblox-player.md |
+    | roblox-player:// | Launches the Roblox Client | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/roblox-player.md |
 
 * Social Media
     | Url |
