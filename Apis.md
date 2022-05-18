@@ -12,7 +12,7 @@
     | [adConfigurationApi](https://adconfiguration.roblox.com) | Roblox Ad Configuration related endpoints. | Undocumented |
     | [adsApi](https://ads.roblox.com) | Ads configuration endpoints. | Undocumented |
     | [apiGatewayUrl](https://apis.roblox.com) | Api gateway. | Example: https://apis.roblox.com/user-agreements/v1/agreements-resolution/App |
-    | [apiProxyUrl](https://api.roblox.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/api.roblox.com.md |
+    | [apiUrl [DO NOT USE]](https://api.roblox.com) | No Description | https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Other/api.roblox.com.md |
     | [assetDeliveryApi](https://assetdelivery.roblox.com) | Serves asset content. | Undocumented |
     | [authApi](https://auth.roblox.com) | All endpoints that tamper with authentication sessions. | Undocumented |
     | [authAppSite](https://authsite.roblox.com) | Authentification endpoints. | Undocumented |

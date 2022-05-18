@@ -2,6 +2,8 @@
 
 <hr/>
 
+## Do not use for new work
+
 * Subdomains
     | Url | Description | Api/Documentation |
     | -: | :- | :- |
