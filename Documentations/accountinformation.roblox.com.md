@@ -2,70 +2,70 @@
 
 ## /v1/birthdate
 
-Method: **GET**
-Description: Get the user's birthdate
-Consumes: **NONE**
-Produces: **application/json**, **text/json**
-Parameters: **NONE**
-Responses:
-    **200**: "OK"
-    **400**: "1: User not found."
-    **401**: "0: Authorization has been denied for this request."
+    Method: **GET** \
+    Description: Get the user's birthdate \
+    Consumes: **NONE** \
+    Produces: **application/json**, **text/json** \
+    Parameters: **NONE** \
+    Responses: \
+        **200**: "OK" \
+        **400**: "1: User not found." \
+        **401**: "0: Authorization has been denied for this request." \
 <hr>
 
-Method: **POST**
-Description: Update the user's birthdate
-Consumes: **application/json**, **text/json**, **application/x-www-form-urlencoded**
-Produces: **application/json**, **text/json**
-Parameters: 
-    request [?] (The {BirthdateRequest}) **REQUIRED BODY**
-Responses:
-    **200**: "OK"
-    **400**: "1: User not found.\r\n4: The birthdate provided is invalid."
-    **401**: "0: Authorization has been denied for this request."
-    **403**: "0: Token Validation Failed\r\n2: PIN is locked.\r\n5: Invalid birthdate change."
-    **500**: "0: An unknown error occured.\r\n5: Invalid birthdate change."
+    Method: **POST**
+    Description: Update the user's birthdate
+    Consumes: **application/json**, **text/json**, **application/x-www-form-urlencoded**
+    Produces: **application/json**, **text/json**
+    Parameters: 
+        request [?] (The {BirthdateRequest}) **REQUIRED BODY**
+    Responses:
+        **200**: "OK"
+        **400**: "1: User not found.\r\n4: The birthdate provided is invalid."
+        **401**: "0: Authorization has been denied for this request."
+        **403**: "0: Token Validation Failed\r\n2: PIN is locked.\r\n5: Invalid birthdate change."
+        **500**: "0: An unknown error occured.\r\n5: Invalid birthdate change."
 <hr>
 
 ## /v1/description
 
-Method: **GET**
-Description: Get the user's description
-Consumes: **NONE**
-Produces: **application/json**, **text/json**
-Parameters: **NONE**
-Responses:
-    **200**: "OK"
-    **400**: "1: User not found."
-    **401**: "0: Authorization has been denied for this request."
+    Method: **GET**
+    Description: Get the user's description
+    Consumes: **NONE**
+    Produces: **application/json**, **text/json**
+    Parameters: **NONE**
+    Responses:
+        **200**: "OK"
+        **400**: "1: User not found."
+        **401**: "0: Authorization has been denied for this request."
 <hr>
 
-Method: **POST**
-Description: Update the user's description
-Consumes: **application/json**, **text/json**, **application/x-www-form-urlencoded**
-Produces: **application/json**, **text/json**
-Parameters: 
-    request [?] (The {DescriptionRequest}) **REQUIRED BODY**
-Responses:
-    **200**: "OK"
-    **400**: "1: User not found."
-    **401**: "0: Authorization has been denied for this request."
-    **403**: "0: Token Validation Failed\r\n2: PIN is locked."
-    **500**: "0: An unknown error occured.\r\n5: Invalid birthdate change."
-    **503**: "3: This feature is currently disabled. Please try again later."
+    Method: **POST**
+    Description: Update the user's description
+    Consumes: **application/json**, **text/json**, **application/x-www-form-urlencoded**
+    Produces: **application/json**, **text/json**
+    Parameters: 
+        request [?] (The {DescriptionRequest}) **REQUIRED BODY**
+    Responses:
+        **200**: "OK"
+        **400**: "1: User not found."
+        **401**: "0: Authorization has been denied for this request."
+        **403**: "0: Token Validation Failed\r\n2: PIN is locked."
+        **500**: "0: An unknown error occured.\r\n5: Invalid birthdate change."
+        **503**: "3: This feature is currently disabled. Please try again later."
 <hr>
 
 ## /v1/gender
 
 Method: **GET**
-Description: Get the user's gender
-Consumes: **NONE**
-Produces: **application/json**, **text/json**
-Parameters: **NONE**
-Responses:
-    **200**: "OK"
-    **400**: "1: User not found."
-    **401**: "0: Authorization has been denied for this request."
+    escription: Get the user's gender
+    onsumes: **NONE**
+    roduces: **application/json**, **text/json**
+    arameters: **NONE**
+    esponses:
+       **200**: "OK"
+       **400**: "1: User not found."
+       **401**: "0: Authorization has been denied for this request."
 <hr>
 
 Method: **POST**
