@@ -2,10 +2,10 @@
 
 ## /v1/users/{userId}/conversations
 
-Method: **GET**
-Description: Retrieve all the conversations for a user
-Produces: **application/json**, **text/json**
-Parameters:
+Method **GET**
+Description Retrieve all the conversations for a user
+Produces **application/json**, **text/json**
+Parameters
     userId [integer/int64] (the user's id) **REQUIRED**
     limit [integer/int32] (the amount of results per request) **OPTIONAL QUERY**
     cursor [string] (The paging cursor for the previous or next page) **OPTIONAL QUERY**
