@@ -14,7 +14,7 @@
         "channelId": "", // Required, The unique channel Id of the call
     },
     "Responses": {
-        "200": "OK",
+        "200": {},
         "401": "0: Authorization has been denied for this request."
     }
 }
@@ -101,7 +101,7 @@ Am I fuck going to document all of this manually, I'll make something to do it f
         "text/json"
     ],
     "Parameters": {
-        "requestModel": [], // [Array], Required Body
+        "requestModel": [], // [VoiceChannelTokenRequest], Required Body
         "Roblox-Place-Id": 1 // Int64, Optional Header
     },
     "Responses": {
