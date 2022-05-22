@@ -16,7 +16,7 @@
         "text/json"
     ],
     "Parameters": {
-        "enrollments": [], // Array, Required Body, The {ExperimentSubjectModel}s containing the subjects and the experiments to enroll them into
+        "enrollments": [] // Array, Required Body, The {ExperimentSubjectModel}s containing the subjects and the experiments to enroll them into
     },
     "Responses": {
         "200": "OK",
@@ -42,7 +42,7 @@
         "text/json"
     ],
     "Parameters": {
-        "enrollments": [], // Array, Required Body, A collection of {ExperimentSubjectModel}s containing the name of the experiments and the subjects to get the enrollments for
+        "enrollments": [] // Array, Required Body, A collection of {ExperimentSubjectModel}s containing the name of the experiments and the subjects to get the enrollments for
     },
     "Responses": {
         "200": "OK",
