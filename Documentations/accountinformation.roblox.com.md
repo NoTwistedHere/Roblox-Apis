@@ -88,7 +88,7 @@
         "400": "1: User not found.",
         "401": "0: Authorization has been denied for this request.",
         "403": "0: Token Validation Failed\r\n2: PIN is locked.",
-        "500": "0: An unknown error occured.\r\n5: Invalid description change.", // Might not be accurate, cba to check the src
+        "500": "0: An unknown error occured.",
         "503": "3: This feature is currently disabled. Please try again later."
     }
 }
