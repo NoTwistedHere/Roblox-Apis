@@ -63,8 +63,9 @@
 
 ```json
 {
-    "Method": "GET",
+    "Method": "POST",
     "Description": "Leave a named voice channel",
+    "Consumes": "NONE",
     "Produces": [
         "application/json",
         "text/json"
