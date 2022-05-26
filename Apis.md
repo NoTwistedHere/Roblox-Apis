@@ -2,7 +2,7 @@
 
 <hr/>
 
-* <b>Apis<b>
+* <b>Apis</b>
     | Link | Description/Documentation |
     | -: | :- |
     | [premiumfeatures.roblox.com](https://premiumfeatures.roblox.com) | [PremiumFeatures Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/premiumfeatures.roblox.com) |
