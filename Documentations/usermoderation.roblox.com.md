@@ -35,6 +35,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -114,6 +115,7 @@
             "description": "User isn't authenticated.\r\n0: Authorization has been denied for this request.\r\n0: User is unauthorized to process the request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

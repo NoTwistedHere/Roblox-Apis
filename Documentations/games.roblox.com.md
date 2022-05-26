@@ -43,6 +43,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -107,6 +108,7 @@
             "description": "10: Internal service busy. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -193,6 +195,7 @@
             "description": "10: This endpoint is deprecated"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -309,6 +312,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -409,6 +413,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -456,6 +461,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -594,6 +600,7 @@
             "description": "0: Compliance Context service is unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -663,7 +670,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Games.Api.VipServerUpdatePermissionsRequest}"
+            "description": "The {Request model for updating permissions for a VIP server.}"
         }
     },
     "Responses": {
@@ -725,6 +732,7 @@
             "description": "1: The private server is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -789,6 +797,7 @@
             "description": "10: Internal service busy. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -871,6 +880,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -919,6 +929,7 @@
             "description": "10: This endpoint is deprecated"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -994,6 +1005,7 @@
             "description": "10: Internal service busy. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1131,6 +1143,7 @@
             "description": "1: The place is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1339,6 +1352,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1387,6 +1401,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1471,6 +1486,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1549,6 +1565,7 @@
             "description": "8: No universe IDs were specified.\r\n9: Too many universe IDs were requested."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1662,6 +1679,7 @@
             "description": "1: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1888,6 +1906,7 @@
             "description": "8: No universe IDs were specified.\r\n9: Too many universe IDs were requested."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1965,6 +1984,7 @@
             "description": "0: Token Validation Failed\r\n6: The user needs to play the game before vote.\r\n7: The user needs additional permission to vote."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2009,7 +2029,7 @@
                     }
                 }
             },
-            "description": "An {Roblox.Games.Api.ReportPlaceMetadataRequest}."
+            "description": "An {Model for setting metadata}."
         }
     },
     "Responses": {
@@ -2027,6 +2047,7 @@
             "description": "1: The place is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2175,6 +2196,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2324,6 +2346,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2667,6 +2690,7 @@
             "description": "0: Compliance Context service is unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2758,6 +2782,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2807,7 +2832,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Games.Api.VipServerUpdateSubscriptionRequest}"
+            "description": "The {Request model to update subscriptions for a VIP server.}"
         }
     },
     "Responses": {
@@ -2872,6 +2897,7 @@
             "description": "1: The private server is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2924,7 +2950,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Games.Api.VipServerUpdateRequest}"
+            "description": "The {Request model to update a VIP server.}"
         }
     },
     "Responses": {
@@ -3094,6 +3120,7 @@
             "description": "1: The private server is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3280,6 +3307,7 @@
             "description": "1: The private server is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3355,6 +3383,7 @@
             "description": "8: No universe IDs were specified.\r\n9: Too many universe IDs were requested."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3429,6 +3458,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3477,6 +3507,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3551,6 +3582,7 @@
             "description": "2: The requested universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3768,6 +3800,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3989,6 +4022,7 @@
             "description": "0: Compliance Context service is unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4213,6 +4247,7 @@
             "description": "1: Code path is not Implemented."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4430,6 +4465,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>

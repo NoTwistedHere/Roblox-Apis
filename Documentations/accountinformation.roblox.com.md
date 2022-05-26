@@ -31,7 +31,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.VerifyPhoneRequest}"
+            "description": "{Verify Phone Request}"
         }
     },
     "Responses": {
@@ -64,6 +64,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -119,6 +120,7 @@
             "description": "1: User not found."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -171,7 +173,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.AccountInformation.Api.Models.PromotionChannelsRequest}"
+            "description": "The {The promotion channels request}"
         }
     },
     "Responses": {
@@ -195,6 +197,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -247,6 +250,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -294,7 +298,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.AccountInformation.Api.Models.BirthdateRequest}"
+            "description": "The {The birthdate request}"
         }
     },
     "Responses": {
@@ -321,6 +325,7 @@
             "description": "0: Token Validation Failed\r\n2: PIN is locked.\r\n5: Invalid birthdate change."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -368,6 +373,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -404,7 +410,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.StarCodeAffiliateRequest}"
+            "description": "{The star code affiliate request}"
         }
     },
     "Responses": {
@@ -445,6 +451,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -480,6 +487,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -525,6 +533,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -561,7 +570,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.AccountInformation.Api.Models.DescriptionRequest}"
+            "description": "The {The description request}"
         }
     },
     "Responses": {
@@ -596,6 +605,7 @@
             "description": "0: Token Validation Failed\r\n2: PIN is locked."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -632,6 +642,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -679,6 +690,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -715,7 +727,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.AccountInformation.Api.Models.GenderRequest}"
+            "description": "The {The gender request}"
         }
     },
     "Responses": {
@@ -742,6 +754,7 @@
             "description": "0: Token Validation Failed\r\n2: PIN is locked."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -779,6 +792,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -827,7 +841,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.PhoneRequest}"
+            "description": "{The phone request}"
         }
     },
     "Responses": {
@@ -857,6 +871,7 @@
             "description": "0: Token Validation Failed\r\n4: Account Pin Locked\r\n5: Incorrect Password"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -893,6 +908,7 @@
             "description": "0: Authorization has been denied for this request.\r\n7: The account is not connected to an Xbox Live account"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -941,7 +957,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.PhoneRequest}"
+            "description": "{The phone request}"
         }
     },
     "Responses": {
@@ -971,6 +987,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1019,7 +1036,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.PhoneRequest}"
+            "description": "{The phone request}"
         }
     },
     "Responses": {
@@ -1052,6 +1069,7 @@
             "description": "0: Token Validation Failed\r\n4: Account Pin Locked\r\n5: Incorrect Password"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1105,6 +1123,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1161,6 +1180,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1197,7 +1217,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AccountInformation.Api.Models.VerifyEmailRequest}"
+            "description": "{Verify Email Request}"
         }
     },
     "Responses": {
@@ -1220,6 +1240,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

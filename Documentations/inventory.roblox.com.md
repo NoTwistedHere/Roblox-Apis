@@ -39,6 +39,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -230,6 +231,7 @@
             "description": "The specified asset type(s) are invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -346,6 +348,7 @@
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -481,6 +484,7 @@ Note that the 'Hat' asset type may return accessories while we are migrating.",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -590,6 +594,7 @@ Place creators can make requests as if they were the Game Server.",
             "description": "1: The specified user does not exist!\r\n5: The specified game pass does not exist! Are you using the new game pass ID?\r\n6: The specified item type does not exist.\r\n7: The specified Asset does not exist!\r\n10: The specified asset is not a badge!\r\n12: The specified bundle does not exist!"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -633,6 +638,7 @@ Place creators can make requests as if they were the Game Server.",
             "description": "1: The specified user does not exist!"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -644,7 +650,7 @@ Place creators can make requests as if they were the Game Server.",
 ```json
 {
     "Method": "GET",
-    "Description": "Get user's inventory by multiple {Roblox.Platform.Assets.AssetType}.",
+    "Description": "Get user's inventory by multiple Roblox.Platform.Assets.AssetType.",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -811,6 +817,7 @@ Place creators can make requests as if they were the Game Server.",
             "description": "1: Invalid user Id.\r\n2: Invalid asset type Id."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -957,6 +964,7 @@ Place creators can make requests as if they were the Game Server.",
             "description": "1: Invalid user Id.\r\n2: Invalid asset type Id."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1086,6 +1094,7 @@ Place creators can make requests as if they were the Game Server.",
             "description": "1: The asset id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

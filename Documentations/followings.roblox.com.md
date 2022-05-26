@@ -80,6 +80,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -89,7 +90,7 @@
 ```json
 {
     "Method": "POST",
-    "Description": "Creates the following between a user with {userId} and universe with {universeId}",
+    "Description": "Creates the following between a user with userId and universe with universeId",
     "Consumes": "NONE",
     "Produces": {
         "1": "application/json",
@@ -145,6 +146,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -152,7 +154,7 @@
 ```json
 {
     "Method": "DELETE",
-    "Description": "Deletes the following between a user with {userId} and universe with {universeId}",
+    "Description": "Deletes the following between a user with userId and universe with universeId",
     "Consumes": "NONE",
     "Produces": {
         "1": "application/json",
@@ -205,6 +207,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -214,7 +217,7 @@
 ```json
 {
     "Method": "GET",
-    "Description": "Gets all the followings between a user with {userId} and universes",
+    "Description": "Gets all the followings between a user with userId and universes",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -261,6 +264,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -333,6 +337,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

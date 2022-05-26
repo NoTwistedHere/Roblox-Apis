@@ -78,6 +78,7 @@
             "description": "1: Group is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -195,6 +196,7 @@
             "description": "1: Group is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -264,6 +266,7 @@
             "description": "3: The user is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -315,6 +318,7 @@
             "description": "18: The operation is temporarily unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -384,6 +388,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -438,6 +443,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -557,6 +563,7 @@
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -626,7 +633,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.SocialLinkRequest}."
+            "description": "The {An update request for a social link}."
         }
     },
     "Responses": {
@@ -656,6 +663,7 @@
             "description": "11: Social links cannot be processed as this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -711,6 +719,7 @@
             "description": "11: Social links cannot be processed as this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -864,6 +873,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1100,6 +1110,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1179,6 +1190,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1326,6 +1338,7 @@
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1370,7 +1383,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.PostGroupStatusRequest}."
+            "description": "The {A request model for setting the authenticated user's primary group.}."
         }
     },
     "Responses": {
@@ -1438,6 +1451,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1497,6 +1511,7 @@
             "description": "1: Name is missing or has invalid characters."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1551,6 +1566,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1803,6 +1819,7 @@
             "description": "3: The user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1857,6 +1874,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2065,6 +2083,7 @@
             "description": "1: Group is invalid or does not exist.\r\n4: Group relationship type or request type is invalid.\r\n8: Invalid or missing pagination parameters"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2265,6 +2284,7 @@
             "description": "3: The user specified does not have a primary group."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2303,6 +2323,7 @@
             "description": "5: No Localized Version of group search category exists"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2507,6 +2528,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2563,7 +2585,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Groups.Api.UpdateGroupSettingsRequest}"
+            "description": "{A request model for updating a group's settings.}"
         }
     },
     "Responses": {
@@ -2590,6 +2612,7 @@
             "description": "31: Service is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2654,6 +2677,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2715,6 +2739,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2747,6 +2772,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2954,6 +2980,7 @@
             "description": "3: The user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3015,7 +3042,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.SocialLinkRequest}"
+            "description": "The {An update request for a social link}"
         }
     },
     "Responses": {
@@ -3072,6 +3099,7 @@
             "description": "11: Social links cannot be processed as this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3155,6 +3183,7 @@
             "description": "11: Social links cannot be processed as this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3230,6 +3259,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3303,6 +3333,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3515,6 +3546,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3595,6 +3627,7 @@
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3699,6 +3732,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3893,6 +3927,7 @@
             "description": "1: Group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3947,6 +3982,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4204,6 +4240,7 @@
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4282,7 +4319,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.PayoutRequest}."
+            "description": "The {Multi-payout request information.}."
         }
     },
     "Responses": {
@@ -4309,6 +4346,7 @@
             "description": "22: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4398,6 +4436,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4442,7 +4481,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.UpdateGroupDescriptionRequest}."
+            "description": "The {A request model for setting a description for the group}."
         }
     },
     "Responses": {
@@ -4470,6 +4509,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4548,7 +4588,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.PayoutRequest}."
+            "description": "The {Multi-payout request information.}."
         }
     },
     "Responses": {
@@ -4575,6 +4615,7 @@
             "description": "22: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4636,6 +4677,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4695,6 +4737,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4745,7 +4788,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.CreateWallPostRequest}."
+            "description": "The {A request model for creating a group wall post}."
         }
     },
     "Responses": {
@@ -4822,6 +4865,7 @@
             "description": "4: You are posting too fast, please try again in a few minutes."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4959,6 +5003,7 @@
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5012,7 +5057,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.UpdateUserRoleRequest}."
+            "description": "The {A request model for setting a users role in a group.}."
         }
     },
     "Responses": {
@@ -5039,6 +5084,7 @@
             "description": "18: The operation is temporarily unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5094,6 +5140,7 @@
             "description": "18: The operation is temporarily unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5246,6 +5293,7 @@
             "description": "1: Group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5303,6 +5351,7 @@
             "description": "18: The operation is temporarily unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5355,6 +5404,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5430,6 +5480,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5548,6 +5599,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5590,6 +5642,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5671,6 +5724,7 @@
             "description": "1: Ids could not be parsed from request.\r\n2: Too many ids in request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5781,6 +5835,7 @@
             "description": "2: Search term not appropriate for Roblox.\r\n3: Search term was left empty.\r\n4: Search terms can be 2 to 50 characters long."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5842,6 +5897,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5901,6 +5957,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5979,6 +6036,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6108,6 +6166,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6314,6 +6373,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6382,6 +6442,7 @@ Whether to show/hide certain features based on device type.",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6459,6 +6520,7 @@ Whether to show/hide certain features based on device type.",
             "description": "0: Token Validation Failed\r\n6: You are already in the maximum number of groups.\r\n19: You have insufficient permissions for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6528,6 +6590,7 @@ Whether to show/hide certain features based on device type.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6642,6 +6705,7 @@ Whether to show/hide certain features based on device type.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6796,6 +6860,7 @@ Whether to show/hide certain features based on device type.",
             "description": "21: Group creation is currently disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6904,6 +6969,7 @@ Whether to show/hide certain features based on device type.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6956,6 +7022,7 @@ Whether to show/hide certain features based on device type.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7008,7 +7075,7 @@ Whether to show/hide certain features based on device type.",
                     }
                 }
             },
-            "description": "The {Roblox.Groups.Api.CreateWallPostRequest}."
+            "description": "The {A request model for creating a group wall post}."
         }
     },
     "Responses": {
@@ -7126,6 +7193,7 @@ Whether to show/hide certain features based on device type.",
             "description": "4: You are posting too fast, please try again in a few minutes."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7304,6 +7372,7 @@ Whether to show/hide certain features based on device type.",
             "description": "1: The group is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7392,6 +7461,7 @@ Whether to show/hide certain features based on device type.",
             "description": "3: The user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7523,6 +7593,7 @@ Whether to show/hide certain features based on device type.",
             "description": "2: Too many ids in request.\r\n3: Ids could not be parsed from request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

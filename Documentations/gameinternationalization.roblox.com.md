@@ -60,6 +60,7 @@
             "description": "33: Too many attempts to flush the game.Please try again later."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -148,6 +149,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -239,6 +241,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -293,6 +296,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -375,6 +379,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -451,6 +456,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -542,6 +548,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -610,6 +617,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "63: Invalid user id\r\n64: Invalid ip address\r\n65: Invalid user agent"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -673,6 +681,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -740,6 +749,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -797,6 +807,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -918,6 +929,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -977,6 +989,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1063,6 +1076,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1157,6 +1171,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1214,6 +1229,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1300,6 +1316,7 @@ If there are no requested target languages, then all allowed target languages fo
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1360,6 +1377,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1427,6 +1445,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1484,6 +1503,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1621,6 +1641,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1717,6 +1738,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1763,6 +1785,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1808,6 +1831,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1891,6 +1915,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1948,6 +1973,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2009,6 +2035,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2128,6 +2155,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2185,6 +2213,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2277,6 +2306,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2323,6 +2353,7 @@ The user must still have proper permissions for the game to get this info.",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2574,6 +2605,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2646,6 +2678,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2718,6 +2751,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2766,6 +2800,7 @@ The user must still have proper permissions for the game to get this info.",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2810,6 +2845,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2889,6 +2925,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2953,6 +2990,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3047,6 +3085,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3104,6 +3143,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3190,6 +3230,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3281,6 +3322,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3345,6 +3387,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3421,6 +3464,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3470,6 +3514,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "24: Too many attempts.Please try again later."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3516,6 +3561,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3575,6 +3621,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3624,6 +3671,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3672,6 +3720,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3738,6 +3787,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "18: You do not have permission to manage this game"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3812,6 +3862,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3845,6 +3896,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3937,6 +3989,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4022,6 +4075,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4085,6 +4139,7 @@ The user must still have proper permissions for the game to get this info.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4247,6 +4302,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4330,6 +4386,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4416,6 +4473,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4483,6 +4541,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4540,6 +4599,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4622,6 +4682,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4720,6 +4781,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4790,6 +4852,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4864,6 +4927,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4923,6 +4987,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5059,6 +5124,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5111,6 +5177,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5336,6 +5403,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5394,6 +5462,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5477,6 +5546,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5541,6 +5611,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5608,6 +5679,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5665,6 +5737,7 @@ The languages to retrieve must be provided.",
             "description": "0: Token Validation Failed\r\n18: You do not have permission to manage this game"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5829,6 +5902,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

@@ -126,6 +126,7 @@
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -219,6 +220,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -284,6 +286,7 @@ The languages to retrieve must be provided.",
             "description": "33: Too many attempts to flush the game.Please try again later."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -341,6 +344,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -390,6 +394,7 @@ The languages to retrieve must be provided.",
             "description": "24: Too many attempts.Please try again later."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -512,6 +517,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -577,6 +583,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -653,6 +660,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -704,6 +712,7 @@ The languages to retrieve must be provided.",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -750,6 +759,7 @@ The languages to retrieve must be provided.",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -825,6 +835,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1076,6 +1087,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1301,6 +1313,7 @@ The languages to retrieve must be provided.",
             "description": "17: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1363,6 +1376,7 @@ The languages to retrieve must be provided.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

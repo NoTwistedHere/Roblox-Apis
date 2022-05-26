@@ -151,6 +151,7 @@
             "description": "3: The User has insufficient permissions to perform this action"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -307,6 +308,7 @@
             "description": "3: The User has insufficient permissions to perform this action"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -368,6 +370,7 @@
             "description": "2: User is not authorized to export user platform chat."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

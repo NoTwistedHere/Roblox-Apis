@@ -30,6 +30,7 @@
             "description": "2: Invalid asset Id."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -230,6 +231,7 @@
             "description": "1: Invalid assetId\r\n4: Invalid Cursor."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -765,6 +767,7 @@
             "description": "18: Search request timed out"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -823,6 +826,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -879,6 +883,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -944,6 +949,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1116,6 +1122,7 @@
             "description": "1: Invalid bundle\r\n2: Error retrieving bundles\r\n3: Error getting bundle recommendations\r\n4: NumItems exceed maximum"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1436,6 +1443,7 @@
             "description": "8: The flood limit has been exceeded."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1484,6 +1492,7 @@
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1637,6 +1646,7 @@
             "description": "1: Invalid bundle"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1710,6 +1720,7 @@
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1746,6 +1757,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1781,6 +1793,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "2: Invalid bundle Id."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1808,6 +1821,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1835,6 +1849,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1862,6 +1877,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2160,6 +2176,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "18: Search request timed out"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2320,6 +2337,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "2: Invalid collection of bundleIds\r\n3: Cannot request so many bundles at once."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2885,6 +2903,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3073,6 +3092,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3131,6 +3151,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3187,6 +3208,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3252,6 +3274,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3279,6 +3302,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3399,6 +3423,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "1: Invalid bundle"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3736,6 +3761,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "8: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3834,6 +3860,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "1: Invalid app store."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3961,6 +3988,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4025,6 +4053,7 @@ It may take a few seconds for all items to be granted after the request finishes
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4106,6 +4135,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "8: Unauthorized request to view inventory recommendations"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4613,6 +4643,7 @@ It may take a few seconds for all items to be granted after the request finishes
             "description": "18: Search request timed out"
         }
     },
+    "Internal": true
 }
 ```
 <hr>

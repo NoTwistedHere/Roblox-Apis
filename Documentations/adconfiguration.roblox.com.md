@@ -37,7 +37,7 @@
                     }
                 }
             },
-            "description": "See {Roblox.AdConfiguration.Api.Models.Request.RunSponsoredGamesRequest}"
+            "description": "See {A request model for running a sponsored-game Ad.}"
         }
     },
     "Responses": {
@@ -64,6 +64,7 @@
             "description": "1: This feature is disabled.\r\n5: The user ads service is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -137,6 +138,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -257,7 +259,7 @@
                                                     }
                                                 }
                                             },
-                                            "description": "The {Roblox.AdConfiguration.Api.Models.Response.SponsoredGameCampaignModel} of the Ad."
+                                            "description": "The {A model represents a sponsored-game Ad campaign.} of the Ad."
                                         },
                                         "universeRootPlaceId": {
                                             "format": "int64",
@@ -278,7 +280,7 @@
                                 }
                             },
                             "type": "array",
-                            "description": "A collection of {Roblox.AdConfiguration.Api.Models.Response.SponsoredGameModel}."
+                            "description": "A collection of {A model represents a sponsored-game Ad.}."
                         },
                         "minimumBidAmount": {
                             "format": "int64",
@@ -304,6 +306,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -354,7 +357,7 @@
                     }
                 }
             },
-            "description": "{Roblox.AdConfiguration.Api.Models.Request.CreateSponsoredGamesRequest}"
+            "description": "{A request model for creating a sponsored-game Ad.}"
         }
     },
     "Responses": {
@@ -381,6 +384,7 @@
             "description": "1: This feature is disabled.\r\n5: The user ads service is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -418,7 +422,7 @@
                     }
                 }
             },
-            "description": "See {Roblox.AdConfiguration.Api.Models.Request.StopSponsoredGameRequest}"
+            "description": "See {A model represents a request to stop an Ad campaign.}"
         }
     },
     "Responses": {
@@ -445,6 +449,7 @@
             "description": "3: The sponsored game code is invalid\r\n4: The ad campaign is non-existent"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -564,6 +569,7 @@
             "description": "1: This feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -614,7 +620,7 @@
                                 }
                             },
                             "type": "array",
-                            "description": "Gets or sets a list of {Roblox.AdConfiguration.Api.Models.UniverseModel}."
+                            "description": "Gets or sets a list of {Represents a universe in API endpoint results.}."
                         }
                     }
                 }
@@ -630,6 +636,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -694,6 +701,7 @@
             "description": "1: This feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -925,6 +933,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

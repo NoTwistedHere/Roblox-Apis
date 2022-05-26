@@ -89,6 +89,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -186,6 +187,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": true
 }
 ```
 <hr>

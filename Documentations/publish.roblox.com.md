@@ -54,7 +54,7 @@
                     }
                 }
             },
-            "description": "The file upload request body. {Roblox.Publish.Api.UploadAudioRequest}"
+            "description": "The file upload request body. {A request model for uploading an audio file.}"
         }
     },
     "Responses": {
@@ -91,6 +91,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -154,6 +155,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -217,6 +219,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -276,7 +279,7 @@
                     }
                 }
             },
-            "description": "The verify audio request body. {Roblox.Publish.Api.VerifyAudioRequest}"
+            "description": "The verify audio request body. {Request model to publish an audio asset.}"
         }
     },
     "Responses": {
@@ -322,6 +325,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -385,6 +389,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -458,6 +463,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -521,6 +527,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -584,6 +591,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -647,6 +655,7 @@
             "description": "4: Target item is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

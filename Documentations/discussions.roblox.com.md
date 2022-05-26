@@ -129,6 +129,7 @@
             "description": "0: Token Validation Failed\r\n2: The user does not have the appropriate permissions to perform an action\r\n8: Maximum number of channels already exists for the discussion"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -235,6 +236,7 @@
             "description": "12: Discussions is not enabled for a given user"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -309,6 +311,7 @@
             "description": "12: Discussions is not enabled for a given user"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -357,6 +360,7 @@
             "description": "10: Invalid channel\r\n11: Channel already deleted"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -487,6 +491,7 @@
             "description": "0: Token Validation Failed\r\n2: The user does not have the appropriate permissions to perform an action"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -558,6 +563,7 @@
             "description": "10: Invalid channel"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -675,6 +681,7 @@
             "description": "4: Too many requests."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -813,6 +820,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -940,6 +948,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -992,6 +1001,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1042,6 +1052,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1078,6 +1089,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1176,6 +1188,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1250,6 +1263,7 @@
             "description": "0: Token Validation Failed\r\n9: The user does not have the appropriate permissions to perform an action"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

@@ -89,7 +89,7 @@ The returned json takes the form of
                         },
                         "success": {
                             "type": "boolean",
-                            "description": "Gets or sets a value indicating whether this {Roblox.TextFilter.Api.TextFilterResponse} is success.",
+                            "description": "Gets or sets a value indicating whether this {A model containing results from text filter.} is success.",
                             "readOnly": true
                         },
                         "data": {
@@ -105,6 +105,7 @@ The returned json takes the form of
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>

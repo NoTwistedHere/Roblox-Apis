@@ -68,6 +68,7 @@
             "description": "3: Translations do not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -143,6 +144,7 @@
             "description": "3: Translations do not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -213,6 +215,7 @@
             "description": "3: Translations do not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

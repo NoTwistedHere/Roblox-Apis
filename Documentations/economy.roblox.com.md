@@ -21,6 +21,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -71,6 +72,7 @@
             "description": "2: The group is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -147,6 +149,7 @@
             "description": "0: Authorization has been denied for this request.\r\n1: The user is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -248,6 +251,7 @@
             "description": "5: The asset id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -314,6 +318,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -451,6 +456,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -545,6 +551,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -582,6 +589,7 @@
             "description": "2: The group is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -681,6 +689,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -721,6 +730,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -830,6 +840,7 @@
             "description": "5: The asset id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -946,6 +957,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1155,6 +1167,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1208,6 +1221,7 @@
             "description": "2: The group is invalid.\r\n14: Robux amount out of bounds.\r\n16: Insufficient Funds"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1270,6 +1284,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1316,6 +1331,7 @@
             "description": "2: The group is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1492,6 +1508,7 @@
             "description": "11: The requested feature is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1654,6 +1671,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1700,6 +1718,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1832,6 +1851,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2017,6 +2037,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2204,6 +2225,7 @@
             "description": "11: The requested feature is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2337,6 +2359,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2418,6 +2441,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2588,6 +2612,7 @@
             "description": "11: The requested feature is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2766,6 +2791,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

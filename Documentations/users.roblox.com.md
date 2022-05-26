@@ -85,6 +85,7 @@
             "description": "3: The user id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -140,6 +141,7 @@
             "description": "5: Display name updates for this user have been throttled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -183,7 +185,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Users.Api.MultiGetByUsernameRequest}."
+            "description": "The {Request model for getting users by usernames.}."
         }
     },
     "Responses": {
@@ -226,6 +228,7 @@
             "description": "2: Too many usernames."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -274,6 +277,7 @@
             "description": "5: Display name updates for this user have been throttled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -369,6 +373,7 @@
             "description": "4: Too many requests."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -443,6 +448,7 @@
             "description": "5: Service unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -483,6 +489,7 @@
             "description": "1: Invalid user"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -523,6 +530,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -567,7 +575,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Users.Api.SetDisplayNameRequest}"
+            "description": "{Request model for changing a display name.}"
         }
     },
     "Responses": {
@@ -594,6 +602,7 @@
             "description": "5: Display name updates for this user have been throttled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -653,6 +662,7 @@
             "description": "3: The user id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -697,7 +707,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Users.Api.MultiGetByUserIdRequest}."
+            "description": "The {Request model for getting users by ids.}."
         }
     },
     "Responses": {
@@ -735,6 +745,7 @@
             "description": "1: Too many ids."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

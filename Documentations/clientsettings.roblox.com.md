@@ -48,6 +48,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -71,6 +72,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -121,6 +123,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -174,6 +177,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -207,6 +211,7 @@
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -257,6 +262,7 @@
             "description": "2: Invalid binaryType."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -309,6 +315,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -361,6 +368,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -413,6 +421,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -470,6 +479,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -501,6 +511,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -554,6 +565,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -614,6 +626,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -672,6 +685,7 @@
             "description": "1: The application name is invalid.\r\n5: The bucket name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -725,6 +739,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -785,6 +800,7 @@
             "description": "1: The application name is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

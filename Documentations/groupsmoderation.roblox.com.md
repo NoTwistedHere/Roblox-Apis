@@ -60,6 +60,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -179,6 +180,7 @@
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>

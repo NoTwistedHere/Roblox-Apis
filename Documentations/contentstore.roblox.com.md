@@ -32,6 +32,7 @@
             "description": "2: Hash not found"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

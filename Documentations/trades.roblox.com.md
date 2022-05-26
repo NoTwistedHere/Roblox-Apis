@@ -136,6 +136,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -227,6 +228,7 @@
             "description": "5: Trading system is unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -273,6 +275,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -332,6 +335,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -384,6 +388,7 @@ Inbound is the only accepted tradeStatusType.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -560,6 +565,7 @@ Inbound is the only accepted tradeStatusType.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -659,6 +665,7 @@ Inbound is the only accepted tradeStatusType.",
             "description": "5: Trading system is unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -708,6 +715,7 @@ Inbound is the only accepted tradeStatusType.",
             "description": "5: Trading system is unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -757,6 +765,7 @@ Inbound is the only accepted tradeStatusType.",
             "description": "5: Trading system is unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

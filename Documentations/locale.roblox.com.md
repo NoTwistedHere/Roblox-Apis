@@ -114,6 +114,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -181,6 +182,7 @@
             "description": "2: Invalid supported locale code."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -294,6 +296,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -317,7 +320,7 @@ If the user is null we will attempt to return the locales appropriate for the us
             "schema": {
                 "$ref": {
                     "type": "object",
-                    "description": "Returns available {Roblox.Locale.Api.SupportedLocale} models.",
+                    "description": "Returns available {Model for Supported locale} models.",
                     "properties": {
                         "signupAndLogin": {
                             "$ref": {
@@ -498,6 +501,7 @@ If the user is null we will attempt to return the locales appropriate for the us
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -556,6 +560,7 @@ If the user is null we will attempt to return the locales appropriate for the us
             "description": "7: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -650,6 +655,7 @@ If the user is null we will attempt to return the locales appropriate for the us
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -719,6 +725,7 @@ Null supported locale will clear out user's supported locale (set users' support
             "description": "Feature is turned off temporary\r\n0: Token Validation Failed"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -777,6 +784,7 @@ Null supported locale will clear out user's supported locale (set users' support
             "description": "7: Feature is disabled"
         }
     },
+    "Internal": true
 }
 ```
 <hr>

@@ -64,6 +64,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -73,7 +74,7 @@
 ```json
 {
     "Method": "GET",
-    "Description": "Returns an array of granted and declined permissions related to the universes with the ids in {ids} for the authenticated user.",
+    "Description": "Returns an array of granted and declined permissions related to the universes with the ids in ids for the authenticated user.",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -134,6 +135,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -217,6 +219,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -323,6 +326,7 @@
             "description": "0: Token Validation Failed\r\n5: Authenticated user does not have Own permission.\r\n10: This subject can't be granted. Friendship or group membership is required between grantor and the subject."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -427,6 +431,7 @@
             "description": "0: Token Validation Failed\r\n5: Authenticated user does not have Own permission."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -492,6 +497,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -546,6 +552,7 @@
             "description": "2: Place does not exist.\r\n3: The referenced asset does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -599,7 +606,7 @@ links in the place",
                     }
                 }
             },
-            "description": "{Roblox.Api.Develop.Models.AddOrReplaceSymbolicLinksInPlaceRequest}."
+            "description": "{Request model to add / replace symbolic links in a place.}."
         }
     },
     "Responses": {
@@ -678,6 +685,7 @@ links in the place",
             "description": "2: Place does not exist.\r\n3: The referenced asset does not exist.\r\n6: The referenced asset is not a package."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -729,7 +737,7 @@ in the place, it will be unchanged.",
                     }
                 }
             },
-            "description": "{Roblox.Api.Develop.Models.AddOrReplaceSymbolicLinksInPlaceRequest}."
+            "description": "{Request model to add / replace symbolic links in a place.}."
         }
     },
     "Responses": {
@@ -808,6 +816,7 @@ in the place, it will be unchanged.",
             "description": "2: Place does not exist.\r\n3: The referenced asset does not exist.\r\n6: The referenced asset is not a package."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -897,6 +906,7 @@ in the place, it will be unchanged.",
             "description": "0: Token Validation Failed\r\n2: Product is created by another user.\r\n6: User doesn't have access to universe."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1029,6 +1039,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1086,6 +1097,7 @@ in the place, it will be unchanged.",
             "description": "1: The referenced asset does not exist.\r\n2: The referenced asset version does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1214,6 +1226,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1305,6 +1318,7 @@ in the place, it will be unchanged.",
             "description": "2: Not authorized to perform this action.\r\n4: TeamCreate on universe is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1383,6 +1397,7 @@ in the place, it will be unchanged.",
             "description": "1: Too many ids.\r\n2: The format of the ids are invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1465,6 +1480,7 @@ in the place, it will be unchanged.",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1534,6 +1550,7 @@ in the place, it will be unchanged.",
             "description": "5: Authenticated user does not have Own permission."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1589,6 +1606,7 @@ in the place, it will be unchanged.",
             "description": "3: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1633,6 +1651,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1684,6 +1703,7 @@ in the place, it will be unchanged.",
             "description": "11: No report found by this name: "
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1814,6 +1834,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1863,6 +1884,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1988,6 +2010,7 @@ in the place, it will be unchanged.",
             "description": "3: The referenced asset does not exist.\r\n9: Game does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2051,6 +2074,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2108,6 +2132,7 @@ in the place, it will be unchanged.",
             "description": "1: The referenced asset does not exist.\r\n2: The referenced asset version does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2189,6 +2214,7 @@ in the place, it will be unchanged.",
             "description": "2: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2245,6 +2271,7 @@ in the place, it will be unchanged.",
             "description": "2: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2328,6 +2355,7 @@ in the place, it will be unchanged.",
             "description": "2: Place does not exist.\r\n3: The referenced asset does not exist.\r\n4: The referenced version of the asset does not exist.\r\n8: The referenced symbolic link does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2419,6 +2447,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2500,6 +2529,7 @@ in the place, it will be unchanged.",
             "description": "2: Place does not exist.\r\n3: The referenced asset does not exist.\r\n4: The referenced version of the asset does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2554,6 +2584,7 @@ in the place, it will be unchanged.",
             "description": "2: Place does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2663,6 +2694,7 @@ in the place, it will be unchanged.",
             "description": "2: Place does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2914,6 +2946,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2923,7 +2956,7 @@ in the place, it will be unchanged.",
 ```json
 {
     "Method": "GET",
-    "Description": "Gets a {Roblox.Api.Develop.Models.UniverseModel}.",
+    "Description": "Gets a Represents a universe in API endpoint results..",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -3007,6 +3040,7 @@ in the place, it will be unchanged.",
             "description": "1: The universe does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3101,6 +3135,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3251,6 +3286,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3286,6 +3322,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3365,6 +3402,7 @@ in the place, it will be unchanged.",
             "description": "3: The referenced asset does not exist.\r\n4: The referenced version of the asset does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3413,6 +3451,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3501,6 +3540,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3608,6 +3648,7 @@ in the place, it will be unchanged.",
             "description": "8: No universe IDs sent to get.\r\n9: Too many universe IDs sent to get, the limit is: "
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3711,6 +3752,7 @@ in the place, it will be unchanged.",
             "description": "0: Token Validation Failed\r\n2: Product is created by another user.\r\n6: User doesn't have access to universe."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3792,6 +3834,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3849,6 +3892,7 @@ in the place, it will be unchanged.",
             "description": "3: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3913,6 +3957,7 @@ in the place, it will be unchanged.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3957,6 +4002,7 @@ in the place, it will be unchanged.",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4033,6 +4079,7 @@ not included into the list will be placed at the end.",
             "description": "3: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4042,7 +4089,7 @@ not included into the list will be placed at the end.",
 ```json
 {
     "Method": "GET",
-    "Description": "Gets compatibility of place with different platforms {placeId}",
+    "Description": "Gets compatibility of place with different platforms placeId",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -4104,6 +4151,7 @@ not included into the list will be placed at the end.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4196,6 +4244,7 @@ not included into the list will be placed at the end.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4264,6 +4313,7 @@ not included into the list will be placed at the end.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4330,6 +4380,7 @@ not included into the list will be placed at the end.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4337,7 +4388,7 @@ not included into the list will be placed at the end.",
 ```json
 {
     "Method": "GET",
-    "Description": "Gets TeamCreate settings for an {Roblox.Platform.Universes.IUniverse}.",
+    "Description": "Gets TeamCreate settings for an Roblox.Platform.Universes.IUniverse.",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -4378,6 +4429,7 @@ not included into the list will be placed at the end.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4620,6 +4672,7 @@ not included into the list will be placed at the end.",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4730,6 +4783,7 @@ not included into the list will be placed at the end.",
             "description": "5: Authenticated user does not have Own permission."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4819,6 +4873,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4868,6 +4923,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "1: The referenced asset does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4937,7 +4993,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
                     }
                 }
             },
-            "description": "The {Roblox.Api.Develop.SocialLinkRequest}."
+            "description": "The {An update request for a social link}."
         }
     },
     "Responses": {
@@ -4967,6 +5023,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "10: Social links cannot be processed as this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5019,6 +5076,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5028,7 +5086,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "POST",
-    "Description": "Publishes a new Game Update Notification for a {Roblox.Platform.Universes.IUniverse}Universe",
+    "Description": "Publishes a new Game Update Notification for a Roblox.Platform.Universes.IUniverseUniverse",
     "Consumes": {
         "1": "application/json",
         "2": "text/json",
@@ -5136,6 +5194,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "The game update text is blocked by the filter."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5237,6 +5296,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "The Game Updates Infrastructure Service is unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5324,6 +5384,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5470,6 +5531,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "Invalid {groupId}."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5578,6 +5640,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5651,6 +5714,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5735,6 +5799,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "2: Place does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5798,6 +5863,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "14: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5963,6 +6029,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6007,6 +6074,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "4: Argument error."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6126,6 +6194,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Token Validation Failed\r\n3: Authenticated user does not have permissions to manage the asset."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6175,6 +6244,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "14: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6184,7 +6254,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "POST",
-    "Description": "Updates the place configuration for the place with the id {placeId}",
+    "Description": "Updates the place configuration for the place with the id placeId",
     "Consumes": {
         "1": "application/json",
         "2": "text/json",
@@ -6264,6 +6334,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6271,7 +6342,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "PATCH",
-    "Description": "Updates the place configuration for the place with the id {placeId}",
+    "Description": "Updates the place configuration for the place with the id placeId",
     "Consumes": {
         "1": "application/json",
         "2": "text/json",
@@ -6351,6 +6422,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6400,6 +6472,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "1: The referenced asset does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6448,6 +6521,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6525,6 +6599,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: An unexpected error has occured."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6564,6 +6639,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6630,6 +6706,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6639,7 +6716,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "GET",
-    "Description": "Returns list of granted and declined permissions related to the universe with the id {universeId} for authenticated user",
+    "Description": "Returns list of granted and declined permissions related to the universe with the id universeId for authenticated user",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -6681,6 +6758,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6825,7 +6903,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
                     }
                 }
             },
-            "description": "The {Roblox.Api.Develop.Models.UniverseSettingsRequest} model."
+            "description": "The {Model for UniverseSettings patch requests} model."
         }
     },
     "Responses": {
@@ -6962,6 +7040,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7115,6 +7194,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7226,6 +7306,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7272,6 +7353,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7318,6 +7400,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7413,6 +7496,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7464,6 +7548,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7548,6 +7633,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7609,7 +7695,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
                     }
                 }
             },
-            "description": "The {Roblox.Api.Develop.SocialLinkRequest}"
+            "description": "The {An update request for a social link}"
         }
     },
     "Responses": {
@@ -7666,6 +7752,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "10: Social links cannot be processed as this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7738,6 +7825,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "11: No report found by this name: "
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7800,6 +7888,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7836,6 +7925,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7901,6 +7991,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7977,6 +8068,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "14: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8090,6 +8182,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8157,6 +8250,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8298,6 +8392,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8401,7 +8496,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
                             "additionalProperties": {
                                 "$ref": {
                                     "type": "object",
-                                    "description": "The response model for a statistics data range inside of an {Roblox.Api.Develop.Models.StatisticsResponse}.",
+                                    "description": "The response model for a statistics data range inside of an {The response model for statistics about a place}.",
                                     "properties": {
                                         "data": {
                                             "readOnly": true,
@@ -8445,6 +8540,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8527,6 +8623,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "14: The feature is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8573,6 +8670,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8625,7 +8723,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
                     }
                 }
             },
-            "description": "The {Roblox.Develop.Api.UpdatePluginRequest}."
+            "description": "The {A request model for updating a plugin.}."
         }
     },
     "Responses": {
@@ -8652,6 +8750,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "3: The id is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8705,6 +8804,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8714,7 +8814,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "GET",
-    "Description": "Returns list of granted and declined permissions related to the universe with the id {universeId} for authenticated user specified in the request context",
+    "Description": "Returns list of granted and declined permissions related to the universe with the id universeId for authenticated user specified in the request context",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -8753,6 +8853,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "1: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -8789,6 +8890,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -8849,6 +8951,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8886,6 +8989,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -8984,6 +9088,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -9078,6 +9183,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "1: PermissionResolution service exception."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -9170,6 +9276,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -9179,7 +9286,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "PATCH",
-    "Description": "Updates the place configuration for the place with the id {placeId}",
+    "Description": "Updates the place configuration for the place with the id placeId",
     "Consumes": {
         "1": "application/json",
         "2": "text/json",
@@ -9295,6 +9402,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -9302,7 +9410,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 ```json
 {
     "Method": "GET",
-    "Description": "Gets the place configuration for the place with the id {placeId}",
+    "Description": "Gets the place configuration for the place with the id placeId",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -9379,6 +9487,7 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -9511,6 +9620,7 @@ or granted by package permission.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10005,6 +10115,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -10262,6 +10373,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "1: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10308,6 +10420,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "0: Unknown error."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10397,6 +10510,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10484,6 +10598,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "1: PermissionResolution service exception."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10536,6 +10651,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10635,6 +10751,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "1: The universe does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -10710,6 +10827,7 @@ V2 Contains data for avatar scale and asset override.",
             "description": "5: Invalid resource ID.\r\n8: The action is missing.\r\n12: Invalid subject ID.\r\n16: The maximum number of permission checks has been exceeded."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

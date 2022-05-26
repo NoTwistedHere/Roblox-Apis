@@ -44,6 +44,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -193,6 +194,7 @@
             "description": "1: The specified user does not exist.\r\n2: An account for the given userId does not exist!"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -242,6 +244,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -396,6 +399,7 @@
             "description": "0: Token Validation Failed\r\n2: You don't have permission to update this outfit."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -484,6 +488,7 @@
             "description": "1: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -624,6 +629,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -690,6 +696,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -839,6 +846,7 @@
             "description": "1: The specified userOutfitId is invalid.\r\n2: The outfit for the specified userOutfit is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -933,6 +941,7 @@ Recent items can be Assets or Outfits",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -964,6 +973,7 @@ Recent items can be Assets or Outfits",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1052,6 +1062,7 @@ Recent items can be Assets or Outfits",
             "description": "1: The specified user does not exist.\r\n2: An account for the given userId does not exist!"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1131,6 +1142,7 @@ Recent items can be Assets or Outfits",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1227,6 +1239,7 @@ Recent items can be Assets or Outfits",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1292,6 +1305,7 @@ Recent items can be Assets or Outfits",
             "description": "1: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1344,6 +1358,7 @@ Recent items can be Assets or Outfits",
             "description": "0: Token Validation Failed\r\n2: You don't have permission to delete this outfit."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1494,6 +1509,7 @@ a collection of asset type and asset ids instead of asset version ids",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1541,6 +1557,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "1: The specified user does not exist.\r\n2: An account for the given userId does not exist!"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1701,6 +1718,7 @@ a collection of asset type and asset ids instead of asset version ids",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1788,6 +1806,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1895,6 +1914,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1976,6 +1996,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2014,6 +2035,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2160,6 +2182,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Token Validation Failed\r\n2: You don't have permission to update this outfit."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2214,6 +2237,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2260,6 +2284,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2337,6 +2362,7 @@ a collection of asset type and asset ids instead of asset version ids",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2475,6 +2501,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Token Validation Failed\r\n1: You already have the maximum number of outfits"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2526,6 +2553,7 @@ a collection of asset type and asset ids instead of asset version ids",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

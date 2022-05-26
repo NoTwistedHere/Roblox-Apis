@@ -41,6 +41,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -120,6 +121,7 @@
             "description": "1: Badge is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -246,6 +248,7 @@
             "description": "1: Badge is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -421,6 +424,7 @@
             "description": "3: The game is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -584,6 +588,7 @@
             "description": "4: User is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -659,6 +664,7 @@
             "description": "4: User is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -738,6 +744,7 @@
             "description": "1: Badge is invalid or does not exist.\r\n4: User is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -791,6 +798,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -968,6 +976,7 @@
             "description": "3: The game is invalid or does not exist."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

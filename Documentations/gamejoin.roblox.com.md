@@ -58,7 +58,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.PlayWithUserRequest} in JSON format"
+            "description": "The {Request model for join private game .} in JSON format"
         }
     },
     "Responses": {
@@ -282,6 +282,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -568,6 +569,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -663,6 +665,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -721,7 +724,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.GameJoinRequest} in JSON format"
+            "description": "The {Request model for game join.} in JSON format"
         }
     },
     "Responses": {
@@ -945,6 +948,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1011,7 +1015,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.JoinPrivateGameRequest} in JSON format"
+            "description": "The {Request model for join private game .} in JSON format"
         }
     },
     "Responses": {
@@ -1235,6 +1239,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1320,7 +1325,7 @@
                                                     }
                                                 }
                                             },
-                                            "description": "The Member's {Roblox.GameJoin.Api.GameSession}"
+                                            "description": "The Member's {Game session information that is passed to the client during game launch}"
                                         }
                                     }
                                 }
@@ -1337,7 +1342,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.GroupTeleportRequest}."
+            "description": "The {A request model for {M:Roblox.GameJoin.Api.Controllers.V1.TeleportController.TeleportGroup(System.Guid,System.Int64,Roblox.GameJoin.Api.GroupTeleportRequest)}.}."
         }
     },
     "Responses": {
@@ -1360,7 +1365,7 @@
                                 "format": "int64"
                             },
                             "type": "array",
-                            "description": "The Members that were part of the {Roblox.GameJoin.Api.GroupTeleportRequest}, but were not present in the Source Server"
+                            "description": "The Members that were part of the {A request model for {M:Roblox.GameJoin.Api.Controllers.V1.TeleportController.TeleportGroup(System.Guid,System.Int64,Roblox.GameJoin.Api.GroupTeleportRequest)}.}, but were not present in the Source Server"
                         },
                         "members": {
                             "items": {
@@ -1387,6 +1392,7 @@
             "description": "12: Failed to create a Group Teleport reservation."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1449,7 +1455,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.JoinReservedGameRequest} in JSON format"
+            "description": "The {Request model for join private game .} in JSON format"
         }
     },
     "Responses": {
@@ -1673,6 +1679,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1737,7 +1744,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.JoinGameInstanceRequest} in JSON format"
+            "description": "The {Request model for join game instance.} in JSON format"
         }
     },
     "Responses": {
@@ -1961,6 +1968,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2025,7 +2033,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.GameJoin.Api.PlayWithPartyRequest} in JSON format"
+            "description": "The {Request model for join game instance.} in JSON format"
         }
     },
     "Responses": {
@@ -2249,6 +2257,7 @@
             "description": "3: Too many requests, please slow down."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

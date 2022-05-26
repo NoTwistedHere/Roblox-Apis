@@ -33,7 +33,7 @@ Can only be used by game servers from places within that universe.",
                     }
                 }
             },
-            "description": "An {Roblox.Points.Api.AwardPointsRequest}."
+            "description": "An {Model for awarding points}."
         },
         "2": {
             "in": "header",
@@ -86,6 +86,7 @@ Can only be used by game servers from places within that universe.",
             "description": "2: The user is invalid."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -139,6 +140,7 @@ Can only be used by game servers from places within that universe.",
             "description": "1: The universe is invalid.\r\n2: The user is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

@@ -72,6 +72,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -147,6 +148,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -184,6 +186,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -220,7 +223,7 @@
                     }
                 }
             },
-            "description": "An {Roblox.AccountSettings.Api.ThemeConfigurationRequest}."
+            "description": "An {Response model for get user's theme type}."
         },
         "2": {
             "in": "path",
@@ -262,6 +265,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -317,6 +321,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -384,6 +389,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -417,6 +423,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -464,6 +471,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -513,6 +521,7 @@
             "description": "5: User blocking is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -548,6 +557,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -616,6 +626,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -649,6 +660,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -732,6 +744,7 @@
             "description": "If an unknown error has occured."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -801,6 +814,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -887,6 +901,7 @@
             "description": "4: Too many attempts. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -990,6 +1005,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1031,6 +1047,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1077,6 +1094,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1145,6 +1163,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1178,6 +1197,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1218,6 +1238,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1287,6 +1308,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1320,6 +1342,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1369,6 +1392,7 @@ settings groups such as "Notifications" and "Billing"",
             "description": "5: User blocking is disabled."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1429,6 +1453,7 @@ User must be authenticated and also the PIN needs to be unlocked to perform the 
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1468,6 +1493,7 @@ User must be authenticated to perform the request.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1573,6 +1599,7 @@ User must be authenticated to perform the request.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1606,6 +1633,7 @@ User must be authenticated to perform the request.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1650,7 +1678,7 @@ User must be authenticated to perform the request.",
                     }
                 }
             },
-            "description": "{Roblox.AccountSettings.Api.UpdatePrivacyRequest}"
+            "description": "{Request model for privacy settings update}"
         }
     },
     "Responses": {
@@ -1674,6 +1702,7 @@ User must be authenticated to perform the request.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1715,6 +1744,7 @@ User must be authenticated to perform the request.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1748,6 +1778,7 @@ User must be authenticated to perform the request.",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>

@@ -79,6 +79,7 @@
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -88,7 +89,7 @@
 ```json
 {
     "Method": "POST",
-    "Description": "Creates the following between a user and user with {targetUserId}",
+    "Description": "Creates the following between a user and user with targetUserId",
     "Consumes": "NONE",
     "Produces": {
         "1": "application/json",
@@ -136,6 +137,7 @@
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -180,6 +182,7 @@
             "description": "1: The target user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -231,6 +234,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -267,6 +271,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -313,6 +318,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -347,6 +353,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -456,6 +463,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -495,6 +503,7 @@
             "description": "3: There were too many requests to an endpoint"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -504,7 +513,7 @@
 ```json
 {
     "Method": "POST",
-    "Description": "Deletes the following between a user and user with {targetUserId}",
+    "Description": "Deletes the following between a user and user with targetUserId",
     "Consumes": "NONE",
     "Produces": {
         "1": "application/json",
@@ -544,6 +553,7 @@
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -665,6 +675,7 @@
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -715,6 +726,7 @@
             "description": "3: There were too many requests to an endpoint"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -756,6 +768,7 @@
             "description": "2: The code does not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -877,6 +890,7 @@
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -954,6 +968,7 @@
             "description": "1: The target user is invalid or does not exist.\r\n15: Too many ids.\r\n16: Invalid ids."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1043,6 +1058,7 @@
             "description": "1: Followers are disabled at this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1093,6 +1109,7 @@
             "description": "2: The code does not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1153,6 +1170,7 @@
             "description": "2: The code does not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1214,6 +1232,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1260,6 +1279,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1326,6 +1346,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "3: There were too many requests to an endpoint"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1376,6 +1397,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "3: There were too many requests to an endpoint"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1417,6 +1439,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "2: The code does not exist"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1524,6 +1547,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "9: The flood limit has been exceeded."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1569,6 +1593,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "1: The target user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1647,6 +1672,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "1: The target user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1693,6 +1719,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1729,6 +1756,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1774,6 +1802,7 @@ V1 API to just return list of existing friends for the Authenticated user.",
             "description": "1: The target user is invalid or does not exist."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

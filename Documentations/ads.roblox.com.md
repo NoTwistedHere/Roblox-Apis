@@ -60,6 +60,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -117,6 +118,7 @@
             "description": "1: This feature is disabled.\r\n5: The user ads service is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -163,6 +165,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -209,6 +212,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -255,6 +259,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -300,6 +305,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

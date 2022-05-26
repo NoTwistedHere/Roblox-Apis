@@ -37,6 +37,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -94,6 +95,7 @@
             "description": "1: Service unavailable, please try again later."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

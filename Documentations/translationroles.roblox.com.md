@@ -78,6 +78,7 @@
             "description": "2: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -184,6 +185,7 @@
             "description": "2: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -279,6 +281,7 @@
             "description": "2: Feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -330,6 +333,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

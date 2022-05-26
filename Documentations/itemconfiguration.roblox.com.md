@@ -139,6 +139,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -148,7 +149,7 @@
 ```json
 {
     "Method": "GET",
-    "Description": "Searches for up to {numberOfResults} tags based on the given {prefix}",
+    "Description": "Searches for up to numberOfResults tags based on the given prefix",
     "Produces": {
         "1": "application/json",
         "2": "text/json"
@@ -225,6 +226,7 @@
             "description": "3: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -353,6 +355,7 @@
             "description": "1: The endpoint is unavailable"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -485,6 +488,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -583,6 +587,7 @@
             "description": "17: Service Unavailable"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -659,6 +664,7 @@
             "description": "3: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -783,6 +789,7 @@
             "description": "0: Token Validation Failed\r\n9: The user does not have permission to upload"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -828,6 +835,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -882,6 +890,7 @@
             "description": "17: Service Unavailable"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -971,6 +980,7 @@
             "description": "17: Service Unavailable"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1071,6 +1081,7 @@
             "description": "7: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1172,6 +1183,7 @@
             "description": "7: Too many requests"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1346,6 +1358,7 @@
             "description": "6: Service Unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1478,6 +1491,7 @@
             "description": "0: Token Validation Failed\r\n3: Cannot release the associated asset type\r\n4: Cannot release asset that is pending review\r\n5: Asset is moderated\r\n6: Asset is released\r\n7: User does not have permission to release\r\n18: AssetType Cannot Be Free\r\n19: Asset is Free\r\n20: Cannot set the associated asset type to remove-from-release\r\n24: Cannot release asset that is pending validation\r\n25: Cannot release asset that contains invalid content\r\n26: User does not have permission for the group owned asset"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1522,6 +1536,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1631,6 +1646,7 @@
             "description": "6: Service Unavailable"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1703,6 +1719,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>

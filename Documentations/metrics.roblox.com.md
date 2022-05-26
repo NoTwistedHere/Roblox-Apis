@@ -95,6 +95,7 @@
             "description": "1: Missing report"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -130,6 +131,7 @@ e.g. ThumbnailLoadLoggingRatio",
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -204,6 +206,7 @@ e.g. ThumbnailLoadLoggingRatio",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -281,6 +284,7 @@ e.g. ThumbnailLoadLoggingRatio",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -329,6 +333,7 @@ e.g. ThumbnailLoadLoggingRatio",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -399,7 +404,7 @@ e.g. ThumbnailLoadLoggingRatio",
                     }
                 }
             },
-            "description": "The {Roblox.Metrics.Api.RecordBundleLoadRequest}."
+            "description": "The {Request parameters for tracking a bundle load.}."
         }
     },
     "Responses": {
@@ -417,6 +422,7 @@ e.g. ThumbnailLoadLoggingRatio",
             "description": "1: The bundle url is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -469,7 +475,7 @@ e.g. ThumbnailLoadLoggingRatio",
                     }
                 }
             },
-            "description": "The {Roblox.Metrics.Api.RecordThumbnailLoadRequest}."
+            "description": "The {Request to add measurement.}."
         }
     },
     "Responses": {
@@ -490,6 +496,7 @@ e.g. ThumbnailLoadLoggingRatio",
             "description": "2: A required parameter is missing from the request"
         }
     },
+    "Internal": false
 }
 ```
 <hr>

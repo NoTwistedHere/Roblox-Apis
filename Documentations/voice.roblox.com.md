@@ -92,6 +92,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -163,6 +164,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -181,7 +183,7 @@
     "Parameters": "NONE",
     "Responses": {
         "200": {
-            "description": "{Roblox.Voice.Api.Models.CreateGroupResponse}",
+            "description": "{The response model for the CreateGroup endpoint}",
             "schema": {
                 "$ref": {
                     "type": "object",
@@ -202,6 +204,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -299,6 +302,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -343,7 +347,7 @@
     },
     "Responses": {
         "200": {
-            "description": "{Roblox.Voice.Api.Models.BaseStatusResponse}",
+            "description": "{base response model for voice apis}",
             "schema": {
                 "$ref": {
                     "type": "object",
@@ -367,6 +371,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -446,6 +451,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -481,6 +487,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -553,6 +560,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -599,7 +607,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Voice.Api.Models.JoinVoiceCallRequest}"
+            "description": "{Request model to join voice call for a chat conversation}"
         }
     },
     "Responses": {
@@ -625,6 +633,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -703,6 +712,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -813,6 +823,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -929,6 +940,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -975,7 +987,7 @@ https://webrtcglossary.com/trickle-ice/",
                     }
                 }
             },
-            "description": "{Roblox.Voice.Api.Models.JoinVoiceCallRequest}"
+            "description": "{Request model to join voice call for a chat conversation}"
         }
     },
     "Responses": {
@@ -1001,6 +1013,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1047,6 +1060,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1097,6 +1111,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1142,12 +1157,12 @@ https://webrtcglossary.com/trickle-ice/",
                     }
                 }
             },
-            "description": "{Roblox.Voice.Api.Models.VoiceBaseRequest}\r\n{Roblox.Voice.Api.Models.VoiceBaseRequest}"
+            "description": "{Base request class for VoiceController}\r\n{Base request class for VoiceController}"
         }
     },
     "Responses": {
         "200": {
-            "description": "{Roblox.Voice.Api.Models.JoinVoiceChannelResponse}",
+            "description": "{response model for try join voice channel request}",
             "schema": {
                 "$ref": {
                     "type": "object",
@@ -1168,6 +1183,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1240,6 +1256,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1311,6 +1328,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1382,6 +1400,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1479,6 +1498,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1576,6 +1596,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1634,7 +1655,7 @@ THIS IS NOT A LONG TERM SOLUTION AND WILL BE REMOVED BEFORE GOING INTO PRODUCTIO
     },
     "Responses": {
         "200": {
-            "description": "{Roblox.Voice.Api.Models.BaseStatusResponse}",
+            "description": "{base response model for voice apis}",
             "schema": {
                 "$ref": {
                     "type": "object",
@@ -1658,6 +1679,7 @@ THIS IS NOT A LONG TERM SOLUTION AND WILL BE REMOVED BEFORE GOING INTO PRODUCTIO
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1755,6 +1777,7 @@ THIS IS NOT A LONG TERM SOLUTION AND WILL BE REMOVED BEFORE GOING INTO PRODUCTIO
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1871,6 +1894,7 @@ https://webrtcglossary.com/trickle-ice/",
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1957,6 +1981,7 @@ https://webrtcglossary.com/trickle-ice/",
             }
         }
     },
+    "Internal": true
 }
 ```
 <hr>

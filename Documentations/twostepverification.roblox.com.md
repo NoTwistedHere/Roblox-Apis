@@ -39,7 +39,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.RegenerateRecoveryCodesRequest}."
+            "description": "The {Request information needed to regenerate recovery codes.}."
         }
     },
     "Responses": {
@@ -77,6 +77,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -133,7 +134,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.VerifyCodeRequest}."
+            "description": "The {Request parameters for verifying a two step verification code.}."
         }
     },
     "Responses": {
@@ -165,6 +166,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -221,7 +223,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.VerifyCodeRequest}."
+            "description": "The {Request parameters for verifying a two step verification code.}."
         }
     },
     "Responses": {
@@ -253,6 +255,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -309,6 +312,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -358,6 +362,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -458,6 +463,7 @@
             "description": "1: Invalid challenge ID."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -514,7 +520,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.VerifyCodeRequest}."
+            "description": "The {Request parameters for verifying a two step verification code.}."
         }
     },
     "Responses": {
@@ -546,6 +552,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -621,6 +628,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -665,7 +673,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.ClearRecoveryCodesRequest}."
+            "description": "The {Request information needed to clear existing recovery codes.}."
         }
     },
     "Responses": {
@@ -695,6 +703,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -747,7 +756,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.SendCodeRequest}."
+            "description": "The {Request parameters for sending a two step verification code.}."
         }
     },
     "Responses": {
@@ -774,6 +783,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -818,7 +828,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.DisableTwoStepVerificationRequest}."
+            "description": "The {Request information needed to disable two step verification.}."
         }
     },
     "Responses": {
@@ -848,6 +858,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -910,6 +921,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -954,7 +966,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.DisableTwoStepVerificationRequest}."
+            "description": "The {Request information needed to disable two step verification.}."
         }
     },
     "Responses": {
@@ -984,6 +996,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1032,7 +1045,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.TwoStepVerification.Api.EnableVerifyAuthenticatorRequest}."
+            "description": "The {Request parameters for authenticator enabling-verify.}."
         }
     },
     "Responses": {
@@ -1059,6 +1072,7 @@
             "description": "7: Two step verification is currently under maintenance."
         }
     },
+    "Internal": false
 }
 ```
 <hr>

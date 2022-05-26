@@ -42,7 +42,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.EconomyCreatorStats.Api.Models.IncrementPremiumUpsellRequest}."
+            "description": "The {A request model for incrementing premium upsell.}."
         }
     },
     "Responses": {
@@ -72,6 +72,7 @@
             "description": "7: This feature is disabled."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -115,6 +116,7 @@
             "description": "2: Not authorized to perform this action."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -162,7 +164,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.EconomyCreatorStats.Api.Models.IncrementPremiumUpsellRequest}."
+            "description": "The {A request model for incrementing premium upsell.}."
         }
     },
     "Responses": {
@@ -192,6 +194,7 @@
             "description": "7: This feature is disabled."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -278,6 +281,7 @@
             "description": "0: Authorization has been denied for this request.\r\n2: Not authorized to perform this action."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -327,6 +331,7 @@
             "description": "6: User is flooded"
         }
     },
+    "Internal": true
 }
 ```
 <hr>

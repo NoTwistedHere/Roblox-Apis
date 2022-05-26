@@ -69,6 +69,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -118,7 +119,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.RevertAccountSubmitRequest} containing the necessary information to revert account."
+            "description": "The {Request Model to submit a revert account request} containing the necessary information to revert account."
         }
     },
     "Responses": {
@@ -184,6 +185,7 @@
             "description": "0: Unknown\r\n1: This feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -249,6 +251,7 @@
             "description": "1: This feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -286,6 +289,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -363,6 +367,7 @@
             "description": "0: An unexpected error occurred."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -407,7 +412,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentConnectRequest}"
+            "description": "{Request model for the tencent account connect endpoint}"
         }
     },
     "Responses": {
@@ -473,6 +478,7 @@
             "description": "100: Service unavailable. Please try again."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -595,6 +601,7 @@
             "description": "11: Service unavailable. Please try again."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -684,6 +691,7 @@
             "description": "16: Failed to create a user.\r\n17: Failed to generate a valid username."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -790,6 +798,7 @@
             "description": "0: An unknown error occurred."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -863,6 +872,7 @@
             "description": "22: Too many attempts"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -889,6 +899,7 @@
             "description": "7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -971,6 +982,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1023,6 +1035,7 @@
             "description": "7: The Roblox WeChat API is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1064,6 +1077,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1125,6 +1139,7 @@
             "description": "7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1176,6 +1191,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1282,6 +1298,7 @@
             "description": "1: The Wechat API is unavailable.\r\n7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1351,6 +1368,7 @@
             "description": "Forbidden\r\n0: Token Validation Failed\r\n3: Cannot disconnect the only authentication method. Password on account is required.\r\n4: The password provided is invalid."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1393,6 +1411,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1430,6 +1449,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1507,6 +1527,7 @@
             "description": "1: Valid Username and Password are required. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1565,6 +1586,7 @@
             "description": "1: Valid Username and Password are required. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1604,6 +1626,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1648,7 +1671,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentTokenExchangeRequest}"
+            "description": "{Token Exchange Request for the Token Exchange Endpoint}"
         }
     },
     "Responses": {
@@ -1694,6 +1717,7 @@
             "description": "7: The Roblox API is currently unavailable.\r\n25: The QQ API is unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1755,6 +1779,7 @@
             "description": "7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1799,7 +1824,7 @@
                     "type": "object"
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentTokenAuthenticationRequest}"
+            "description": "{Token Exchange Request for the Token Exchange Endpoint}"
         },
         "2": {
             "in": "query",
@@ -1851,6 +1876,7 @@
             "description": "7: The Roblox API is currently unavailable.\r\n25: The QQ API is unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -1887,7 +1913,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.AccountPinRequest} containing the entered pin."
+            "description": "The {A request model to accept pin.} containing the entered pin."
         }
     },
     "Responses": {
@@ -1914,6 +1940,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -1970,7 +1997,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.LoginRequest}."
+            "description": "{Model for login requests}."
         }
     },
     "Responses": {
@@ -2039,6 +2066,7 @@
             "description": "11: Service unavailable. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2073,6 +2101,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2141,6 +2170,7 @@
             "description": "2: Too many attempts. Please wait a bit."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2235,6 +2265,7 @@
             "description": "4: Account issue. Please contact Support."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2299,6 +2330,7 @@
             "description": "1: Missing custom Roblox header."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2339,7 +2371,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.UsernameChangeRequest}"
+            "description": "The {The username change request}"
         }
     },
     "Responses": {
@@ -2369,6 +2401,7 @@
             "description": "0: Token Validation Failed\r\n1: PIN is locked.\r\n2: A verified email is missing\r\n3: Your password is incorrect.\r\n100: Unknown birthday"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2460,6 +2493,7 @@
             "description": "1: A valid username is required.\r\n2: A valid birthday or authenticated user is required."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2533,6 +2567,7 @@
             "description": "1: A valid username is required.\r\n2: A valid birthday or authenticated user is required."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2605,6 +2640,7 @@
             "description": "2: Too many attempts. Please wait a bit.\r\n18: Captcha must be passed before signing up."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2648,6 +2684,7 @@
             "description": "26: Invalid Credentials"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2685,6 +2722,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2721,7 +2759,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.AccountPinRequest}."
+            "description": "The {A request model to accept pin.}."
         }
     },
     "Responses": {
@@ -2745,6 +2783,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2780,6 +2819,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2838,6 +2878,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2876,6 +2917,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -2928,6 +2970,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -2993,7 +3036,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentSignupWithoutPasswordRequest}"
+            "description": "{Request model for the tencent signup without Password endpoint}"
         }
     },
     "Responses": {
@@ -3034,6 +3077,7 @@
             "description": "0: An unknown error occurred."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3062,6 +3106,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3130,6 +3175,7 @@
             "description": "22: Too many attempts"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3179,6 +3225,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3216,6 +3263,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3251,6 +3299,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3335,6 +3384,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3425,6 +3475,7 @@
             "description": "1: The Wechat API is unavailable.\r\n7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3502,6 +3553,7 @@
             "description": "5: Credentials verification operation is unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3566,6 +3618,7 @@
             "description": "{Roblox.Web.Authentication.Passwords.PasswordResponseCodes.Flooded}"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3601,6 +3654,7 @@
             "description": "Temporary redirect to www if the user is unauthenticated."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3693,6 +3747,7 @@
             "description": "0: An unknown error occurred."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3733,6 +3788,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3799,6 +3855,7 @@
             "description": "2: Too many attempts. Please wait a bit."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -3843,7 +3900,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentConnectRequest}"
+            "description": "{Request model for the tencent account connect endpoint}"
         }
     },
     "Responses": {
@@ -3909,6 +3966,7 @@
             "description": "100: Service unavailable. Please try again."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -3942,6 +4000,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4117,7 +4176,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.SignupRequest}"
+            "description": "{Request model for the Signup endpoint}"
         }
     },
     "Responses": {
@@ -4158,6 +4217,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4232,6 +4292,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4300,6 +4361,7 @@
             "description": "2: Too many attempts. Please wait a bit."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4374,6 +4436,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4451,6 +4514,7 @@
             "description": "5: Credentials verification operation is unavailable. Please try again later."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4528,6 +4592,7 @@
             "description": "0: An unexpected error occurred."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4565,6 +4630,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4605,7 +4671,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.UsernameChangeRequest}"
+            "description": "The {The username change request}"
         }
     },
     "Responses": {
@@ -4635,6 +4701,7 @@
             "description": "0: Token Validation Failed\r\n1: PIN is locked.\r\n2: A verified email is missing\r\n3: Your password is incorrect.\r\n100: Unknown birthday"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4724,6 +4791,7 @@
             "description": "16: Failed to create a user.\r\n17: Failed to generate a valid username."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -4766,6 +4834,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4794,6 +4863,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4843,7 +4913,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.Models.RevertAccountSubmitRequest} containing the necessary information to revert account."
+            "description": "The {Request Model to submit a revert account request} containing the necessary information to revert account."
         }
     },
     "Responses": {
@@ -4909,6 +4979,7 @@
             "description": "0: Unknown\r\n1: This feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -4974,6 +5045,7 @@
             "description": "1: This feature is disabled"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5026,6 +5098,7 @@
             "description": "7: The Roblox WeChat API is currently unavailable."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5061,6 +5134,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5156,6 +5230,7 @@
             "description": "0: Unknown error occured.\r\n19: Message could not be sent."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5233,6 +5308,7 @@
             "description": "1: Valid Username and Password are required. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5291,6 +5367,7 @@
             "description": "1: Valid Username and Password are required. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5339,7 +5416,7 @@
                     }
                 }
             },
-            "description": "The request model containing the nonce and the solution. {Roblox.Authentication.Api.Models.PasswordResetVerificationRequest}"
+            "description": "The request model containing the nonce and the solution. {A verification model}"
         }
     },
     "Responses": {
@@ -5390,7 +5467,7 @@
                                 }
                             },
                             "type": "array",
-                            "description": "The list of {Roblox.Authentication.Api.Models.ForgotPasswordUserResponse}s",
+                            "description": "The list of {A tuple of {Roblox.Web.Responses.Users.LegacyUserResponse} and its ticket}s",
                             "readOnly": true
                         }
                     }
@@ -5404,6 +5481,7 @@
             "description": "0: Unknown error occured."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5448,7 +5526,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentTokenExchangeRequest}"
+            "description": "{Token Exchange Request for the Token Exchange Endpoint}"
         }
     },
     "Responses": {
@@ -5494,6 +5572,7 @@
             "description": "7: The Roblox API is currently unavailable.\r\n25: The QQ API is unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5669,7 +5748,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.SignupRequest}"
+            "description": "{Request model for the Signup endpoint}"
         }
     },
     "Responses": {
@@ -5710,6 +5789,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5771,6 +5851,7 @@
             "description": "7: The Roblox API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5839,6 +5920,7 @@
             "description": "2: Too many attempts. Please wait a bit."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -5879,6 +5961,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -5919,7 +6002,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.WeChatTokenExchangeRequest}"
+            "description": "{WeChat Token Exchange Request for the Token Exchange Endpoint}"
         }
     },
     "Responses": {
@@ -5958,6 +6041,7 @@
             "description": "1: WeChat is unavailable.\r\n7: The Roblox WeChat API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6015,7 +6099,7 @@
                     }
                 }
             },
-            "description": "The request model including the target type, ticket, user id, and new password, {Roblox.Authentication.Api.Models.PasswordResetModel}"
+            "description": "The request model including the target type, ticket, user id, and new password, {A model containing information to reset a password with a ticket.}"
         }
     },
     "Responses": {
@@ -6084,6 +6168,7 @@
             "description": "0: Unknown error occured."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6160,6 +6245,7 @@
             "description": "0: Unknown error occured."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6202,6 +6288,7 @@
             "description": "7: The Roblox WeChat API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6293,6 +6380,7 @@
             "description": "1: A valid username is required.\r\n2: A valid birthday or authenticated user is required."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6366,6 +6454,7 @@
             "description": "1: A valid username is required.\r\n2: A valid birthday or authenticated user is required."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6438,6 +6527,7 @@
             "description": "2: Too many attempts. Please wait a bit.\r\n18: Captcha must be passed before signing up."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6479,6 +6569,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6535,7 +6626,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.LoginRequest}."
+            "description": "{Model for login requests}."
         }
     },
     "Responses": {
@@ -6604,6 +6695,7 @@
             "description": "11: Service unavailable. Please try again."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6648,7 +6740,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentConnectRequest}"
+            "description": "{Request model for the tencent account connect endpoint}"
         }
     },
     "Responses": {
@@ -6714,6 +6806,7 @@
             "description": "100: Service unavailable. Please try again."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6747,6 +6840,7 @@
             }
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6781,6 +6875,7 @@
             "description": "0: Authorization has been denied for this request."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -6877,6 +6972,7 @@
             "description": "7: The Roblox API is currently unavailable.\r\n25: The QQ API is unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -6912,6 +7008,7 @@
             "description": "Temporary redirect to www if the user is unauthenticated."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7003,6 +7100,7 @@
             "description": "0: Token Validation Failed"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7102,6 +7200,7 @@
             "description": "1: WeChat is unavailable.\r\n7: The Roblox WeChat API is currently unavailable."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7186,6 +7285,7 @@
             "description": "2: The two step verification feature is not enabled at this time."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7251,7 +7351,7 @@
                     }
                 }
             },
-            "description": "{Roblox.Authentication.Api.Models.TencentSignupWithoutPasswordRequest}"
+            "description": "{Request model for the tencent signup without Password endpoint}"
         }
     },
     "Responses": {
@@ -7292,6 +7392,7 @@
             "description": "0: An unknown error occurred."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7386,6 +7487,7 @@
             "description": "4: Account issue. Please contact Support."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7450,6 +7552,7 @@
             "description": "{Roblox.Web.Authentication.Passwords.PasswordResponseCodes.Flooded}"
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7520,6 +7623,7 @@
             "description": "2: Too many attempts. Please wait a bit."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7626,6 +7730,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7734,6 +7839,7 @@
             "description": "Internal server error"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7786,7 +7892,7 @@
                     }
                 }
             },
-            "description": "The {Roblox.Authentication.Api.TwoStepVerificationLoginRequest}."
+            "description": "The {Request parameters for logging in via two step verification.}."
         }
     },
     "Responses": {
@@ -7807,6 +7913,7 @@
             "description": "1: User is invalid.\r\n5: Invalid two step verification ticket.\r\n10: Invalid verification token."
         }
     },
+    "Internal": false
 }
 ```
 <hr>
@@ -7879,6 +7986,7 @@
             "description": "2: Too many attempts. Please wait a bit.\r\n18: Captcha must be passed before signing up."
         }
     },
+    "Internal": true
 }
 ```
 <hr>
@@ -7924,7 +8032,7 @@
                                 }
                             },
                             "type": "array",
-                            "description": "The list of bundles - {Roblox.Authentication.Api.Models.BundleResponse}",
+                            "description": "The list of bundles - {Api response model to represent a bundle}",
                             "readOnly": true
                         }
                     }
@@ -7935,6 +8043,7 @@
             "description": "Bundles not found"
         }
     },
+    "Internal": true
 }
 ```
 <hr>
