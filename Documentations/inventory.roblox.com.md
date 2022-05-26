@@ -638,3 +638,456 @@ Place creators can make requests as if they were the Game Server.",
 <hr>
 
 
+# <b>Inventory Api v2</b>
+
+## /v2/users/{userId}/inventory
+```json
+{
+    "Method": "GET",
+    "Description": "Get user's inventory by multiple {Roblox.Platform.Assets.AssetType}.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "userId",
+            "format": "int64",
+            "required": true,
+            "description": "The inventory owner's userId."
+        },
+        "2": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "csv",
+            "items": {
+            },
+            "required": true,
+            "description": "The asset types to query.",
+            "name": "assetTypes"
+        },
+        "3": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "4": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        },
+        "5": {
+            "in": "query",
+            "type": "string",
+            "default": "Asc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "The order the results are sorted in.",
+            "name": "sortOrder",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "The user asset item model for V2 controllers.",
+                                    "properties": {
+                                        "created": {
+                                            "format": "date-time",
+                                            "description": "The created date time of the user asset.",
+                                            "type": "string"
+                                        },
+                                        "assetId": {
+                                            "format": "int64",
+                                            "description": "The asset id of the user asset.",
+                                            "type": "integer"
+                                        },
+                                        "name": {
+                                            "description": "The name of asset with id {Roblox.Inventory.Api.V2.UserAssetItemModelV2.AssetId}.",
+                                            "type": "string"
+                                        },
+                                        "assetType": {
+                                            "enum": {
+                                                "1": "Image",
+                                                "2": "TShirt",
+                                                "3": "Audio",
+                                                "4": "Mesh",
+                                                "5": "Lua",
+                                                "6": "HTML",
+                                                "7": "Text",
+                                                "8": "Hat",
+                                                "9": "Place",
+                                                "10": "Model",
+                                                "11": "Shirt",
+                                                "12": "Pants",
+                                                "13": "Decal",
+                                                "14": "Avatar",
+                                                "15": "Head",
+                                                "16": "Face",
+                                                "17": "Gear",
+                                                "18": "Badge",
+                                                "19": "GroupEmblem",
+                                                "20": "Animation",
+                                                "21": "Arms",
+                                                "22": "Legs",
+                                                "23": "Torso",
+                                                "24": "RightArm",
+                                                "25": "LeftArm",
+                                                "26": "LeftLeg",
+                                                "27": "RightLeg",
+                                                "28": "Package",
+                                                "29": "YouTubeVideo",
+                                                "30": "GamePass",
+                                                "31": "App",
+                                                "32": "Code",
+                                                "33": "Plugin",
+                                                "34": "SolidModel",
+                                                "35": "MeshPart",
+                                                "36": "HairAccessory",
+                                                "37": "FaceAccessory",
+                                                "38": "NeckAccessory",
+                                                "39": "ShoulderAccessory",
+                                                "40": "FrontAccessory",
+                                                "41": "BackAccessory",
+                                                "42": "WaistAccessory",
+                                                "43": "ClimbAnimation",
+                                                "44": "DeathAnimation",
+                                                "45": "FallAnimation",
+                                                "46": "IdleAnimation",
+                                                "47": "JumpAnimation",
+                                                "48": "RunAnimation",
+                                                "49": "SwimAnimation",
+                                                "50": "WalkAnimation",
+                                                "51": "PoseAnimation",
+                                                "52": "LocalizationTableManifest",
+                                                "53": "LocalizationTableTranslation",
+                                                "54": "EmoteAnimation",
+                                                "55": "Video",
+                                                "56": "TexturePack"
+                                            },
+                                            "description": "The asset type id of asset with id {Roblox.Inventory.Api.V2.UserAssetItemModelV2.AssetId}.",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "3: Insufficient permission.\r\n4: You are not authorized to view this user's inventory."
+        },
+        "400": {
+            "description": "1: Invalid user Id.\r\n2: Invalid asset type Id."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/users/{userId}/inventory/{assetTypeId}
+```json
+{
+    "Method": "GET",
+    "Description": "Gets user's inventory based on specific asset type",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "userId",
+            "format": "int64",
+            "required": true,
+            "description": "The user Id of the inventory owner"
+        },
+        "2": {
+            "in": "path",
+            "type": "integer",
+            "name": "assetTypeId",
+            "format": "int32",
+            "required": true,
+            "description": "The asset type Id of the items to get"
+        },
+        "3": {
+            "in": "query",
+            "type": "string",
+            "default": "Asc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "The order the results are sorted in.",
+            "name": "sortOrder",
+        },
+        "4": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "5": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "Extends {Roblox.Inventory.Api.Models.UserAssetModel} with additional information for inventory items.",
+                                    "properties": {
+                                        "updated": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        },
+                                        "assetId": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "assetName": {
+                                            "type": "string"
+                                        },
+                                        "userAssetId": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "owner": {
+                                            "$ref": {
+                                                "type": "object",
+                                                "description": "A model representing data about an {Roblox.Platform.Membership.IUser}",
+                                                "properties": {
+                                                    "username": {
+                                                        "type": "string"
+                                                    },
+                                                    "buildersClubMembershipType": {
+                                                        "type": "string",
+                                                        "enum": {
+                                                            "1": "None",
+                                                            "2": "BC",
+                                                            "3": "TBC",
+                                                            "4": "OBC",
+                                                            "5": "RobloxPremium"
+                                                        }
+                                                    },
+                                                    "userId": {
+                                                        "type": "integer",
+                                                        "format": "int64"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "serialNumber": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "created": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "3: Insufficient permission.\r\n4: You are not authorized to view this user's inventory."
+        },
+        "400": {
+            "description": "1: Invalid user Id.\r\n2: Invalid asset type Id."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/assets/{assetId}/owners
+```json
+{
+    "Method": "GET",
+    "Description": "Gets a list of owners of an asset.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "assetId",
+            "format": "int64",
+            "required": true,
+            "description": "The asset id."
+        },
+        "2": {
+            "in": "query",
+            "type": "string",
+            "default": "Asc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "Sorted by userAssetId",
+            "name": "sortOrder",
+        },
+        "3": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "4": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                        "updated": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        },
+                                        "serialNumber": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "id": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "owner": {
+                                            "$ref": {
+                                                "properties": {
+                                                    "id": {
+                                                        "format": "int64",
+                                                        "readOnly": true,
+                                                        "type": "integer"
+                                                    },
+                                                    "type": {
+                                                        "enum": {
+                                                            "1": "User",
+                                                            "2": "Group"
+                                                        },
+                                                        "readOnly": true,
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "readOnly": true,
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        },
+                                        "created": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "2: You do not have permission to view the owners of this asset."
+        },
+        "400": {
+            "description": "1: The asset id is invalid."
+        }
+    },
+}
+```
+<hr>
+
+

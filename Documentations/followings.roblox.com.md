@@ -266,3 +266,75 @@
 <hr>
 
 
+# <b>Followings Api v2</b>
+
+## /v2/users/{userId}/universes
+```json
+{
+    "Method": "GET",
+    "Description": "Gets all universes followed by a user.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "userId",
+            "format": "int64",
+            "required": true,
+            "description": "The user ID."
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "Data model containing map of (universe ID =&gt; follow date).",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Data model containing collection of all followed sources of a specific type.",
+                    "properties": {
+                        "followedSources": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string",
+                                "format": "date-time"
+                            },
+                            "description": "Followed sources: map of (source ID =&gt; follow date)"
+                        },
+                        "followerId": {
+                            "format": "int64",
+                            "description": "ID of the follower entity.",
+                            "type": "integer"
+                        },
+                        "followerType": {
+                            "enum": {
+                                "1": "User"
+                            },
+                            "description": "Type of the follower entity.",
+                            "type": "string"
+                        },
+                        "sourceType": {
+                            "enum": {
+                                "1": "Universe"
+                            },
+                            "description": "Type of the source entity.",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "403": {
+            "description": "User is not authorized for this action."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+

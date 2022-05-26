@@ -5,76 +5,59 @@
 * <b>Apis</b>
     | Link | Description/Documentation |
     | -: | :- |
-    | [premiumfeatures.roblox.com](https://premiumfeatures.roblox.com) | [PremiumFeatures Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/premiumfeatures.roblox.com.md) |
-    | [accountinformation.roblox.com](https://accountinformation.roblox.com) | [Account Information Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/accountinformation.roblox.com.md) |
-    | [contentstore.roblox.com](https://contentstore.roblox.com) | [ContentStore Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/contentstore.roblox.com.md) |
-    | [presence.roblox.com](https://presence.roblox.com) | [Presence Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/presence.roblox.com.md) |
-    | [thumbnails.roblox.com](https://thumbnails.roblox.com) | [Thumbnails Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/thumbnails.roblox.com.md) |
-    | [develop.roblox.com](https://develop.roblox.com) | [Develop Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/develop.roblox.com.md) |
-    | [followings.roblox.com](https://followings.roblox.com) | [Followings Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/followings.roblox.com.md) |
-    | [chatmoderation.roblox.com](https://chatmoderation.roblox.com) | [ChatModeration Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/chatmoderation.roblox.com.md) |
-    | [auth.roblox.com](https://auth.roblox.com) | [Authentication Api v3](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/auth.roblox.com.md) |
-    | [gameinternationalization.roblox.com](https://gameinternationalization.roblox.com) | [GameInternationalization Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gameinternationalization.roblox.com.md) |
-    | [inventory.roblox.com](https://inventory.roblox.com) | [Inventory Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/inventory.roblox.com.md) |
-    | [economy.roblox.com](https://economy.roblox.com) | [Economy Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/economy.roblox.com.md) |
-    | [gamepersistence.roblox.com](https://gamepersistence.roblox.com) | [GamePersistence Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamepersistence.roblox.com.md) |
-    | [gameinternationalization.roblox.com](https://gameinternationalization.roblox.com) | [GameInternationalization Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gameinternationalization.roblox.com.md) |
-    | [chat.roblox.com](https://chat.roblox.com) | [Chat Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/chat.roblox.com.md) |
-    | [catalog.roblox.com](https://catalog.roblox.com) | [Catalog Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/catalog.roblox.com.md) |
-    | [contacts.roblox.com](https://contacts.roblox.com) | [Contacts Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/contacts.roblox.com.md) |
-    | [avatar.roblox.com](https://avatar.roblox.com) | [Avatar Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/avatar.roblox.com.md) |
-    | [localizationtables.roblox.com](https://localizationtables.roblox.com) | [LocalizationTables Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/localizationtables.roblox.com.md) |
-    | [publish.roblox.com](https://publish.roblox.com) | [Publish Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/publish.roblox.com.md) |
-    | [adconfiguration.roblox.com](https://adconfiguration.roblox.com) | [AdConfiguration Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/adconfiguration.roblox.com.md) |
-    | [ads.roblox.com](https://ads.roblox.com) | [Ads Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/ads.roblox.com.md) |
-    | [adconfiguration.roblox.com](https://adconfiguration.roblox.com) | [AdConfiguration Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/adconfiguration.roblox.com.md) |
-    | [auth.roblox.com](https://auth.roblox.com) | [Authentication Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/auth.roblox.com.md) |
-    | [games.roblox.com](https://games.roblox.com) | [Games Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/games.roblox.com.md) |
-    | [twostepverification.roblox.com](https://twostepverification.roblox.com) | [TwoStepVerification Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/twostepverification.roblox.com.md) |
-    | [games.roblox.com](https://games.roblox.com) | [Games Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/games.roblox.com.md) |
-    | [chat.roblox.com](https://chat.roblox.com) | [Chat Api v1.0](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/chat.roblox.com.md) |
-    | [locale.roblox.com](https://locale.roblox.com) | [Locale Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/locale.roblox.com.md) |
-    | [voice.roblox.com](https://voice.roblox.com) | [Voice Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/voice.roblox.com.md) |
-    | [abtesting.roblox.com](https://abtesting.roblox.com) | [AbTesting Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/abtesting.roblox.com.md) |
-    | [points.roblox.com](https://points.roblox.com) | [Points Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/points.roblox.com.md) |
-    | [notifications.roblox.com](https://notifications.roblox.com) | [Notifications Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/notifications.roblox.com.md) |
-    | [gamepersistence.roblox.com](https://gamepersistence.roblox.com) | [GamePersistence Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamepersistence.roblox.com.md) |
-    | [groupsmoderation.roblox.com](https://groupsmoderation.roblox.com) | [GroupsModeration Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groupsmoderation.roblox.com.md) |
-    | [translationroles.roblox.com](https://translationroles.roblox.com) | [TranslationRoles Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/translationroles.roblox.com.md) |
-    | [clientsettings.roblox.com](https://clientsettings.roblox.com) | [ClientSettings Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/clientsettings.roblox.com.md) |
-    | [badges.roblox.com](https://badges.roblox.com) | [Badges Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/badges.roblox.com.md) |
-    | [itemconfiguration.roblox.com](https://itemconfiguration.roblox.com) | [ItemConfiguration Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/itemconfiguration.roblox.com.md) |
-    | [voice.roblox.com](https://voice.roblox.com) | [Voice Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/voice.roblox.com.md) |
-    | [users.roblox.com](https://users.roblox.com) | [Users Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/users.roblox.com.md) |
-    | [assetdelivery.roblox.com](https://assetdelivery.roblox.com) | [Asset Delivery Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/assetdelivery.roblox.com.md) |
-    | [trades.roblox.com](https://trades.roblox.com) | [Trades Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/trades.roblox.com.md) |
-    | [clientsettings.roblox.com](https://clientsettings.roblox.com) | [ClientSettings Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/clientsettings.roblox.com.md) |
-    | [usermoderation.roblox.com](https://usermoderation.roblox.com) | [UserModeration Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/usermoderation.roblox.com.md) |
-    | [billing.roblox.com](https://billing.roblox.com) | [Billing Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/billing.roblox.com.md) |
-    | [economycreatorstats.roblox.com](https://economycreatorstats.roblox.com) | [Roblox.EconomyCreatorStats.Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/economycreatorstats.roblox.com.md) |
-    | [gamepersistence.roblox.com](https://gamepersistence.roblox.com) | [GamePersistence Api v0](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamepersistence.roblox.com.md) |
-    | [develop.roblox.com](https://develop.roblox.com) | [Develop Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/develop.roblox.com.md) |
-    | [metrics.roblox.com](https://metrics.roblox.com) | [Metrics Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/metrics.roblox.com.md) |
-    | [thumbnailsresizer.roblox.com](https://thumbnailsresizer.roblox.com) | [ThumbnailsResizer Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/thumbnailsresizer.roblox.com.md) |
-    | [discussions.roblox.com](https://discussions.roblox.com) | [Discussions Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/discussions.roblox.com.md) |
-    | [cdnproviders.roblox.com](https://cdnproviders.roblox.com) | [CdnProviders Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/cdnproviders.roblox.com.md) |
-    | [catalog.roblox.com](https://catalog.roblox.com) | [Catalog Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/catalog.roblox.com.md) |
-    | [translations.roblox.com](https://translations.roblox.com) | [Translations Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/translations.roblox.com.md) |
-    | [accountsettings.roblox.com](https://accountsettings.roblox.com) | [AccountSettings Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/accountsettings.roblox.com.md) |
-    | [textfilter.roblox.com](https://textfilter.roblox.com) | [TextFilter Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/textfilter.roblox.com.md) |
-    | [share.roblox.com](https://share.roblox.com) | [Share Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/share.roblox.com.md) |
-    | [engagementpayouts.roblox.com](https://engagementpayouts.roblox.com) | [EngagementPayouts Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/engagementpayouts.roblox.com.md) |
-    | [privatemessages.roblox.com](https://privatemessages.roblox.com) | [PrivateMessages Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/privatemessages.roblox.com.md) |
-    | [gamejoin.roblox.com](https://gamejoin.roblox.com) | [GameJoin Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamejoin.roblox.com.md) |
-    | [groups.roblox.com](https://groups.roblox.com) | [Groups Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groups.roblox.com.md) |
-    | [badges.roblox.com](https://badges.roblox.com) | [Badges Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/badges.roblox.com.md) |
-    | [followings.roblox.com](https://followings.roblox.com) | [Followings Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/followings.roblox.com.md) |
-    | [friends.roblox.com](https://friends.roblox.com) | [Friends Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/friends.roblox.com.md) |
-    | [groups.roblox.com](https://groups.roblox.com) | [Groups Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groups.roblox.com.md) |
-    | [groups.roblox.com](https://groups.roblox.com) | [Groups Api v0](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groups.roblox.com.md) |
-    | [auth.roblox.com](https://auth.roblox.com) | [Authentication Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/auth.roblox.com.md) |
-    | [economy.roblox.com](https://economy.roblox.com) | [Economy Api v2](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/economy.roblox.com.md) |
-    | [inventory.roblox.com](https://inventory.roblox.com) | [Inventory Api v1](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/inventory.roblox.com.md) |
+    | [abtesting.roblox.com](https://abtesting.roblox.com) | [AbTesting Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/abtesting.roblox.com.md) |
+    | [accountinformation.roblox.com](https://accountinformation.roblox.com) | [Account Information Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/accountinformation.roblox.com.md) |
+    | [accountsettings.roblox.com](https://accountsettings.roblox.com) | [AccountSettings Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/accountsettings.roblox.com.md) |
+    | [adconfiguration.roblox.com](https://adconfiguration.roblox.com) | [AdConfiguration Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/adconfiguration.roblox.com.md) |
+    | [ads.roblox.com](https://ads.roblox.com) | [Ads Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/ads.roblox.com.md) |
+    | [assetdelivery.roblox.com](https://assetdelivery.roblox.com) | [Asset Delivery Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/assetdelivery.roblox.com.md) |
+    | [auth.roblox.com](https://auth.roblox.com) | [Authentication Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/auth.roblox.com.md) |
+    | [avatar.roblox.com](https://avatar.roblox.com) | [Avatar Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/avatar.roblox.com.md) |
+    | [badges.roblox.com](https://badges.roblox.com) | [Badges Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/badges.roblox.com.md) |
+    | [billing.roblox.com](https://billing.roblox.com) | [Billing Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/billing.roblox.com.md) |
+    | [catalog.roblox.com](https://catalog.roblox.com) | [Catalog Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/catalog.roblox.com.md) |
+    | [cdnproviders.roblox.com](https://cdnproviders.roblox.com) | [CdnProviders Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/cdnproviders.roblox.com.md) |
+    | [chat.roblox.com](https://chat.roblox.com) | [Chat Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/chat.roblox.com.md) |
+    | [chatmoderation.roblox.com](https://chatmoderation.roblox.com) | [ChatModeration Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/chatmoderation.roblox.com.md) |
+    | [clientsettings.roblox.com](https://clientsettings.roblox.com) | [ClientSettings Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/clientsettings.roblox.com.md) |
+    | [clientsettings.roblox.com](https://clientsettings.roblox.com) | [ClientSettings Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/clientsettings.roblox.com.md) |
+    | [contacts.roblox.com](https://contacts.roblox.com) | [Contacts Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/contacts.roblox.com.md) |
+    | [contentstore.roblox.com](https://contentstore.roblox.com) | [ContentStore Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/contentstore.roblox.com.md) |
+    | [develop.roblox.com](https://develop.roblox.com) | [Develop Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/develop.roblox.com.md) |
+    | [discussions.roblox.com](https://discussions.roblox.com) | [Discussions Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/discussions.roblox.com.md) |
+    | [economy.roblox.com](https://economy.roblox.com) | [Economy Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/economy.roblox.com.md) |
+    | [economycreatorstats.roblox.com](https://economycreatorstats.roblox.com) | [Roblox.EconomyCreatorStats.Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/economycreatorstats.roblox.com.md) |
+    | [engagementpayouts.roblox.com](https://engagementpayouts.roblox.com) | [EngagementPayouts Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/engagementpayouts.roblox.com.md) |
+    | [followings.roblox.com](https://followings.roblox.com) | [Followings Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/followings.roblox.com.md) |
+    | [friends.roblox.com](https://friends.roblox.com) | [Friends Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/friends.roblox.com.md) |
+    | [gameinternationalization.roblox.com](https://gameinternationalization.roblox.com) | [GameInternationalization Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gameinternationalization.roblox.com.md) |
+    | [gamejoin.roblox.com](https://gamejoin.roblox.com) | [GameJoin Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamejoin.roblox.com.md) |
+    | [gamepersistence.roblox.com](https://gamepersistence.roblox.com) | [GamePersistence Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/gamepersistence.roblox.com.md) |
+    | [games.roblox.com](https://games.roblox.com) | [Games Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/games.roblox.com.md) |
+    | [groups.roblox.com](https://groups.roblox.com) | [Groups Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groups.roblox.com.md) |
+    | [groupsmoderation.roblox.com](https://groupsmoderation.roblox.com) | [GroupsModeration Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/groupsmoderation.roblox.com.md) |
+    | [inventory.roblox.com](https://inventory.roblox.com) | [Inventory Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/inventory.roblox.com.md) |
+    | [itemconfiguration.roblox.com](https://itemconfiguration.roblox.com) | [ItemConfiguration Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/itemconfiguration.roblox.com.md) |
+    | [locale.roblox.com](https://locale.roblox.com) | [Locale Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/locale.roblox.com.md) |
+    | [localizationtables.roblox.com](https://localizationtables.roblox.com) | [LocalizationTables Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/localizationtables.roblox.com.md) |
+    | [metrics.roblox.com](https://metrics.roblox.com) | [Metrics Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/metrics.roblox.com.md) |
+    | [notifications.roblox.com](https://notifications.roblox.com) | [Notifications Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/notifications.roblox.com.md) |
+    | [points.roblox.com](https://points.roblox.com) | [Points Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/points.roblox.com.md) |
+    | [premiumfeatures.roblox.com](https://premiumfeatures.roblox.com) | [PremiumFeatures Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/premiumfeatures.roblox.com.md) |
+    | [presence.roblox.com](https://presence.roblox.com) | [Presence Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/presence.roblox.com.md) |
+    | [privatemessages.roblox.com](https://privatemessages.roblox.com) | [PrivateMessages Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/privatemessages.roblox.com.md) |
+    | [publish.roblox.com](https://publish.roblox.com) | [Publish Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/publish.roblox.com.md) |
+    | [share.roblox.com](https://share.roblox.com) | [Share Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/share.roblox.com.md) |
+    | [textfilter.roblox.com](https://textfilter.roblox.com) | [TextFilter Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/textfilter.roblox.com.md) |
+    | [thumbnails.roblox.com](https://thumbnails.roblox.com) | [Thumbnails Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/thumbnails.roblox.com.md) |
+    | [thumbnailsresizer.roblox.com](https://thumbnailsresizer.roblox.com) | [ThumbnailsResizer Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/thumbnailsresizer.roblox.com.md) |
+    | [trades.roblox.com](https://trades.roblox.com) | [Trades Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/trades.roblox.com.md) |
+    | [translationroles.roblox.com](https://translationroles.roblox.com) | [TranslationRoles Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/translationroles.roblox.com.md) |
+    | [translations.roblox.com](https://translations.roblox.com) | [Translations Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/translations.roblox.com.md) |
+    | [twostepverification.roblox.com](https://twostepverification.roblox.com) | [TwoStepVerification Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/twostepverification.roblox.com.md) |
+    | [usermoderation.roblox.com](https://usermoderation.roblox.com) | [UserModeration Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/usermoderation.roblox.com.md) |
+    | [users.roblox.com](https://users.roblox.com) | [Users Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/users.roblox.com.md) |
+    | [voice.roblox.com](https://voice.roblox.com) | [Voice Api](https://github.com/NoTwistedHere/Roblox-Apis/blob/main/Documentations/voice.roblox.com.md) |
 
 * <b>Alternative Websites (Owned/Created by Roblox)</b>
     | Url | Description | Api/Documentation |

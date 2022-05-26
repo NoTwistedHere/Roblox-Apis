@@ -4030,3 +4030,591 @@ It may take a few seconds for all items to be granted after the request finishes
 <hr>
 
 
+# <b>Catalog Api v2</b>
+
+## /v2/recommendations/{subject}
+```json
+{
+    "Method": "GET",
+    "Description": "Generic recommendations endpoint for various catalog subjects - assets, bundles, user-inventory etc",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "string",
+            "name": "subject",
+            "required": true,
+            "description": "one of assets, bundles, user-inventory"
+        },
+        "2": {
+            "in": "query",
+            "type": "integer",
+            "name": "assetTypeId",
+            "format": "int32",
+            "description": "assetTypeId for assets and user-inventory recommendations",
+        },
+        "3": {
+            "in": "query",
+            "type": "integer",
+            "name": "numItems",
+            "format": "int32",
+            "description": "number items to return",
+        },
+        "4": {
+            "in": "query",
+            "type": "integer",
+            "name": "assetId",
+            "format": "int64",
+            "description": "AssetId for subject = assets",
+        },
+        "5": {
+            "in": "query",
+            "type": "integer",
+            "name": "bundleId",
+            "format": "int64",
+            "description": "BundleId for subject = bundles",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "type": "integer",
+                                "format": "int64"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "404": {
+            "description": "5: Invalid subject specified"
+        },
+        "400": {
+            "description": "1: Invalid bundle\r\n2: Error retrieving bundles\r\n3: Error getting bundle recommendations\r\n4: NumItems exceed maximum\r\n6: Asset type id required\r\n7: Invalid asset"
+        },
+        "401": {
+            "description": "8: Unauthorized request to view inventory recommendations"
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/search/items/details
+```json
+{
+    "Method": "GET",
+    "Description": "Search for catalog items.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "multi",
+            "items": {
+                "format": "int32",
+                "type": "integer"
+            },
+            "name": "model.assetTypeIds",
+        },
+        "2": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "multi",
+            "items": {
+                "format": "int32",
+                "type": "integer"
+            },
+            "name": "model.bundleTypeIds",
+        },
+        "3": {
+            "in": "query",
+            "type": "string",
+            "name": "model.categoryFilter",
+            "enum": {
+                "1": "None",
+                "2": "Featured",
+                "3": "Collectibles",
+                "4": "CommunityCreations",
+                "5": "Landing",
+                "6": "Premium",
+                "7": "Recommended"
+            },
+        },
+        "4": {
+            "in": "query",
+            "type": "string",
+            "name": "model.sortAggregation",
+            "enum": {
+                "1": "Past12Hours",
+                "2": "PastDay",
+                "3": "Past3Days",
+                "4": "PastWeek",
+                "5": "PastMonth",
+                "6": "AllTime"
+            },
+        },
+        "5": {
+            "in": "query",
+            "type": "string",
+            "name": "model.sortCurrency",
+            "enum": {
+                "1": "All",
+                "2": "Robux",
+                "3": "Tickets",
+                "4": "CustomRobux",
+                "5": "CustomTickets",
+                "6": "Free"
+            },
+        },
+        "6": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "multi",
+            "items": {
+                "type": "string"
+            },
+            "name": "model.genres",
+        },
+        "7": {
+            "in": "query",
+            "type": "string",
+            "name": "model.sortType",
+            "enum": {
+                "1": "Relevance",
+                "2": "Favorited",
+                "3": "Sales",
+                "4": "Updated",
+                "5": "PriceAsc",
+                "6": "PriceDesc"
+            },
+        },
+        "8": {
+            "in": "query",
+            "type": "string",
+            "name": "model.creatorType",
+            "enum": {
+                "1": "User",
+                "2": "Group"
+            },
+        },
+        "9": {
+            "in": "query",
+            "type": "string",
+            "name": "model.premiumBenefitFilterType",
+            "enum": {
+                "1": "None",
+                "2": "PremiumDiscountedOnly",
+                "3": "PremiumExclusiveOnly"
+            },
+        },
+        "10": {
+            "in": "query",
+            "type": "integer",
+            "name": "model.creatorTargetId",
+            "format": "int64",
+        },
+        "11": {
+            "in": "query",
+            "type": "string",
+            "name": "model.creatorName",
+        },
+        "12": {
+            "in": "query",
+            "type": "integer",
+            "name": "model.maxPrice",
+            "format": "int32",
+        },
+        "13": {
+            "in": "query",
+            "type": "integer",
+            "name": "model.minPrice",
+            "format": "int32",
+        },
+        "14": {
+            "in": "query",
+            "type": "string",
+            "name": "model.keyword",
+        },
+        "15": {
+            "in": "query",
+            "type": "boolean",
+            "name": "model.includeNotForSale",
+        },
+        "16": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "multi",
+            "items": {
+                "type": "string"
+            },
+            "name": "model.tagNames",
+        },
+        "17": {
+            "in": "query",
+            "type": "string",
+            "default": "Desc",
+            "enum": {
+                "1": "Desc"
+            },
+            "description": "The order the results are sorted in.",
+            "name": "sortOrder",
+        },
+        "18": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 28,
+                "3": 30
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "19": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "7: User is unauthorized."
+        },
+        "400": {
+            "description": "1: Category subcategory selection not supported.\r\n2: Creator id not found.\r\n3: Creator type not found.\r\n4: Genre not found.\r\n5: Sort combination not supported.\r\n6: Invalid price range.\r\n10: StartRequest is invalid."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "ApiPageResponse for catalog search",
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "elasticsearchDebugInfo": {
+                            "$ref": {
+                                "properties": {
+                                    "isForceTerminationEnabledByRequest": {
+                                        "type": "boolean"
+                                    },
+                                    "indexName": {
+                                        "type": "string"
+                                    },
+                                    "isFromCache": {
+                                        "type": "boolean"
+                                    },
+                                    "elasticsearchQuery": {
+                                        "type": "string"
+                                    },
+                                    "isTerminatedEarly": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "Elasticsearch debug info returned from AvatarCatalogSearch service"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "keyword": {
+                            "description": "Keyword used for search query",
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "The detailed model for catalog items.",
+                                    "properties": {
+                                        "description": {
+                                            "description": "The item description.",
+                                            "type": "string"
+                                        },
+                                        "genres": {
+                                            "items": {
+                                                "type": "string",
+                                                "enum": {
+                                                    "1": "All",
+                                                    "2": "Tutorial",
+                                                    "3": "Scary",
+                                                    "4": "TownAndCity",
+                                                    "5": "War",
+                                                    "6": "Funny",
+                                                    "7": "Fantasy",
+                                                    "8": "Adventure",
+                                                    "9": "SciFi",
+                                                    "10": "Pirate",
+                                                    "11": "FPS",
+                                                    "12": "RPG",
+                                                    "13": "Sports",
+                                                    "14": "Ninja",
+                                                    "15": "WildWest"
+                                                }
+                                            },
+                                            "type": "array",
+                                            "description": "The {System.Collections.Generic.IEnumerable`1}, serialized if item has genres."
+                                        },
+                                        "bundledItems": {
+                                            "items": {
+                                                "$ref": {
+                                                    "properties": {
+                                                        "owned": {
+                                                            "readOnly": true,
+                                                            "type": "boolean"
+                                                        },
+                                                        "type": {
+                                                            "readOnly": true,
+                                                            "type": "string"
+                                                        },
+                                                        "name": {
+                                                            "readOnly": true,
+                                                            "type": "string"
+                                                        },
+                                                        "id": {
+                                                            "format": "int64",
+                                                            "readOnly": true,
+                                                            "type": "integer"
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "array",
+                                            "description": "The {System.Collections.Generic.IEnumerable`1} contained in the bundle, serialized if item is a bundle."
+                                        },
+                                        "priceStatus": {
+                                            "description": "The localized string item status if the item's price should not be displayed.",
+                                            "type": "string"
+                                        },
+                                        "assetType": {
+                                            "enum": {
+                                                "1": "Image",
+                                                "2": "TShirt",
+                                                "3": "Audio",
+                                                "4": "Mesh",
+                                                "5": "Lua",
+                                                "6": "HTML",
+                                                "7": "Text",
+                                                "8": "Hat",
+                                                "9": "Place",
+                                                "10": "Model",
+                                                "11": "Shirt",
+                                                "12": "Pants",
+                                                "13": "Decal",
+                                                "14": "Avatar",
+                                                "15": "Head",
+                                                "16": "Face",
+                                                "17": "Gear",
+                                                "18": "Badge",
+                                                "19": "GroupEmblem",
+                                                "20": "Animation",
+                                                "21": "Arms",
+                                                "22": "Legs",
+                                                "23": "Torso",
+                                                "24": "RightArm",
+                                                "25": "LeftArm",
+                                                "26": "LeftLeg",
+                                                "27": "RightLeg",
+                                                "28": "Package",
+                                                "29": "YouTubeVideo",
+                                                "30": "GamePass",
+                                                "31": "App",
+                                                "32": "Code",
+                                                "33": "Plugin",
+                                                "34": "SolidModel",
+                                                "35": "MeshPart",
+                                                "36": "HairAccessory",
+                                                "37": "FaceAccessory",
+                                                "38": "NeckAccessory",
+                                                "39": "ShoulderAccessory",
+                                                "40": "FrontAccessory",
+                                                "41": "BackAccessory",
+                                                "42": "WaistAccessory",
+                                                "43": "ClimbAnimation",
+                                                "44": "DeathAnimation",
+                                                "45": "FallAnimation",
+                                                "46": "IdleAnimation",
+                                                "47": "JumpAnimation",
+                                                "48": "RunAnimation",
+                                                "49": "SwimAnimation",
+                                                "50": "WalkAnimation",
+                                                "51": "PoseAnimation",
+                                                "52": "LocalizationTableManifest",
+                                                "53": "LocalizationTableTranslation",
+                                                "54": "EmoteAnimation",
+                                                "55": "Video",
+                                                "56": "TexturePack"
+                                            },
+                                            "description": "The {Roblox.Platform.Assets.AssetType} serialized if item is an asset.",
+                                            "type": "string"
+                                        },
+                                        "productId": {
+                                            "format": "int64",
+                                            "description": "The product id of corresponding item.",
+                                            "type": "integer"
+                                        },
+                                        "itemRestrictions": {
+                                            "items": {
+                                                "type": "string",
+                                                "enum": {
+                                                    "1": "ThirteenPlus",
+                                                    "2": "LimitedUnique",
+                                                    "3": "Limited",
+                                                    "4": "BuildersClub",
+                                                    "5": "TurboBuildersClub",
+                                                    "6": "OutrageousBuildersClub",
+                                                    "7": "Rthro"
+                                                }
+                                            },
+                                            "type": "array",
+                                            "description": "The {System.Collections.Generic.IEnumerable`1} if item has {Roblox.Catalog.Api.CatalogItemRestriction}."
+                                        },
+                                        "itemStatus": {
+                                            "items": {
+                                                "type": "string",
+                                                "enum": {
+                                                    "1": "New",
+                                                    "2": "Sale",
+                                                    "3": "XboxExclusive",
+                                                    "4": "AmazonExclusive",
+                                                    "5": "GooglePlayExclusive",
+                                                    "6": "IosExclusive",
+                                                    "7": "SaleTimer"
+                                                }
+                                            },
+                                            "type": "array",
+                                            "description": "The {System.Collections.Generic.IEnumerable`1} if item has {Roblox.Catalog.Api.CatalogItemStatus}."
+                                        },
+                                        "favoriteCount": {
+                                            "format": "int64",
+                                            "description": "The number of times the item has been favorited.",
+                                            "type": "integer"
+                                        },
+                                        "itemType": {
+                                            "enum": {
+                                                "1": "Asset",
+                                                "2": "Bundle"
+                                            },
+                                            "description": "The {Roblox.Catalog.Api.CatalogSearchDetailedResponseItem.ItemType} item type.",
+                                            "type": "string"
+                                        },
+                                        "id": {
+                                            "format": "int64",
+                                            "description": "The Item Id.",
+                                            "type": "integer"
+                                        },
+                                        "creatorTargetId": {
+                                            "format": "int64",
+                                            "description": "The creator id of the item's creator.",
+                                            "type": "integer"
+                                        },
+                                        "unitsAvailableForConsumption": {
+                                            "format": "int64",
+                                            "description": "The number of items in stock, only if the item is resellable and is limitedEdition",
+                                            "type": "integer"
+                                        },
+                                        "purchaseCount": {
+                                            "format": "int64",
+                                            "description": "The number of times the item has been purchased.",
+                                            "type": "integer"
+                                        },
+                                        "bundleType": {
+                                            "enum": {
+                                                "1": "BodyParts",
+                                                "2": "AvatarAnimations"
+                                            },
+                                            "description": "The {Roblox.Platform.Bundles.Core.BundleType} serialized if item is a bundle.",
+                                            "type": "string"
+                                        },
+                                        "offSaleDeadline": {
+                                            "format": "date-time",
+                                            "description": "When the item will go off sale, if the item has an off deadline.",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The item name.",
+                                            "type": "string"
+                                        },
+                                        "premiumPricing": {
+                                            "$ref": {
+                                                "type": "object",
+                                                "description": "Defines the Premium pricing for a catalog item",
+                                                "properties": {
+                                                    "premiumDiscountPercentage": {
+                                                        "format": "int32",
+                                                        "description": "The Premium discount percentage for a catalog item",
+                                                        "type": "integer"
+                                                    },
+                                                    "premiumPriceInRobux": {
+                                                        "format": "int64",
+                                                        "description": "The Premium price for a catalog item",
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            },
+                                            "description": "The Premium pricing information for the item."
+                                        },
+                                        "price": {
+                                            "format": "int64",
+                                            "description": "The item's price.",
+                                            "type": "integer"
+                                        },
+                                        "lowestPrice": {
+                                            "format": "int64",
+                                            "description": "The item's lowest price, only if the item is resellable and there are resellers.",
+                                            "type": "integer"
+                                        },
+                                        "creatorName": {
+                                            "description": "The creator name of the item's creator.",
+                                            "type": "string"
+                                        },
+                                        "creatorType": {
+                                            "enum": {
+                                                "1": "User",
+                                                "2": "Group"
+                                            },
+                                            "description": "The {Roblox.Catalog.Api.CatalogSearchDetailedResponseItem.CreatorType} of the item's creator.",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    }
+                }
+            }
+        },
+        "429": {
+            "description": "8: The flood limit has been exceeded."
+        },
+        "503": {
+            "description": "18: Search request timed out"
+        }
+    },
+}
+```
+<hr>
+
+

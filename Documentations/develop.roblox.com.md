@@ -8891,3 +8891,1827 @@ DO NOT USE THIS ENDPOINT. It may be removed at any time. Use GetStatistics inste
 <hr>
 
 
+# <b>Develop Api v2</b>
+
+## /v2/universes/{universeId}/permissions_batched
+```json
+{
+    "Method": "POST",
+    "Description": "Create one or more new permissions towards a universe.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        },
+        "2": {
+            "in": "body",
+            "name": "permissions",
+            "required": true,
+            "schema": {
+                "items": {
+                    "$ref": {
+                        "properties": {
+                            "Action": {
+                                "description": "Gets or sets the permitted action, such as 'EDIT' or 'VIEW.'",
+                                "type": "string"
+                            },
+                            "SubjectType": {
+                                "enum": {
+                                    "1": "User",
+                                    "2": "Group",
+                                    "3": "Roleset"
+                                },
+                                "description": "Gets or sets the type of the subject, such as 'User' or 'Group.'",
+                                "type": "string"
+                            },
+                            "SubjectId": {
+                                "description": "Gets or sets the ID of the subject.",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "array"
+            },
+            "description": "Array of {Roblox.Api.Develop.Models.UniversePermissionModel}."
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "0: Token Validation Failed\r\n15: The user is not authorized to perform this action."
+        },
+        "400": {
+            "description": "2: The request body is missing.\r\n3: The resource type is missing.\r\n5: Invalid resource ID.\r\n8: The action is missing.\r\n9: The subject type is missing.\r\n10: Invalid subject type.\r\n11: The subject ID is missing.\r\n12: Invalid subject ID."
+        },
+        "409": {
+            "description": "13: The permission already exists."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "503": {
+            "description": "1: PermissionResolution service exception."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+```json
+{
+    "Method": "DELETE",
+    "Description": "Remove one or more permissions towards a universe.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        },
+        "2": {
+            "in": "body",
+            "name": "permissions",
+            "required": true,
+            "schema": {
+                "items": {
+                    "$ref": {
+                        "properties": {
+                            "Action": {
+                                "description": "Gets or sets the permitted action, such as 'EDIT' or 'VIEW.'",
+                                "type": "string"
+                            },
+                            "SubjectType": {
+                                "enum": {
+                                    "1": "User",
+                                    "2": "Group",
+                                    "3": "Roleset"
+                                },
+                                "description": "Gets or sets the type of the subject, such as 'User' or 'Group.'",
+                                "type": "string"
+                            },
+                            "SubjectId": {
+                                "description": "Gets or sets the ID of the subject.",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "array"
+            },
+            "description": "Array of {Roblox.Api.Develop.Models.UniversePermissionModel}."
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "0: Token Validation Failed\r\n15: The user is not authorized to perform this action."
+        },
+        "400": {
+            "description": "2: The request body is missing.\r\n2: The request body is missing.\r\n3: The resource type is missing.\r\n4: The resource ID is missing.\r\n5: Invalid resource ID.\r\n8: The action is missing.\r\n9: The subject type is missing.\r\n10: Invalid subject type.\r\n11: The subject ID is missing."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "404": {
+            "description": "14: The permission doesn't exist."
+        },
+        "503": {
+            "description": "1: PermissionResolution service exception."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/symbolic-links
+```json
+{
+    "Method": "GET",
+    "Description": "Gets all packages existing for the places in a specified universe, sorted by Name and ID",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "The id of the universe."
+        },
+        "2": {
+            "in": "query",
+            "type": "string",
+            "default": "Asc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "Sorted by the names and ids of the packages.",
+            "name": "sortOrder",
+        },
+        "3": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "4": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "11: Authenticated user does not have read permissions or UseView package permission."
+        },
+        "404": {
+            "description": "9: Game does not exist."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/places/{placeId}
+```json
+{
+    "Method": "PATCH",
+    "Description": "Updates the place configuration for the place with the id {placeId}",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "placeId",
+            "format": "int64",
+            "required": true,
+            "description": "The place id for the place to be updated."
+        },
+        "2": {
+            "in": "body",
+            "name": "configuration",
+            "required": true,
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "A model containing information about a place to be configured",
+                    "properties": {
+                        "maxPlayerCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "socialSlotType": {
+                            "type": "string"
+                        },
+                        "allowCopying": {
+                            "type": "boolean"
+                        },
+                        "customSocialSlotsCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "description": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "description": ""
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "A model containing information about a place",
+                    "properties": {
+                        "universeId": {
+                            "format": "int64",
+                            "description": "Returns the id of the place's universe, or null - if the place is not part of a universe.",
+                            "type": "integer"
+                        },
+                        "socialSlotType": {
+                            "type": "string"
+                        },
+                        "id": {
+                            "format": "int64",
+                            "description": "Returns the place id.",
+                            "type": "integer"
+                        },
+                        "isRootPlace": {
+                            "description": "Returns whether this place is the root place.",
+                            "type": "boolean"
+                        },
+                        "maxPlayerCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "name": {
+                            "description": "Returns the place name.",
+                            "type": "string"
+                        },
+                        "allowCopying": {
+                            "type": "boolean"
+                        },
+                        "currentSavedVersion": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "description": {
+                            "description": "Returns the place description.",
+                            "type": "string"
+                        },
+                        "customSocialSlotsCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    }
+                }
+            }
+        },
+        "403": {
+            "description": "Authenticated user is not authorized to manage this place.\r\n0: Token Validation Failed"
+        },
+        "404": {
+            "description": "{placeId} Place not found."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+```json
+{
+    "Method": "GET",
+    "Description": "Gets the place configuration for the place with the id {placeId}",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "placeId",
+            "format": "int64",
+            "required": true,
+            "description": "The place id for the place to be updated."
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "A model containing information about a place",
+                    "properties": {
+                        "universeId": {
+                            "format": "int64",
+                            "description": "Returns the id of the place's universe, or null - if the place is not part of a universe.",
+                            "type": "integer"
+                        },
+                        "socialSlotType": {
+                            "type": "string"
+                        },
+                        "id": {
+                            "format": "int64",
+                            "description": "Returns the place id.",
+                            "type": "integer"
+                        },
+                        "isRootPlace": {
+                            "description": "Returns whether this place is the root place.",
+                            "type": "boolean"
+                        },
+                        "maxPlayerCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "name": {
+                            "description": "Returns the place name.",
+                            "type": "string"
+                        },
+                        "allowCopying": {
+                            "type": "boolean"
+                        },
+                        "currentSavedVersion": {
+                            "type": "integer",
+                            "format": "int32"
+                        },
+                        "description": {
+                            "description": "Returns the place description.",
+                            "type": "string"
+                        },
+                        "customSocialSlotsCount": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    }
+                }
+            }
+        },
+        "403": {
+            "description": "Authenticated user is not authorized to manage this place."
+        },
+        "404": {
+            "description": "{placeId} Place not found."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/assets/{id}/versions
+```json
+{
+    "Method": "GET",
+    "Description": "Retrieves asset information for the specified asset ID. The authenticated user must be able to manage the asset 
+or granted by package permission.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "id",
+            "format": "int64",
+            "required": true,
+            "description": "The ID of the asset.{Roblox.IAsset}"
+        },
+        "2": {
+            "in": "header",
+            "type": "integer",
+            "name": "Roblox-Place-Id",
+            "format": "int64",
+            "description": "The ID of the place.{Roblox.Platform.Assets.IPlace}",
+        },
+        "3": {
+            "in": "query",
+            "type": "string",
+            "default": "Desc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "Sort by version number, default is desc.",
+            "name": "sortOrder",
+        },
+        "4": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "5": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "Model of an asset version.",
+                                    "properties": {
+                                        "creatingUniverseId": {
+                                            "format": "int64",
+                                            "description": "ID of the universe this asset version was created in.",
+                                            "type": "integer"
+                                        },
+                                        "assetId": {
+                                            "format": "int64",
+                                            "description": "The ID of the asset.",
+                                            "type": "integer"
+                                        },
+                                        "isPublished": {
+                                            "description": "Indicates if this version is / was published.\r\nThis property is available on /v1/{assetId}/saved-versions.",
+                                            "type": "boolean"
+                                        },
+                                        "assetVersionNumber": {
+                                            "format": "int32",
+                                            "description": "The version number.",
+                                            "type": "integer"
+                                        },
+                                        "isEqualToCurrentPublishedVersion": {
+                                            "description": "Indicates if this version is same to current published version.\r\nThis property is available on /v1/{assetId}/published-versions and /v1/{assetId}/version/{versionNumber}.",
+                                            "type": "boolean"
+                                        },
+                                        "created": {
+                                            "format": "date-time",
+                                            "description": "The created date of this asset version.",
+                                            "type": "string"
+                                        },
+                                        "creatorTargetId": {
+                                            "format": "int64",
+                                            "description": "ID of the asset version creator.",
+                                            "type": "integer"
+                                        },
+                                        "creatorType": {
+                                            "description": "Type of the asset version creator.",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/configuration
+```json
+{
+    "Method": "PATCH",
+    "Description": "Update universe settings for an owned universe.
+V2 Contains data for avatar scale and asset override.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "The universeId."
+        },
+        "2": {
+            "in": "body",
+            "name": "model",
+            "required": true,
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Model for UniverseSettings patch requests",
+                    "properties": {
+                        "universeCollisionType": {
+                            "enum": {
+                                "1": "InnerBox",
+                                "2": "OuterBox"
+                            },
+                            "description": "What type of collisions are used by the universe.",
+                            "type": "string"
+                        },
+                        "price": {
+                            "format": "int64",
+                            "description": "Price of the game, in Robux.",
+                            "type": "integer"
+                        },
+                        "genre": {
+                            "enum": {
+                                "1": "All",
+                                "2": "Tutorial",
+                                "3": "Scary",
+                                "4": "TownAndCity",
+                                "5": "War",
+                                "6": "Funny",
+                                "7": "Fantasy",
+                                "8": "Adventure",
+                                "9": "SciFi",
+                                "10": "Pirate",
+                                "11": "FPS",
+                                "12": "RPG",
+                                "13": "Sports",
+                                "14": "Ninja",
+                                "15": "WildWest"
+                            },
+                            "description": "Game genre.",
+                            "type": "string"
+                        },
+                        "permissions": {
+                            "$ref": {
+                                "type": "object",
+                                "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future.",
+                                "properties": {
+                                    "IsThirdPartyTeleportAllowed": {
+                                        "description": "Indicates if it allows game server to teleport to other games out of your universe.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyPurchaseAllowed": {
+                                        "description": "Indicates if it allows script execution or insertion of models not under your control.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyAssetAllowed": {
+                                        "description": "Indicates if it allows players to purchase items not created by you.",
+                                        "type": "boolean"
+                                    }
+                                }
+                            },
+                            "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future."
+                        },
+                        "universeAvatarMinScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of minimum scales for the universe's avatars."
+                        },
+                        "universeAvatarAssetOverrides": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                        "assetID": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "assetTypeID": {
+                                            "type": "integer",
+                                            "format": "int32"
+                                        },
+                                        "isPlayerChoice": {
+                                            "type": "boolean"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array",
+                            "description": "A list of avatar asset overrides."
+                        },
+                        "studioAccessToApisAllowed": {
+                            "description": "Whether Studio can access data stores of this universe.",
+                            "type": "boolean"
+                        },
+                        "allowPrivateServers": {
+                            "type": "boolean"
+                        },
+                        "universeAvatarMaxScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of maximum scales for the universe's avatars."
+                        },
+                        "playableDevices": {
+                            "items": {
+                                "type": "string",
+                                "enum": {
+                                    "1": "Computer",
+                                    "2": "Phone",
+                                    "3": "Tablet",
+                                    "4": "Console"
+                                }
+                            },
+                            "type": "array",
+                            "description": "List of device types this game can be played on."
+                        },
+                        "universeAvatarType": {
+                            "enum": {
+                                "1": "MorphToR6",
+                                "2": "PlayerChoice",
+                                "3": "MorphToR15"
+                            },
+                            "description": "Which avatar types are allowed in the universe.",
+                            "type": "string"
+                        },
+                        "isFriendsOnly": {
+                            "description": "Whether game access is limited to friends for user-owned games or group members for group-owned games.",
+                            "type": "boolean"
+                        },
+                        "isArchived": {
+                            "description": "Archive status of the universe.",
+                            "type": "boolean"
+                        },
+                        "name": {
+                            "description": "The name of the universe.",
+                            "type": "string"
+                        },
+                        "isForSale": {
+                            "description": "Whether the game is offered for sale.",
+                            "type": "boolean"
+                        },
+                        "privateServerPrice": {
+                            "type": "integer",
+                            "format": "int64"
+                        },
+                        "description": {
+                            "description": "The description of the universe.",
+                            "type": "string"
+                        },
+                        "universeJointPositioningType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "ArtistIntent"
+                            },
+                            "description": "What avatar joint positioning type is allowed by the universe.",
+                            "type": "string"
+                        },
+                        "universeAnimationType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "PlayerChoice"
+                            },
+                            "description": "Whether custom animations are allowed in the universe.",
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "description": "The {Roblox.Api.Develop.Models.UniverseSettingsRequest} model."
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "0: Token Validation Failed\r\n2: You are not authorized to configure this universe.\r\n14: You are not authorized to sell games."
+        },
+        "400": {
+            "description": "1: The universe does not exist.\r\n3: Invalid UniverseAvatarType.\r\n4: Invalid UniverseScaleType.\r\n5: Invalid UniverseAnimationType.\r\n6: Invalid UniverseCollisionType.\r\n7: New universe name or description has been rejected.\r\n8: New universe name is too long.\r\n10: Invalid UniverseBodyType.\r\n11: Invalid UniverseJointPositioningType.\r\n12: The universe has no root place.\r\n13: At least one playable device must be provided.\r\n15: Price is required when isForSale is true.\r\n16: This game cannot be offered for sale because it is not public.\r\n17: This game cannot be offered for sale because it has private servers enabled.\r\n18: The game price is outside of the allowed range.\r\n19: Invalid genre.\r\n20: The request body is missing.\r\n21: Invalid device type.\r\n22: Invalid asset type.\r\n23: Invalid value, the min must be less than or equal to the max\r\n24: Invalid scale value"
+        },
+        "409": {
+            "description": "9: Failed to shutdown all intances of game after changing AvatarType. The change has been reverted."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Model for UniverseSettings controller responses",
+                    "properties": {
+                        "universeCollisionType": {
+                            "enum": {
+                                "1": "InnerBox",
+                                "2": "OuterBox"
+                            },
+                            "description": "What type of collisions are used by the universe.",
+                            "type": "string"
+                        },
+                        "price": {
+                            "format": "int64",
+                            "description": "Price of the game, in Robux.",
+                            "type": "integer"
+                        },
+                        "genre": {
+                            "enum": {
+                                "1": "All",
+                                "2": "Tutorial",
+                                "3": "Scary",
+                                "4": "TownAndCity",
+                                "5": "War",
+                                "6": "Funny",
+                                "7": "Fantasy",
+                                "8": "Adventure",
+                                "9": "SciFi",
+                                "10": "Pirate",
+                                "11": "FPS",
+                                "12": "RPG",
+                                "13": "Sports",
+                                "14": "Ninja",
+                                "15": "WildWest"
+                            },
+                            "description": "Game genre.",
+                            "type": "string"
+                        },
+                        "permissions": {
+                            "$ref": {
+                                "type": "object",
+                                "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future.",
+                                "properties": {
+                                    "IsThirdPartyTeleportAllowed": {
+                                        "description": "Indicates if it allows game server to teleport to other games out of your universe.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyPurchaseAllowed": {
+                                        "description": "Indicates if it allows script execution or insertion of models not under your control.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyAssetAllowed": {
+                                        "description": "Indicates if it allows players to purchase items not created by you.",
+                                        "type": "boolean"
+                                    }
+                                }
+                            },
+                            "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future."
+                        },
+                        "universeAvatarMinScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of minimum scales for the universe's avatars."
+                        },
+                        "universeAvatarAssetOverrides": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                        "assetID": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "assetTypeID": {
+                                            "type": "integer",
+                                            "format": "int32"
+                                        },
+                                        "isPlayerChoice": {
+                                            "type": "boolean"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array",
+                            "description": "A collection of avatar asset settings allowed by the universe."
+                        },
+                        "studioAccessToApisAllowed": {
+                            "description": "Whether Studio can access data stores of this universe.",
+                            "type": "boolean"
+                        },
+                        "universeAvatarMaxScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of maximum scales for the universe's avatars."
+                        },
+                        "allowPrivateServers": {
+                            "type": "boolean"
+                        },
+                        "playableDevices": {
+                            "items": {
+                                "type": "string",
+                                "enum": {
+                                    "1": "Computer",
+                                    "2": "Phone",
+                                    "3": "Tablet",
+                                    "4": "Console"
+                                }
+                            },
+                            "type": "array",
+                            "description": "List of device types this game can be played on."
+                        },
+                        "isFriendsOnly": {
+                            "description": "Whether game access is limited to friends for user-owned games or group members for group-owned games.",
+                            "type": "boolean"
+                        },
+                        "universeAvatarType": {
+                            "enum": {
+                                "1": "MorphToR6",
+                                "2": "PlayerChoice",
+                                "3": "MorphToR15"
+                            },
+                            "description": "Which avatar types are allowed in the universe.",
+                            "type": "string"
+                        },
+                        "isArchived": {
+                            "description": "Archive status of the universe",
+                            "type": "boolean"
+                        },
+                        "description": {
+                            "description": "The universe description.",
+                            "type": "string"
+                        },
+                        "name": {
+                            "description": "The universe name.",
+                            "type": "string"
+                        },
+                        "isForSale": {
+                            "description": "Whether the game is offered for sale.",
+                            "type": "boolean"
+                        },
+                        "privateServerPrice": {
+                            "type": "integer",
+                            "format": "int64"
+                        },
+                        "id": {
+                            "format": "int64",
+                            "description": "The universe Id.",
+                            "type": "integer"
+                        },
+                        "universeJointPositioningType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "ArtistIntent"
+                            },
+                            "description": "What avatar joint positioning is allowed by the universe.",
+                            "type": "string"
+                        },
+                        "universeAnimationType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "PlayerChoice"
+                            },
+                            "description": "Whether custom animations are allowed in the universe.",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+```json
+{
+    "Method": "GET",
+    "Description": "Get settings for an owned universe. 
+V2 Contains data for avatar scale and asset override.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "The universe Id."
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Model for UniverseSettings controller responses",
+                    "properties": {
+                        "universeCollisionType": {
+                            "enum": {
+                                "1": "InnerBox",
+                                "2": "OuterBox"
+                            },
+                            "description": "What type of collisions are used by the universe.",
+                            "type": "string"
+                        },
+                        "price": {
+                            "format": "int64",
+                            "description": "Price of the game, in Robux.",
+                            "type": "integer"
+                        },
+                        "genre": {
+                            "enum": {
+                                "1": "All",
+                                "2": "Tutorial",
+                                "3": "Scary",
+                                "4": "TownAndCity",
+                                "5": "War",
+                                "6": "Funny",
+                                "7": "Fantasy",
+                                "8": "Adventure",
+                                "9": "SciFi",
+                                "10": "Pirate",
+                                "11": "FPS",
+                                "12": "RPG",
+                                "13": "Sports",
+                                "14": "Ninja",
+                                "15": "WildWest"
+                            },
+                            "description": "Game genre.",
+                            "type": "string"
+                        },
+                        "permissions": {
+                            "$ref": {
+                                "type": "object",
+                                "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future.",
+                                "properties": {
+                                    "IsThirdPartyTeleportAllowed": {
+                                        "description": "Indicates if it allows game server to teleport to other games out of your universe.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyPurchaseAllowed": {
+                                        "description": "Indicates if it allows script execution or insertion of models not under your control.",
+                                        "type": "boolean"
+                                    },
+                                    "IsThirdPartyAssetAllowed": {
+                                        "description": "Indicates if it allows players to purchase items not created by you.",
+                                        "type": "boolean"
+                                    }
+                                }
+                            },
+                            "description": "Plugin permissions for third party.\r\nCurrently, this is a part of configuration, but will be separated into permission system in the future."
+                        },
+                        "universeAvatarMinScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of minimum scales for the universe's avatars."
+                        },
+                        "universeAvatarAssetOverrides": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                        "assetID": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "assetTypeID": {
+                                            "type": "integer",
+                                            "format": "int32"
+                                        },
+                                        "isPlayerChoice": {
+                                            "type": "boolean"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array",
+                            "description": "A collection of avatar asset settings allowed by the universe."
+                        },
+                        "studioAccessToApisAllowed": {
+                            "description": "Whether Studio can access data stores of this universe.",
+                            "type": "boolean"
+                        },
+                        "universeAvatarMaxScales": {
+                            "$ref": {
+                                "properties": {
+                                    "bodyType": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "head": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "height": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "depth": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "proportion": {
+                                        "type": "number",
+                                        "format": "double"
+                                    },
+                                    "width": {
+                                        "type": "number",
+                                        "format": "double"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "description": "A collection of maximum scales for the universe's avatars."
+                        },
+                        "allowPrivateServers": {
+                            "type": "boolean"
+                        },
+                        "playableDevices": {
+                            "items": {
+                                "type": "string",
+                                "enum": {
+                                    "1": "Computer",
+                                    "2": "Phone",
+                                    "3": "Tablet",
+                                    "4": "Console"
+                                }
+                            },
+                            "type": "array",
+                            "description": "List of device types this game can be played on."
+                        },
+                        "isFriendsOnly": {
+                            "description": "Whether game access is limited to friends for user-owned games or group members for group-owned games.",
+                            "type": "boolean"
+                        },
+                        "universeAvatarType": {
+                            "enum": {
+                                "1": "MorphToR6",
+                                "2": "PlayerChoice",
+                                "3": "MorphToR15"
+                            },
+                            "description": "Which avatar types are allowed in the universe.",
+                            "type": "string"
+                        },
+                        "isArchived": {
+                            "description": "Archive status of the universe",
+                            "type": "boolean"
+                        },
+                        "description": {
+                            "description": "The universe description.",
+                            "type": "string"
+                        },
+                        "name": {
+                            "description": "The universe name.",
+                            "type": "string"
+                        },
+                        "isForSale": {
+                            "description": "Whether the game is offered for sale.",
+                            "type": "boolean"
+                        },
+                        "privateServerPrice": {
+                            "type": "integer",
+                            "format": "int64"
+                        },
+                        "id": {
+                            "format": "int64",
+                            "description": "The universe Id.",
+                            "type": "integer"
+                        },
+                        "universeJointPositioningType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "ArtistIntent"
+                            },
+                            "description": "What avatar joint positioning is allowed by the universe.",
+                            "type": "string"
+                        },
+                        "universeAnimationType": {
+                            "enum": {
+                                "1": "Standard",
+                                "2": "PlayerChoice"
+                            },
+                            "description": "Whether custom animations are allowed in the universe.",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "403": {
+            "description": "2: You are not authorized to configure this universe."
+        },
+        "400": {
+            "description": "1: The universe does not exist."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/shutdown
+```json
+{
+    "Method": "POST",
+    "Description": "Shuts down all game instances for a universe.",
+    "Consumes": "NONE",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "The universe id."
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "0: Token Validation Failed\r\n3: You are not authorized to configure this universe."
+        },
+        "404": {
+            "description": "1: The universe does not exist."
+        },
+        "500": {
+            "description": "0: Unknown error."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/permissions
+```json
+{
+    "Method": "POST",
+    "Description": "Create one or more new permissions towards a universe.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        },
+        "2": {
+            "in": "body",
+            "name": "permissions",
+            "required": true,
+            "schema": {
+                "items": {
+                    "$ref": {
+                        "properties": {
+                            "Action": {
+                                "description": "Gets or sets the permitted action, such as 'EDIT' or 'VIEW.'",
+                                "type": "string"
+                            },
+                            "SubjectType": {
+                                "enum": {
+                                    "1": "User",
+                                    "2": "Group",
+                                    "3": "Roleset"
+                                },
+                                "description": "Gets or sets the type of the subject, such as 'User' or 'Group.'",
+                                "type": "string"
+                            },
+                            "SubjectId": {
+                                "description": "Gets or sets the ID of the subject.",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "array"
+            },
+            "description": "Array of {Roblox.Api.Develop.Models.UniversePermissionModel}."
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "0: Token Validation Failed"
+        },
+        "400": {
+            "description": "2: The request body is missing.\r\n3: The resource type is missing.\r\n5: Invalid resource ID.\r\n8: The action is missing.\r\n9: The subject type is missing.\r\n10: Invalid subject type.\r\n11: The subject ID is missing.\r\n12: Invalid subject ID."
+        },
+        "409": {
+            "description": "13: The permission already exists."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "503": {
+            "description": "1: PermissionResolution service exception."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+```json
+{
+    "Method": "DELETE",
+    "Description": "Remove one or more permissions towards a universe.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        },
+        "2": {
+            "in": "body",
+            "name": "permissions",
+            "required": true,
+            "schema": {
+                "items": {
+                    "$ref": {
+                        "properties": {
+                            "Action": {
+                                "description": "Gets or sets the permitted action, such as 'EDIT' or 'VIEW.'",
+                                "type": "string"
+                            },
+                            "SubjectType": {
+                                "enum": {
+                                    "1": "User",
+                                    "2": "Group",
+                                    "3": "Roleset"
+                                },
+                                "description": "Gets or sets the type of the subject, such as 'User' or 'Group.'",
+                                "type": "string"
+                            },
+                            "SubjectId": {
+                                "description": "Gets or sets the ID of the subject.",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "array"
+            },
+            "description": "Array of {Roblox.Api.Develop.Models.UniversePermissionModel}."
+        }
+    },
+    "Responses": {
+        "403": {
+            "description": "0: Token Validation Failed"
+        },
+        "400": {
+            "description": "2: The request body is missing.\r\n2: The request body is missing.\r\n3: The resource type is missing.\r\n4: The resource ID is missing.\r\n5: Invalid resource ID.\r\n8: The action is missing.\r\n9: The subject type is missing.\r\n10: Invalid subject type.\r\n11: The subject ID is missing."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        },
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "404": {
+            "description": "14: The permission doesn't exist."
+        },
+        "503": {
+            "description": "1: PermissionResolution service exception."
+        }
+    },
+}
+```
+<hr>
+
+```json
+{
+    "Method": "GET",
+    "Description": "Get all permissions for a universe.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "additionalProperties": {
+                                    "type": "string"
+                                },
+                                "type": "object"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "403": {
+            "description": "15: The user is not authorized to perform this action."
+        },
+        "400": {
+            "description": "5: Invalid resource ID."
+        },
+        "401": {
+            "description": "0: Authorization has been denied for this request."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/places
+```json
+{
+    "Method": "GET",
+    "Description": "Gets a page of places for a universe sorted by name.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "The universe id."
+        },
+        "2": {
+            "in": "query",
+            "type": "boolean",
+            "name": "extendedSettings",
+            "description": "If additional settings should be returned including current version and instance constraints",
+        },
+        "3": {
+            "in": "query",
+            "type": "string",
+            "default": "Asc",
+            "enum": {
+                "1": "Asc",
+                "2": "Desc"
+            },
+            "description": "Sorted by place name",
+            "name": "sortOrder",
+        },
+        "4": {
+            "in": "query",
+            "type": "integer",
+            "default": 10,
+            "format": "int32",
+            "enum": {
+                "1": 10,
+                "2": 25,
+                "3": 50,
+                "4": 100
+            },
+            "description": "The amount of results per request.",
+            "name": "limit",
+        },
+        "5": {
+            "in": "query",
+            "type": "string",
+            "name": "cursor",
+            "description": "The paging cursor for the previous or next page.",
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "nextPageCursor": {
+                            "type": "string"
+                        },
+                        "previousPageCursor": {
+                            "type": "string"
+                        },
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "A model containing information about a place",
+                                    "properties": {
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "500": {
+            "description": "0: Unknown error."
+        },
+        "400": {
+            "description": "1: The universe does not exist."
+        },
+        "404": {
+            "description": "1: The universe does not exist."
+        }
+    },
+}
+```
+<hr>
+
+
+## /v2/universes/{universeId}/users-have-permission/{permissionAction}
+```json
+{
+    "Method": "GET",
+    "Description": "Retrieve specified permissions on the universe resource if one exists.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "universeId",
+            "format": "int64",
+            "required": true,
+            "description": "Id of {Roblox.Platform.Universes.IUniverse}"
+        },
+        "2": {
+            "in": "path",
+            "type": "string",
+            "name": "permissionAction",
+            "required": true
+        },
+        "3": {
+            "in": "query",
+            "type": "array",
+            "collectionFormat": "csv",
+            "items": {
+                "format": "int64",
+                "type": "integer"
+            },
+            "required": true,
+            "description": "Id of {!:IUser}",
+            "name": "userIds"
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "type": "object",
+                                    "description": "Representation of user permission check.",
+                                    "properties": {
+                                        "userId": {
+                                            "type": "integer",
+                                            "format": "int64"
+                                        },
+                                        "userHasPermission": {
+                                            "type": "boolean"
+                                        }
+                                    }
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "400": {
+            "description": "5: Invalid resource ID.\r\n8: The action is missing.\r\n12: Invalid subject ID.\r\n16: The maximum number of permission checks has been exceeded."
+        }
+    },
+}
+```
+<hr>
+
+

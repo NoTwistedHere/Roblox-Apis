@@ -1876,3 +1876,89 @@ https://webrtcglossary.com/trickle-ice/",
 <hr>
 
 
+# <b>Voice Api v2</b>
+
+## /v2/tokens
+```json
+{
+    "Method": "POST",
+    "Description": "Creates a new signed JWT token containing the channel and user details from the request.",
+    "Consumes": {
+        "1": "application/json",
+        "2": "text/json",
+        "3": "application/x-www-form-urlencoded"
+    },
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "header",
+            "type": "integer",
+            "name": "Roblox-Place-Id",
+            "format": "int64",
+            "description": "",
+        },
+        "2": {
+            "in": "body",
+            "name": "requestModel",
+            "required": true,
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Request model for the API to create a new channel token",
+                    "properties": {
+                        "global": {
+                            "description": "Gets or sets a value indicating whether this is a global channel",
+                            "type": "boolean"
+                        },
+                        "channelName": {
+                            "minLength": 1,
+                            "type": "string",
+                            "description": "Gets or sets the name of the channel",
+                            "maxLength": 32
+                        },
+                        "userId": {
+                            "format": "int64",
+                            "description": "Gets or sets the user id for which the token is valid",
+                            "type": "integer"
+                        },
+                        "serverId": {
+                            "format": "int64",
+                            "description": "Gets or sets the server id for which the token is valid",
+                            "type": "integer"
+                        }
+                    }
+                }
+            },
+            "description": ""
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "",
+            "schema": {
+                "$ref": {
+                    "type": "object",
+                    "description": "Response model for serializing a channel token response",
+                    "properties": {
+                        "token": {
+                            "description": "Gets or sets the resulting token",
+                            "type": "string"
+                        },
+                        "expires": {
+                            "format": "int64",
+                            "description": "Gets or sets the token's expiry time as a Unix timestamp",
+                            "type": "integer"
+                        }
+                    }
+                }
+            }
+        }
+    },
+}
+```
+<hr>
+
+

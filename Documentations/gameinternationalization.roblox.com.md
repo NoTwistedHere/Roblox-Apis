@@ -5670,3 +5670,167 @@ The languages to retrieve must be provided.",
 <hr>
 
 
+# <b>GameInternationalization Api v2</b>
+
+## /v2/supported-languages/games/{gameId}
+```json
+{
+    "Method": "GET",
+    "Description": "Get the supported languages for a game.",
+    "Produces": {
+        "1": "application/json",
+        "2": "text/json"
+    },
+    "Parameters": {
+        "1": {
+            "in": "path",
+            "type": "integer",
+            "name": "gameId",
+            "format": "int64",
+            "required": true,
+            "description": "The id of the game."
+        }
+    },
+    "Responses": {
+        "200": {
+            "description": "OK",
+            "schema": {
+                "$ref": {
+                    "properties": {
+                        "data": {
+                            "items": {
+                                "$ref": {
+                                    "properties": {
+                                        "childLocales": {
+                                            "items": {
+                                                "$ref": {
+                                                    "properties": {
+                                                        "locale": {
+                                                            "type": "string",
+                                                            "enum": {
+                                                                "1": "en_us",
+                                                                "2": "es_es",
+                                                                "3": "fr_fr",
+                                                                "4": "id_id",
+                                                                "5": "it_it",
+                                                                "6": "ja_jp",
+                                                                "7": "ko_kr",
+                                                                "8": "ru_ru",
+                                                                "9": "th_th",
+                                                                "10": "tr_tr",
+                                                                "11": "vi_vn",
+                                                                "12": "pt_br",
+                                                                "13": "de_de",
+                                                                "14": "zh_cn",
+                                                                "15": "zh_tw",
+                                                                "16": "bg_bg",
+                                                                "17": "bn_bd",
+                                                                "18": "cs_cz",
+                                                                "19": "da_dk",
+                                                                "20": "el_gr",
+                                                                "21": "et_ee",
+                                                                "22": "fi_fi",
+                                                                "23": "hi_in",
+                                                                "24": "hr_hr",
+                                                                "25": "hu_hu",
+                                                                "26": "ka_ge",
+                                                                "27": "kk_kz",
+                                                                "28": "km_kh",
+                                                                "29": "lt_lt",
+                                                                "30": "lv_lv",
+                                                                "31": "ms_my",
+                                                                "32": "my_mm",
+                                                                "33": "nb_no",
+                                                                "34": "nl_nl",
+                                                                "35": "fil_ph",
+                                                                "36": "pl_pl",
+                                                                "37": "ro_ro",
+                                                                "38": "uk_ua",
+                                                                "39": "si_lk",
+                                                                "40": "sk_sk",
+                                                                "41": "sl_sl",
+                                                                "42": "sq_al",
+                                                                "43": "bs_ba",
+                                                                "44": "sr_rs",
+                                                                "45": "sv_se",
+                                                                "46": "zh_cjv"
+                                                            }
+                                                        },
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "id": {
+                                                            "type": "integer",
+                                                            "format": "int32"
+                                                        },
+                                                        "language": {
+                                                            "$ref": {
+                                                                "properties": {
+                                                                    "id": {
+                                                                        "type": "integer",
+                                                                        "format": "int32"
+                                                                    },
+                                                                    "languageCode": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "nativeName": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "type": "object"
+                                                            }
+                                                        },
+                                                        "localeCode": {
+                                                            "type": "string"
+                                                        },
+                                                        "nativeName": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "array"
+                                        },
+                                        "languageFamily": {
+                                            "$ref": {
+                                                "properties": {
+                                                    "languageCode": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "nativeName": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            }
+        },
+        "400": {
+            "description": "14: Invalid game id"
+        },
+        "503": {
+            "description": "17: Feature is disabled"
+        }
+    },
+}
+```
+<hr>
+
+
